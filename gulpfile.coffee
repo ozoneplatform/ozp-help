@@ -72,12 +72,15 @@ gulp.task('copy-assets-ignore-html', ->
 
 # this is for DEV
 gulp.task('copy-assets', ->
-
     gulp.src(['assets/**'])
       .pipe(gulp.dest(paths.dest))
       .pipe($.size())
 )
-
+gulp.task('copy-icons', ->
+    gulp.src(['node_modules/icons/dist/svg/**'])
+      .pipe(gulp.dest(paths.dest + '/svg'))
+      .pipe($.size())
+)
 gulp.task "webpack:build", (callback) ->
   # Run webpack.
   webpack webpackProductionConfig, (err, stats) ->
@@ -152,7 +155,7 @@ gulp.task 'build', ['webpack:build', 'sass', 'copy-assets-ignore-html', 'minify-
 
 # gulp dev
 # description -- start a development server
-gulp.task 'dev', ['copy-assets'], ->
+gulp.task 'dev', ['copy-assets', 'copy-icons'], ->
 
   runSequence('sass', 'webpack-dev-server', () ->
     gulp.watch(['src/styles/**'], ['sass'])

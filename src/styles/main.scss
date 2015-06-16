@@ -1,0 +1,38 @@
+@import 'bootstrap';
+@import 'custom';
+
+[class^="icon-"], [class*=" icon-"] {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@import 'header';
+
+// Icon Hovers
+
+@import "mixins";
+
+$icons: (
+    icon-ban-12-blueDark: icon-ban-12-red,
+    icon-open-grayDark: icon-open-white,
+    icon-pencil-grayDark: icon-pencil-white,
+    icon-ribbon-grayDark: icon-ribbon-white,
+    icon-layers-grayDark: icon-layers-white,
+    icon-cross-10-grayDark: icon-cross-10-blueDark,
+    icon-cross-14-grayDark: icon-cross-14-blueDark,
+    icon-cross-16-grayDark: icon-cross-16-blueDark,
+    icon-cross-18-grayDark: icon-cross-18-blueDark
+);
+
+
+@include sprite-icons($icons);

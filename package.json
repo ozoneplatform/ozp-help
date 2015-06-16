@@ -1,5 +1,5 @@
 {
-  "name": "Boardr",
+  "name": "ozp-help",
   "version": "0.0.1",
   "description": "",
   "homepage": "https://github.com/ozone-development/ozp-help",
@@ -16,6 +16,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "icons": "git://github.com/ozone-development/icons#8a3eccb40b84a064236f5396f28f7afbf2b9e226",
+    "bootstrap-sass": "git://github.com/ozone-development/bootstrap-sass",
     "cjsx-loader": "^1.2.0",
     "coffee-loader": "^0.7.2",
     "coffee-react-transform": "^2.2.1",
@@ -43,6 +45,7 @@
     "jsx-loader": "^0.12.2",
     "lodash": "^3.1.0",
     "map-stream": "0.0.5",
+    "nib": "^1.1.0",
     "react": "^0.12.2",
     "react-hot-loader": "^1.1.4",
     "react-retina-image": "^1.1.2",

@@ -1,0 +1,101 @@
+/* HELP CUSTOM CSS */
+.modal-dialog{
+  width: 100%;
+  margin:0;
+  height:100%;
+  overflow-y:scroll;
+}
+.search {
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+    .search input {
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 0;
+        padding: 3px 10px;
+        color: #444;
+    }
+
+    .search .input-group-addon {
+        -webkit-border-top-right-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-radius-topright: 10px;
+        -moz-border-radius-bottomright: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 0;
+        padding: 3px 10px;
+        font-weight: bold;
+        color: #111;
+        background: #fff;
+    }
+
+.modal-nav {
+    background: #009dd3;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+    .modal-nav a {
+        color: #fff;
+        position: relative;
+        overflow: visible;
+    }
+
+        .modal-nav a .triangle {
+            color: #009dd3;
+            position: absolute;
+            top: -85px;
+            font-size: 80px;
+            z-index: 1;
+        }
+
+        .modal-nav a h1 i,
+        .modal-nav a h1 i:hover {
+            color: #fff;
+            line-height: 1;
+        }
+
+        .modal-nav a i {
+            color: #087399;
+            font-size: 30px;
+            line-height: 150px;
+            vertical-align: middle;
+        }
+
+            .modal-nav a i:hover {
+                color: #0e5772;
+            }
+
+.modal-body .breadcrumb {
+    background: #191f25;
+}
+
+.modal-body .row ul {
+    padding-left: 15px;
+}
+
+    .modal-body .row ul li a {
+        color: #dbdcdd;
+    }
+
+.modal-body a.thumbnail .caption i {
+    color: #009dd3;
+    font-size: 80px;
+}
+
+    .modal-body a.thumbnail:hover {
+        background-color: #009dd3;
+        text-decoration: none;
+    }
+
+        .modal-body a.thumbnail:hover .caption,
+        .modal-body a.thumbnail:hover .caption i {
+            color: #fff;
+        }

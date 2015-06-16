@@ -21,40 +21,40 @@ module.exports = React.createClass({
       <div>
         <div className="row">
             <div className="col-md-3">
-                <Link to="part" params={{part: 'hud'}} className="thumbnail well" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
+                <a className="thumbnail well" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
                     <div className="caption">
                         <h1><i className="icon-home"></i></h1>
                         <h2>HUD</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                </Link>
+                </a>
             </div>
             <div className="col-md-3">
-                <Link to="part" params={{part: 'center'}} className="thumbnail well" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
+                <a className="thumbnail well" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
                     <div className="caption">
                         <h1><i className="icon-shopping"></i></h1>
                         <h2>Center</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                </Link>
+                </a>
             </div>
             <div className="col-md-3">
-                <Link to="part" params={{part: 'webtop'}}  className="thumbnail well" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
+                <a className="thumbnail well" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
                     <div className="caption">
                         <h1><i className="icon-layout"></i></h1>
                         <h2>Webtop</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                </Link>
+                </a>
             </div>
             <div className="col-md-3">
-                <Link to="part" params={{part: 'global'}}  className="thumbnail well" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
+                <a className="thumbnail well" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
                     <div className="caption">
                         <h1><i className="icon-globe"></i></h1>
                         <h2>Global</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                </Link>
+                </a>
             </div>
         </div>
       </div>
