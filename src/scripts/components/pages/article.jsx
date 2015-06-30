@@ -3,16 +3,14 @@ var Reflux = require('reflux');
 var React = require('react');
 var GlobalActions = require('../../actions/GlobalActions.jsx');
 
-var _ = require('lodash');
-
 var Router = require('react-router');
 var { Route, RouteHandler, Link } = Router;
 
 var FakeDB= require('../fakeDB');
 var Articles = {
-  center: _.sortBy(FakeDB.Center, 'priority'),
-  webtop: _.sortBy(FakeDB.Webtop, 'priority'),
-  hud: _.sortBy(FakeDB.HUD, 'priority')
+  center: FakeDB.Center,
+  webtop: FakeDB.Webtop,
+  hud: FakeDB.HUD
 };
 
 module.exports = React.createClass({
@@ -33,27 +31,6 @@ module.exports = React.createClass({
     this.setState({
       Articles: Articles[this.state.Part]
     });
-  },
-
-  makeSection: function(){
-    var sections = [];
-    for(var article in this.state.Articles){
-      var articleList = this.state.Articles[article].articles.map(function(article){
-        return (
-          <li>{ article.name }</li>
-        );
-      });
-      sections.push(
-        <div className="col-md-4">
-          <h2>{ this.state.Articles[article].name }</h2>
-          <ul>
-            { articleList }
-          </ul>
-        </div>
-      );
-    }
-    console.log(sections);
-    return sections;
   },
 
   render: function(){

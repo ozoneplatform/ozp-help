@@ -76,8 +76,18 @@ gulp.task('copy-assets', ->
       .pipe(gulp.dest(paths.dest))
       .pipe($.size())
 )
+gulp.task('copy-doc-images', ->
+    gulp.src(['articles/Doc_images/**'])
+      .pipe(gulp.dest(paths.dest + '/Doc_images'))
+      .pipe($.size())
+)
+gulp.task('copy-docs', ->
+    gulp.src(['articles/jsxDocs/**'])
+      .pipe(gulp.dest(paths.dest+ '/docs'))
+      .pipe($.size())
+)
 gulp.task('copy-icons', ->
-    gulp.src(['node_modules/icons/dist/svg/**'])
+    gulp.src(['node_modules/icons/dist/css/svg/**'])
       .pipe(gulp.dest(paths.dest + '/svg'))
       .pipe($.size())
 )
@@ -155,7 +165,7 @@ gulp.task 'build', ['webpack:build', 'sass', 'copy-assets-ignore-html', 'minify-
 
 # gulp dev
 # description -- start a development server
-gulp.task 'dev', ['copy-assets', 'copy-icons'], ->
+gulp.task 'dev', ['copy-assets', 'copy-icons', 'copy-docs', 'copy-doc-images'], ->
 
   runSequence('sass', 'webpack-dev-server', () ->
     gulp.watch(['src/styles/**'], ['sass'])
