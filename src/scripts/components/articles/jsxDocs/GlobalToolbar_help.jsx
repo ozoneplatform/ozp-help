@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h2><a id="Help" name="Help">Help</a></h2>

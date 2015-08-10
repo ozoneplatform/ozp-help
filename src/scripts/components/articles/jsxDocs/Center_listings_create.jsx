@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1>Create a Listing</h1>
@@ -38,9 +37,9 @@ return (
 
 <h3>Basic Listing Information</h3>
 
-<p><img alt="Basic Listing Information section of the Create/Edit Listing Form" src="../mocks/Doc_images/Create-Edit-Listing-Form-BasicInfo.png" style="height: 503px; width: 624px" title="Enter Basic Listing Information" /></p><br />
+<p><img alt="Basic Listing Information section of the Create/Edit Listing Form" src="../mocks/Doc_images/Create-Edit-Listing-Form-BasicInfo.png" style="height: 503px; width: 624px" title="Enter Basic Listing Information" /><br />
 <b>Basic Listing Information</b><br />
-<br />
+<br>
 <table border="1" cellpadding="2" cellspacing="2" style="width: 100%; text-align: left">
 	<tbody>
 		<tr>

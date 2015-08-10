@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1>Center Steward: Approval/Rejection Listings</h1>
@@ -25,7 +24,7 @@ return (
 	<ol style="list-style-type: lower-alpha">
 		<li><b><a id="CenterEnableDisable" name="CenterEnableDisable">Center Enabled</a></b> -- &nbsp;Makes the listing visible to all users, i.e., it appears on the Search and Discovery Page and is searchable.</li>
 		<li><b>Featured</b> -- Activate the Featured button to add the listing to the group of Featured Listings that scroll across the top of the Search and Discovery Page, see <a href="Center_steward_featureFlag.html">Feature a Listing</a>.<br />
-		<img alt="Enabled and Featured Buttons on a Listing's Detailed Page" src="../mocks/Doc_images/AdminTab_EnableFeatured.png" style="height: 358px; width: 394px; float: left" title="Enabled and Feature Buttons on a Listing's Detailed View" /></li><br>
+		<img alt="Enabled and Featured Buttons on a Listing's Detailed Page" src="../mocks/Doc_images/AdminTab_EnableFeatured.png" style="height: 358px; width: 394px; float: left" title="Enabled and Feature Buttons on a Listing's Detailed View" /><br/></li>
 	</ol>
 	</li>
 </ol>

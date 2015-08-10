@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1>Listing Overview and Description of Views</h1>
@@ -45,12 +44,11 @@ return (
 			<td>
 			<p><img alt="Left-side details of the listing header" src="../mocks/Doc_images/Left-side-listing-view-header.png" style="height: 184px; width: 244px" title="Left-side details of the listing header" /></p>
 			</td>
+			
 			<td>
 			<p>&nbsp;</p>
 
 			<p>At the top of the listing&#39;s Detailed View, you will see the listing&#39;s:</p>
-
-			<p><u1></u1></p>
 
 			<ul>
 				<li><b>Icon</b></li>

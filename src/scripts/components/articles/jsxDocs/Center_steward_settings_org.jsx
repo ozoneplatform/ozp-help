@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1>Center Settings: <a id="Orgs" name="Orgs">Organizations</a></h1>
@@ -14,7 +13,7 @@ return (
 <ol>
 	<li>Click <img alt="Main Menu" src="../mocks/Doc_images/Main_menu_icon.png" style="border-top: 1px solid; height: 30px; border-right: 1px solid; width: 30px; border-bottom: 1px solid; border-left: 2px solid" />&nbsp;on the right-side of the Global Toolbar.</li>
 	<li>Select Center Settings<br />
-	<img alt="Center Settings Link on Main Menu" src="../mocks/Doc_images/CenterSettingsLink_MainMenu.png" style="height: 318px; width: 176px" title="Center Settings Link on Main Menu" /></li>
+	<img alt="Center Settings Link on Main Menu" src="../mocks/Doc_images/centerSettingsLink_MainMenu.png" style="height: 318px; width: 176px" title="Center Settings Link on Main Menu" /></li>
 	<li>The Center Settings page will open to the Categories tab, click Organizations to open the Org Settings.
 </ol>
 

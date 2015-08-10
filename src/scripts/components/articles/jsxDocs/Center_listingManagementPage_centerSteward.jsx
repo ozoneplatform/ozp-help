@@ -2,14 +2,13 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1><a id="Center_Steward_listingManagementPage" name="Center_Steward_listingManagementPage">Center Steward</a>: Listing Management Page</h1>
 
 <p>Center stewards can see every listing in their organization from their Listing Management page. To access this page, click the drop-down Main Menu on the right side of the Global Toolbar and select Listing Management:</p>
 
-<p><img alt="Link to Listing Management Page from Global Toolbar" src="../mocks/Doc_images/ListingManagementLink.png" style="height: 320px; width: 200px" title="Listing Management Page" /></p>
+<p><img alt="Link to Listing Management Page from Global Toolbar" src="../mocks/Doc_images/listingManagementLink.png" style="height: 320px; width: 200px" title="Listing Management Page" /></p>
 
 <p>As a Center&nbsp;steward, the Listing Management page&nbsp;displays information about listings you own and listings you oversee.&nbsp;For user instructions about the Listing Management page see&nbsp;the <a href="Center_listingManagementPage_user.html">User View</a>: Listing Management Page.</p>
 
@@ -24,7 +23,7 @@ return (
 	<li>The <b>My Listings</b> tab displays listings you own.</li>
 </ul>
 
-<br />
+<br>
 
 <table align="left" border="0" cellpadding="5" cellspacing="0" style="width: 100%">
 	<tbody>
@@ -51,13 +50,13 @@ return (
 			<p><b>Enabled</b></p>
 
 			<p>All stewards see the Enabled<a> section which allows them to filter by <b>Enabled and Disabled listings </b>(For information about Enabled and Disabled listings see </a><a href="Center_listings_approveReject_centerSteward.html#CenterEnableDisable">Center Steward: Enable/Disable a Listing</a>.</p>
-
+			
 			</td>
 		</tr>
 	</tbody>
 </table>
 
-<br />
+<br>
 <h2>Related Info</h2>
 <ul style="margin-left: 40px">
 	<li><a href="Center_listings_approveReject_centerSteward.html">Center Steward: Approve/Return a Listing</a></li>

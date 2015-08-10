@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1>Global <a id="GlobalToolbar" name="GlobalToolbar">Toolbar</a></h1>
@@ -20,7 +19,7 @@ return (
 <ul>
 	<li><img alt="HUD" src="../mocks/Doc_images/HUD_icon.png" style="border-top: 1px solid; height: 30px; border-right: 1px solid; width: 30px; border-bottom: 1px solid; border-left: 1px solid" />&nbsp; Opens <a href="HUD_overview.html">HUD</a> (Heads up display)&nbsp;where your bookmarks are stored. Think of&nbsp;HUD like the home screen on a smart phone.</li>
 	
-	<li><img alt="Center" src="../mocks/Doc_images/Center_icon.png" style="border-top: 1px solid; height: 30px; border-right: 1px solid; width: 30px; border-bottom: 1px solid; border-left: 2px solid" />&nbsp;Opens <a href="Center_overview.html">Center</a>&nbsp;where you can search for listings to bookmark to your HUD or open in Webtop.</li>
+	<li><img alt="Center" src="../mocks/Doc_images/center_icon.png" style="border-top: 1px solid; height: 30px; border-right: 1px solid; width: 30px; border-bottom: 1px solid; border-left: 2px solid" />&nbsp;Opens <a href="Center_overview.html">Center</a>&nbsp;where you can search for listings to bookmark to your HUD or open in Webtop.</li>
 	
 	<li><img alt="Webtop" src="../mocks/Doc_images/Webtop_icon.png" style="border-top: 1px solid; height: 30px; border-right: 1px solid; width: 30px; border-bottom: 1px solid; border-left: 1px solid" />&nbsp;Opens <a href="Webtop_overview.html">Webtop</a>&nbsp;your customizable workspace within OZONE.</li>
 	

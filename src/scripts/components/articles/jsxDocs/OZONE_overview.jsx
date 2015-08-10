@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1>OZONE Overview &amp; Introduction</h1>
@@ -18,13 +17,13 @@ return (
 
 <ul>
 	<li><a href="Center_overview.html"><b>Center</b></a> -- A store--compared to a commercial application store like Apple&#39;s App Store or Google Play--use it to search for and&nbsp;bookmark applications to use in your instance of OZONE</br>
-	<img alt="Center Home Screen" src="../mocks/Doc_images/center-search-and-discovery-page.png" style="height: 375px; width: 312px" title="Center Home Screen" /></li>
+	<img alt="Center Home Screen" src="../mocks/Doc_images/center-search-and-discovery-page.png" style="height: 375px; width: 312px" title="Center Home Screen" />
 	</li>
 </ul>
 
 <ul>
 	<li><a href="Webtop_overview.html"><b>Webtop</b></a> -- The framework where applications run and interact with each other. Webtop creates an environment where OZONE compatible applications can share a virtual network and core services that solely exist within the browser&#39;s memory.</br>
-	<img alt="Webtop Home Screen" src="../mocks/Doc_images/Webtop.png" style="height: 339px; width: 565px" title="Webtop Home Screen" /></li></li>
+	<img alt="Webtop Home Screen" src="../mocks/Doc_images/Webtop.png" style="height: 339px; width: 565px" title="Webtop Home Screen" /></li>
 </ul>
 
 <ul>
@@ -38,7 +37,7 @@ return (
 	<li><a href="Center_overview.html">Center Overview</a></li>
 	<li><a href="HUD_overview.html">HUD Overview</a></li>
 	<li><a href="Center_search.html">Search for Listings</a></li>
-	</ul>
+</ul>
 
 </div>
 );

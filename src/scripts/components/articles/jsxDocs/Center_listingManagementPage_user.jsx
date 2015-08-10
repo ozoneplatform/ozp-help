@@ -2,14 +2,13 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1>User: Listing Management Page</h1>
 
 <p>The Listing Management Page&nbsp;tells&nbsp;users where their listings are in the approval process. To access this page, click the drop-down Main Menu on the right side of the Global Toolbar and select Listing Management:</p>
 
-<p><img alt="Link to Listing Management Page from Global Toolbar" src="../mocks/Doc_images/ListingManagementLink.png" style="height: 320px; width: 200px" title="Listing Management Page" /></p>
+<p><img alt="Link to Listing Management Page from Global Toolbar" src="../mocks/Doc_images/listingManagementLink.png" style="height: 320px; width: 200px" title="Listing Management Page" /></p>
 
 <p>As a user, the Manage section displays information about listings you own.</br>
 <i>Note: <a href="Center_steward_overview.html">Stewards will see additional tabs</a> related to administering listing in their organization.</i></p>

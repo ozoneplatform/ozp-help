@@ -2,14 +2,13 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1><a id="Org_Steward_listingManagementPage" name="Org_Steward_listingManagementPage">Org Steward</a>: Listing Management Page</h1>
 
 <p>Org stewards can see every listing in their organization from their Listing Management page. To access this page, click the drop-down Main Menu on the right side of the Global Toolbar and select Listing Management:</p>
 
-<p><img alt="Link to Listing Management Page from Global Toolbar" src="../mocks/Doc_images/ListingManagementLink.png" style="height: 320px; width: 200px" title="Listing Management Page" /></p>
+<p><img alt="Link to Listing Management Page from Global Toolbar" src="../mocks/Doc_images/listingManagementLink.png" style="height: 320px; width: 200px" title="Listing Management Page" /></p>
 
 <p>As an organizational&nbsp;steward, the Listing Management page&nbsp;displays information about listings you own and listings you oversee.&nbsp;The Listing Management page displays different information for different users. The following sections explain each field as it relates to&nbsp;org&nbsp;stewards. For the user view see <a href="Center_listingManagementPage_user.html">User View</a>: Listing Management Page;&nbsp;or the <a href="Center_listingManagementPage_centerSteward.html"> Center steward&nbsp;section</a> for Center stewards.</p>
 
@@ -40,7 +39,7 @@ return (
 				<li><b>Needs action</b> &ndash;Listing waiting for your approval. For instructions regarding approving or returning listings see <a href="Center_listings_approveReject_orgSteward.html">Approve or Return Listings</a>.</li>
 				<li><b>(Pending) Org approved</b> &ndash; Listings waiting for Center steward approval</li>
 				<li><b>Returned</b> &ndash; Listings returned to their owners</li>
-				<<li>Draft &ndash; Listings in the system that have not been submitted for approval</li>
+				<li>Draft &ndash; Listings in the system that have not been submitted for approval</li>
 			</ul>
 
 			<p><b>Enabled</b></p>

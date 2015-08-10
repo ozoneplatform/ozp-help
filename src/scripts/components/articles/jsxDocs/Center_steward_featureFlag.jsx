@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return (
 <div>
 
 <h1><a id="featureFlag" name="featureFlag">Feature a Listing</a></h1>
