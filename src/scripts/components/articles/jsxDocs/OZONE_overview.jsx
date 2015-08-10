@@ -40,6 +40,5 @@ render: function(){
 </ul>
 
 </div>
-);
 }
 });

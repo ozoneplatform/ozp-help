@@ -48,6 +48,5 @@ render: function(){
 
 
 </div>
-);
 }
 });

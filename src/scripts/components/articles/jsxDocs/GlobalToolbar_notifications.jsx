@@ -23,6 +23,5 @@ Notifications are located on the top-right side of the Global Toolbar. Center st
 	</ul>
 
 </div>
-);
 }
 });

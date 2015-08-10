@@ -62,6 +62,5 @@ render: function(){
 
 
 </div>
-);
 }
 });

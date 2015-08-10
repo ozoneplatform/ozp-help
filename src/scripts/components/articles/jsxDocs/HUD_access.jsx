@@ -29,6 +29,5 @@ render: function(){
 	
 
 </div>
-);
 }
 });

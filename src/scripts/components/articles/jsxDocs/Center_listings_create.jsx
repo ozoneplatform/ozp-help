@@ -286,6 +286,5 @@ render: function(){
 	</ul>
 
 </div>
-);
 }
 });

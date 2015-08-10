@@ -68,4 +68,4 @@ for root, dirs, files in os.walk('./sanitized'):
 
         # close the react component declaration
         with open('./jsxDocs/' + newfilename, "a") as newModule:
-            newModule.write("\n\n</div>\n);\n}\n});\n")
+            newModule.write("\n\n</div>\n}\n});\n")

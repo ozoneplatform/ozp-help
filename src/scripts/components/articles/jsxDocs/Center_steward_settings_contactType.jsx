@@ -76,6 +76,5 @@ render: function(){
 
 
 </div>
-);
 }
 });

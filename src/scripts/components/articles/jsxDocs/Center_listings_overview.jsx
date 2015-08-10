@@ -151,6 +151,5 @@ render: function(){
 
 
 </div>
-);
 }
 });

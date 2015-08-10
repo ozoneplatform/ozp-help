@@ -29,6 +29,5 @@ To edit a listing:</p>
 	
 
 </div>
-);
 }
 });

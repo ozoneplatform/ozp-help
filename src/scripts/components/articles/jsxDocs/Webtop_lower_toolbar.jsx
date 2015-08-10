@@ -57,6 +57,5 @@ render: function(){
 	</ul>
 
 </div>
-);
 }
 });

@@ -30,6 +30,5 @@ To add a listing to the group of Featured Listings:</p>
 
 
 </div>
-);
 }
 });

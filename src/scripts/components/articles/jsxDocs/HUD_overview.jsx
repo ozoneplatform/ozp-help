@@ -36,6 +36,5 @@ render: function(){
 	</ul>
 
 </div>
-);
 }
 });

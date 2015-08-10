@@ -31,6 +31,5 @@ render: function(){
 
 
 </div>
-);
 }
 });

@@ -18,6 +18,5 @@ render: function(){
 	
 
 </div>
-);
 }
 });

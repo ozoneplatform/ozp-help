@@ -290,6 +290,5 @@ render: function(){
 
 
 </div>
-);
 }
 });

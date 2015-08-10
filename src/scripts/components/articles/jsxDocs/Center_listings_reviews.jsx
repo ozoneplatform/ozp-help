@@ -28,6 +28,5 @@ render: function(){
 
 
 </div>
-);
 }
 });

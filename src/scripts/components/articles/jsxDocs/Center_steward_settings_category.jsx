@@ -60,6 +60,5 @@ render: function(){
 	</ul>
 
 </div>
-);
 }
 });

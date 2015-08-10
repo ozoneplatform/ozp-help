@@ -7,6 +7,5 @@ render: function(){
 
 
 </div>
-);
 }
 });
