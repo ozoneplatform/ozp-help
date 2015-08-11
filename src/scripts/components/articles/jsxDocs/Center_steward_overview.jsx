@@ -2,6 +2,7 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
+return ( 
 <div>
 
 <h1>Content Steward Overview</h1>
@@ -38,12 +39,14 @@ render: function(){
 </ol>
 
 <h2>Related Info</h2>
-<ul style="margin-left: 40px">
+<ul >
 	<li><a href="Center_listingManagementPage_orgSteward.html">Org Steward: Listing Management</a></li>
 	<li><a href="Center_listingManagementPage_centerSteward.html">Center Steward: Listing Management</a></li>
 	<li><a href="Center_steward_settings.html">Center Settings</a></li>
 	</ul>
 
+
 </div>
+);
 }
 });

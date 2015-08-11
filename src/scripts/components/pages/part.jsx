@@ -16,7 +16,7 @@ var Articles = {
 };
 
 module.exports = React.createClass({
-  mixins: [ Router.State, Reflux.ListenerMixin],
+  mixins: [ Router.State, Reflux.ListenerMixin, Router.Navigation],
 
   contextTypes: {
     router: React.PropTypes.func
@@ -33,6 +33,7 @@ module.exports = React.createClass({
     this.setState({
       Articles: Articles[this.state.Part]
     });
+
   },
 
   makeSection: function(){
@@ -40,7 +41,7 @@ module.exports = React.createClass({
     for(var article in this.state.Articles){
       var articleList = this.state.Articles[article].articles.map(function(article){
         return (
-          <li>{ article.name }</li>
+          <li><Link to="article" params={{article: article.file}}>{ article.name }</Link></li>
         );
       });
       sections.push(
@@ -52,7 +53,6 @@ module.exports = React.createClass({
         </div>
       );
     }
-    console.log(sections);
     return sections;
   },
 

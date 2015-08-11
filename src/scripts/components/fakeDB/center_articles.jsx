@@ -1,5 +1,3 @@
-var docPath = "../../../../articles/jsxDocs/";
-
 module.exports = [
   {
     priority: 4,
@@ -7,19 +5,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Find new apps.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Change notification settings.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Edit my profile.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       }
     ]
   },
@@ -29,19 +27,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Find new apps.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Change notification settings.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Edit my profile.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       }
     ]
   },
@@ -51,19 +49,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Find new apps.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Change notification settings.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Edit my profile.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       }
     ]
   },
@@ -73,19 +71,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Find new apps.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Change notification settings.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Edit my profile.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       }
     ]
   },
@@ -95,19 +93,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Find new apps.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Change notification settings.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Edit my profile.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       }
     ]
   },
@@ -117,19 +115,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Find new apps.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Change notification settings.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       },
       {
         name: 'Edit my profile.',
-        file: require('../articles/jsxDocs/HUD_overview.jsx')
+        file: 'Sample'
       }
     ]
   }
