@@ -24,7 +24,7 @@ return (
 	<li>The <b>My Listings</b> tab displays listings you own.</li>
 </ul>
 
-<br>
+<br />
 
 <table align="left" border="0" cellpadding="5" cellspacing="0"  >
 	<tbody>
@@ -57,7 +57,7 @@ return (
 	</tbody>
 </table>
 
-<br>
+<br />
 <h2>Related Info</h2>
 <ul  >
 	<li><a href="Center_listings_approveReject_centerSteward.html">Center Steward: Approve/Return a Listing</a></li>

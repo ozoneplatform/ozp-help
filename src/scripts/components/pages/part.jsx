@@ -8,7 +8,7 @@ var _ = require('lodash');
 var Router = require('react-router');
 var { Route, RouteHandler, Link } = Router;
 
-var FakeDB= require('../fakeDB');
+var FakeDB= require('../../fakeDB');
 var Articles = {
   center: _.sortBy(FakeDB.Center, 'priority'),
   webtop: _.sortBy(FakeDB.Webtop, 'priority'),
@@ -33,7 +33,6 @@ module.exports = React.createClass({
     this.setState({
       Articles: Articles[this.state.Part]
     });
-
   },
 
   makeSection: function(){

@@ -1,10 +1,3 @@
-// Automatically Generated Module
-var React = require('react');
-module.exports = React.createClass({
-render: function(){
-return ( 
-<div>
-
 <h1>Center Settings: Stewards</h1>
 
 <p>Stewards oversee listings in Center. They are the gatekeepers that approve, enable and moderate listings. There are two kinds of stewards: <b>org stewards</b> who oversee specific organizations and <b>center stewards</b> who oversee all listings and specific settings in the Center. At log-in, your system will determine your role as a user, org steward or center steward. When someone signs in as a steward, their name is added to the list of stewards in the Center Settings page:</p>
@@ -34,7 +27,7 @@ return (
 	</li>
 	<li>Click Save, the change will appear on the list of Stewards on the Center Settings page.</li>
 </ol>
-<br>
+<br />
 
 <h2>Related Info</h2>
 <ul >
@@ -45,9 +38,3 @@ return (
 	<li><a href="Center_steward_settings_intent.html">Intent Settings</a></li>
 	<li><a href="Center_steward_settings_org.html">Organization Settings</a></li>
 	</ul>
-
-
-</div>
-);
-}
-});

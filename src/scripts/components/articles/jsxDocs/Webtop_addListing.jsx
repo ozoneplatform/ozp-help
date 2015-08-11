@@ -7,7 +7,7 @@ return (
 
 <h1>Add Listings to Webtop</h1>
 
-<p>Any listing you bookmarked in HUD will be accessible to use in Webtop. </br>
+<p>Any listing you bookmarked in HUD will be accessible to use in Webtop. <br />
 To add a listing to your Webtop:</p>
 
 <ol>

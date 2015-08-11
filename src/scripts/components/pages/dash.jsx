@@ -14,6 +14,12 @@ module.exports = React.createClass({
     router: React.PropTypes.func
   },
 
+  componentDidMount: function(){
+    GlobalActions.mySickAction('Coming at you store!', function(result){
+      console.log(result);
+    });
+  },
+
   render: function(){
     var router = this.context;
 

@@ -18,7 +18,7 @@ return (
 	<li>Click <img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  />&nbsp;on the right-side of the Global Toolbar.</li>
 	<li>Select Center Settings<br />
 	<img alt="Center Settings Link on Main Menu" src="Doc_images/centerSettingsLink_MainMenu.png"  title="Center Settings Link on Main Menu" /></li>
-	<li>The Center Settings page will open to the Categories tab, click the Contact Type tab next to it.
+	<li>The Center Settings page will open to the Categories tab, click the Contact Type tab next to it.</li>
 </ol>
 
 <h2>Create a Contact Type:</h2>

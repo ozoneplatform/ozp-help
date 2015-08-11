@@ -11,7 +11,7 @@ return (
 
 <p><img alt="Link to Listing Management Page from Global Toolbar" src="Doc_images/listingManagementLink.png"   title="Listing Management Page" /></p>
 
-<p>As a user, the Manage section displays information about listings you own.</br>
+<p>As a user, the Manage section displays information about listings you own.<br />
 <i>Note: <a href="Center_steward_overview.html">Stewards will see additional tabs</a> related to administering listing in their organization.</i></p>
 
 <p><img alt="Listing Management Page" src="Doc_images/ListingManagementPage.png"   title="Listing Management Page" /></p>

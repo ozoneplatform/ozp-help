@@ -5,19 +5,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Find new apps.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Change notification settings.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Edit my profile.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       }
     ]
   },
@@ -27,19 +27,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Find new apps.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Change notification settings.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Edit my profile.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       }
     ]
   },
@@ -49,19 +49,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Find new apps.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Change notification settings.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Edit my profile.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       }
     ]
   },
@@ -71,19 +71,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Find new apps.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Change notification settings.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Edit my profile.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       }
     ]
   },
@@ -93,19 +93,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Find new apps.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Change notification settings.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Edit my profile.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       }
     ]
   },
@@ -115,19 +115,19 @@ module.exports = [
     articles: [
       {
         name: 'Enter fullscreen view.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Find new apps.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Change notification settings.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       },
       {
         name: 'Edit my profile.',
-        file: 'Sample'
+        file: 'HUD_useHUD'
       }
     ]
   }
