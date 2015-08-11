@@ -122,7 +122,8 @@ gulp.task "webpack-dev-server", (callback) ->
   devServer = new WebpackDevServer(webpack(webpackConfig),
     contentBase: './' + paths.dest + '/'
     hot: true
-    watchDelay: 100
+    watchOptions:
+      aggregateTimeout: 100
     noInfo: true
   )
   devServer.listen DEV_PORT, "0.0.0.0", (err) ->
