@@ -1,27 +1,28 @@
-var Reflux = require('reflux');
+'use strict';
 
-var React = require('react');
-var GlobalActions = require('../../actions/GlobalActions.jsx');
+const Reflux    = require('reflux'),
+      React     = require('react'),
+      Router    = require('react-router'),
+      { Route, RouteHandler, Link } = Router;
 
-var Router = require('react-router');
-var { Route, RouteHandler, Link } = Router;
-
+let GlobalActions = require('../../actions/GlobalActions.jsx');
 
 module.exports = React.createClass({
+
   mixins: [ Router.State, Reflux.ListenerMixin],
 
   contextTypes: {
     router: React.PropTypes.func
   },
 
-  componentDidMount: function(){
+  componentDidMount(){
     GlobalActions.mySickAction('Coming at you store!', function(result){
       console.log(result);
     });
   },
 
-  render: function(){
-    var router = this.context;
+  render(){
+    let router = this.context;
 
     return (
       <div>
@@ -32,7 +33,7 @@ module.exports = React.createClass({
                         <h1><i className="icon-home"></i></h1>
                         <h2>HUD</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
+                  </div>
                 </Link>
             </div>
             <div className="col-md-3">

@@ -3,10 +3,10 @@ var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var commonLoaders = [
-  {test: /.*\.json$/, loader: 'json'},
-  {test: /.*\.md$/, loader: 'file'},
-  {test: /\.css$/, loader: "style-loader!css-loader" },
-  {test: /\.jpe?g$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/, loader: "file-loader"}
+  { test: /.*\.json$/, loader: 'json'},
+  { test: /.*\.md$/, loader: 'file' },
+  { test: /\.css$/, loader: "style-loader!css-loader" },
+  { test: /\.jpe?g$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/, loader: "file-loader"}
 ];
 
 module.exports = {
@@ -37,7 +37,7 @@ module.exports = {
     loaders: commonLoaders.concat([
       { test: /\.cjsx$/, loaders: ['react-hot', 'coffee', 'cjsx']},
       { test: /\.coffee$/, loader: 'coffee' },
-      { test: /\.jsx$|\.js$/, loader: 'jsx-loader?harmony' }
+      { test: /\.jsx$|\.js$/, loader: 'jsx-loader?harmony' },
     ])
   }
 };

@@ -1,15 +1,15 @@
-var Reflux = require('reflux');
+'use strict';
 
-var React = require('react');
-var GlobalActions = require('../../actions/GlobalActions.jsx');
+const Reflux    = require('reflux'),
+      React     = require('react'),
+      _         = require('lodash'),
+      Router    = require('react-router'),
+      { Route, RouteHandler, Link } = Router;
 
-var _ = require('lodash');
+let GlobalActions = require('../../actions/GlobalActions.jsx');
 
-var Router = require('react-router');
-var { Route, RouteHandler, Link } = Router;
-
-var FakeDB= require('../../fakeDB');
-var Articles = {
+const FakeDB = require('../../fakeDB');
+let Articles = {
   center: _.sortBy(FakeDB.Center, 'priority'),
   webtop: _.sortBy(FakeDB.Webtop, 'priority'),
   hud: _.sortBy(FakeDB.HUD, 'priority')
@@ -38,9 +38,9 @@ module.exports = React.createClass({
   makeSection: function(){
     var sections = [];
     for(var article in this.state.Articles){
-      var articleList = this.state.Articles[article].articles.map(function(article){
+      var articleList = this.state.Articles[article].articles.map((article)=>{
         return (
-          <li><Link to="article" params={{article: article.file}}>{ article.name }</Link></li>
+          <li><Link to="article" params={{part: this.state.Part, article: article.file}}>{ article.name }</Link></li>
         );
       });
       sections.push(

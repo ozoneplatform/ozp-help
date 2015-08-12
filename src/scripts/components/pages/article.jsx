@@ -1,10 +1,11 @@
-var Reflux = require('reflux'),
-    React = require('react'),
-    Router = require('react-router'),
-    { Route, RouteHandler, Link } = Router;
+'use strict';
 
-var GlobalActions = require('../../actions/GlobalActions.jsx');
+const Reflux    = require('reflux'),
+      React     = require('react'),
+      Router    = require('react-router'),
+      { Route, RouteHandler, Link } = Router;
 
+let GlobalActions = require('../../actions/GlobalActions.jsx');
 
 module.exports = React.createClass({
   mixins: [ Router.State, Reflux.ListenerMixin],
@@ -21,8 +22,8 @@ module.exports = React.createClass({
   },
 
   componentDidMount(){
-    var router = this.context;
-    var article = require(`../articles/jsxDocs/${router.getCurrentParams().article}.jsx`);
+    let router = this.context;
+    let article = require(`../articles/jsxDocs/${router.getCurrentParams().article}.jsx`);
     this.setState({
       Article: article
     });
@@ -31,7 +32,30 @@ module.exports = React.createClass({
   render(){
     return (
       <div>
-        <this.state.Article />
+        <div className="modal-body clearfix">
+          <ol className="breadcrumb">
+            <li>
+              <a href="#"
+                data-toggle="modal"
+                data-dismiss="modal"
+                data-target="#modal_help">Home</a>
+            </li>
+            <li className="active">
+              <Link to="part"
+                params={{
+                  part: this.context.getCurrentParams().part
+                }}>
+                { this.context.getCurrentParams().part }
+              </Link>
+            </li>
+            <li className="active">
+              { this.context.getCurrentParams().article }
+            </li>
+          </ol>
+          <div className="row">
+            <this.state.Article />
+          </div>
+        </div>
       </div>
     );
   }

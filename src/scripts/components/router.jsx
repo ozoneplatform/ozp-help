@@ -16,7 +16,7 @@ var routes = (
   <Route handler={App}>
     <Route name="home" handler={require('./pages/dash')} path="/" addHandlerKey={true} />
     <Route name="part" handler={require('./pages/part')} path="/part/:part" addHandlerKey={true} />
-    <Route name="article" handler={require('./pages/article')} path="/article/:article" addHandlerKey={true} />
+    <Route name="article" handler={require('./pages/article')} path="/:part/article/:article" addHandlerKey={true} />
   </Route>
 );
 

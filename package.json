@@ -16,7 +16,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "icons": "git://github.com/ozone-development/icons#8a3eccb40b84a064236f5396f28f7afbf2b9e226",
     "bootstrap-sass": "git://github.com/ozone-development/bootstrap-sass",
     "cjsx-loader": "^1.2.0",
     "coffee-loader": "^0.7.2",
@@ -37,6 +36,7 @@
     "gulp-size": "^1.2.0",
     "gulp-util": "^3.0.3",
     "highlight.js": "^8.4.0",
+    "icons": "git://github.com/ozone-development/icons#8a3eccb40b84a064236f5396f28f7afbf2b9e226",
     "image-webpack-loader": "^1.2.0",
     "imagemin": "^3.1.0",
     "jeet": "^6.1.2",
