@@ -19,10 +19,12 @@ module.exports = React.createClass({
     return (
       <div className="modal-header">
           <button type="button" className="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span className="sr-only">Close</span></button>
-          <a className="input-group search pull-right" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_search">
-              <input type="text" placeholder="search" className="pull-right" />
-              <span className="input-group-addon"><i className="icon-search"></i></span>
-          </a>
+          {/*
+            <a className="input-group search pull-right" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_search">
+                <input type="text" placeholder="search" className="pull-right" />
+                <span className="input-group-addon"><i className="icon-search"></i></span>
+            </a>
+          */}
           <h3 className="modal-title">Help Center</h3>
       </div>
     );

@@ -12,7 +12,8 @@ const FakeDB = require('../../fakeDB');
 let Articles = {
   center: _.sortBy(FakeDB.Center, 'priority'),
   webtop: _.sortBy(FakeDB.Webtop, 'priority'),
-  hud: _.sortBy(FakeDB.HUD, 'priority')
+  hud: _.sortBy(FakeDB.HUD, 'priority'),
+  global: _.sortBy(FakeDB.Global, 'priority'),
 };
 
 module.exports = React.createClass({
@@ -69,42 +70,40 @@ module.exports = React.createClass({
 
     return (
       <div>
-        <div className="row">
-          <div className="modal-nav well well-sm clearfix">
-              <a className="col-md-1" href="#">
-                  <i className="icon-rewind"></i>
-              </a>
-              <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                  <p>How do I delete apps from the Webtop?</p>
-              </a>
-              <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                  <p>How do I move apps to another dashboard?</p>
-              </a>
-              <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                  <p>How do I change my dashboard view?</p>
-              </a>
-              <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                  <p>How do I add apps to the Webtop?</p>
-              </a>
-              <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                  <p>How do I delete a dashboard?</p>
-              </a>
-              <a className="col-md-1" href="#">
-                  <i className="icon-fast-forward"></i>
-              </a>
-          </div>
-          <div className="modal-body clearfix">
-              <ol className="breadcrumb">
-                  <li><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help">Home</a></li>
-                  <li className="active">{this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)}</li>
-              </ol>
-              <div className="row">
-                  {sections}
-              </div>
-          </div>
-          <div className="modal-footer">
-              <button type="button" className="btn btn-primary">Take the {this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)} tour</button>
-          </div>
+        <div className="modal-nav well well-sm clearfix">
+            <a className="col-md-1" href="#">
+                <i className="icon-rewind"></i>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>How do I delete apps from the Webtop?</p>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>How do I move apps to another dashboard?</p>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>How do I change my dashboard view?</p>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>How do I add apps to the Webtop?</p>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>How do I delete a dashboard?</p>
+            </a>
+            <a className="col-md-1" href="#">
+                <i className="icon-fast-forward"></i>
+            </a>
+        </div>
+        <div className="modal-body clearfix">
+            <ol className="breadcrumb">
+                <li><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help">Home</a></li>
+                <li className="active">{this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)}</li>
+            </ol>
+            <div className="row">
+                {sections}
+            </div>
+        </div>
+        <div className="modal-footer">
+            <button type="button" className="btn btn-primary">Take the {this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)} tour</button>
         </div>
       </div>
     );

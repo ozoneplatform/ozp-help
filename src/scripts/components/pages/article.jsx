@@ -5,6 +5,7 @@ const Reflux    = require('reflux'),
       Router    = require('react-router'),
       { Route, RouteHandler, Link } = Router;
 
+
 let GlobalActions = require('../../actions/GlobalActions.jsx');
 
 module.exports = React.createClass({
@@ -45,16 +46,19 @@ module.exports = React.createClass({
                 params={{
                   part: this.context.getCurrentParams().part
                 }}>
-                { this.context.getCurrentParams().part }
+                { this.context.getCurrentParams().part.charAt(0).toUpperCase() + this.context.getCurrentParams().part.slice(1) }
               </Link>
             </li>
             <li className="active">
               { this.context.getCurrentParams().article }
             </li>
           </ol>
-          <div className="row">
+          <div className="row container">
             <this.state.Article />
           </div>
+        </div>
+        <div className="modal-footer">
+            <button type="button" className="btn btn-primary">Take the {this.context.getCurrentParams().part.charAt(0).toUpperCase() + this.context.getCurrentParams().part.slice(1)} tour</button>
         </div>
       </div>
     );

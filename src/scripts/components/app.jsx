@@ -18,9 +18,7 @@ module.exports = React.createClass({
         <div className="modal-dialog modal-lg">
           <div className="modal-content">
             <Header />
-            <div className="modal-body clearfix">
-              <RouteHandler />
-            </div>
+            <RouteHandler />
           </div>
         </div>
       </div>

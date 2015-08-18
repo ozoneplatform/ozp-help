@@ -25,7 +25,7 @@ module.exports = React.createClass({
     let router = this.context;
 
     return (
-      <div>
+      <div className="modal-body clearfix">
         <div className="row">
             <div className="col-md-3">
                 <Link to="part" params={{part: 'hud'}} className="thumbnail well" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
@@ -46,7 +46,12 @@ module.exports = React.createClass({
                 </Link>
             </div>
             <div className="col-md-3">
-                <Link to="part" params={{part: 'webtop'}}  className="thumbnail well" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
+                <Link to="part"
+                  params={{part: 'webtop'}}
+                  className="thumbnail well"
+                  data-toggle="modal"
+                  data-dismiss="modal"
+                  data-target="#modal_help_webtop">
                     <div className="caption">
                         <h1><i className="icon-layout"></i></h1>
                         <h2>Webtop</h2>
@@ -55,7 +60,12 @@ module.exports = React.createClass({
                 </Link>
             </div>
             <div className="col-md-3">
-                <Link to="part" params={{part: 'global'}}  className="thumbnail well" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_webtop">
+                <Link to="part"
+                  params={{part: 'global'}}
+                  className="thumbnail well"
+                  data-toggle="modal"
+                  data-dismiss="modal"
+                  data-target="#modal_help_webtop">
                     <div className="caption">
                         <h1><i className="icon-globe"></i></h1>
                         <h2>Global</h2>
