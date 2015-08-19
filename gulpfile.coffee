@@ -77,12 +77,12 @@ gulp.task('copy-assets', ->
       .pipe($.size())
 )
 gulp.task('copy-doc-images', ->
-    gulp.src(['articles/Doc_images/**'])
+    gulp.src(['src/scripts/components/articles/Doc_images/**'])
       .pipe(gulp.dest(paths.dest + '/Doc_images'))
       .pipe($.size())
 )
 gulp.task('copy-docs', ->
-    gulp.src(['articles/jsxDocs/**'])
+    gulp.src(['src/scripts/components/articles/jsxDocs/**'])
       .pipe(gulp.dest(paths.dest+ '/docs'))
       .pipe($.size())
 )
