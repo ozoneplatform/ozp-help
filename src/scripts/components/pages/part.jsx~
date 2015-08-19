@@ -41,7 +41,7 @@ module.exports = React.createClass({
     for(var article in this.state.Articles){
       var articleList = this.state.Articles[article].articles.map((article)=>{
         return (
-          <li><Link to="article" params={{part: this.state.Part, article: article.file, title: article.name}}>{ article.name }</Link></li>
+          <li><Link to="article" params={{part: this.state.Part, article: article.file}}>{ article.name }</Link></li>
         );
       });
       sections.push(
@@ -71,10 +71,10 @@ module.exports = React.createClass({
     return (
       <div>
         <div className="modal-body clearfix">
-            {/*<ol className="breadcrumb">
+            <ol className="breadcrumb">
                 <li><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help">Home</a></li>
                 <li className="active">{this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)}</li>
-            </ol>*/}
+            </ol>
             <div className="row">
                 {sections}
             </div>

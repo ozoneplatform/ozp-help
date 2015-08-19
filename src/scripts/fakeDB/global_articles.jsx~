@@ -4,7 +4,7 @@ module.exports = [
     name: 'Getting Started',
     articles: [
       {
-        name: 'Getting Started with OZONE',
+        name: 'Getting Started with Ozone',
         file: 'OZONE_overview'
       },
       {
