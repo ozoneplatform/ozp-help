@@ -1,132 +1,184 @@
 module.exports = [
   {
     priority: 1,
-    name: 'Global Art. 1',
+    name: 'Getting Started',
     articles: [
       {
-        name: 'Enter fullscreen view.',
-        file: 'HUD_useHUD'
+        name: 'Getting Started with OZONE',
+        file: 'OZONE_overview'
       },
       {
-        name: 'Find new apps.',
-        file: 'HUD_useHUD'
+        name: 'Understanding HUD',
+        file: 'HUD_overview'
       },
       {
-        name: 'Change notification settings.',
-        file: 'HUD_useHUD'
+        name: 'Understanding Center',
+        file: 'Center_overview'
       },
       {
-        name: 'Edit my profile.',
-        file: 'HUD_useHUD'
+        name: 'Understanding Webtop',
+        file: 'Webtop_overview'
       }
     ]
   },
   {
     priority: 2,
-    name: 'Global Art. 2',
+    name: 'Global Toolbar',
     articles: [
       {
-        name: 'Enter fullscreen view.',
+        name: 'Using the Global Toolbar',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Find new apps.',
+        name: 'Receiving and Deleting Notifications',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Change notification settings.',
-        file: 'HUD_useHUD'
-      },
-      {
-        name: 'Edit my profile.',
+        name: 'Submit Feedback',
         file: 'HUD_useHUD'
       }
     ]
   },
   {
     priority: 3,
-    name: 'Global Art. 3',
+    name: 'Webtop',
     articles: [
       {
-        name: 'Enter fullscreen view.',
+        name: 'Using Webtop',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Find new apps.',
+        name: 'Create a Dashboard',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Change notification settings.',
+        name: 'Edit a Dashboard',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Edit my profile.',
+        name: 'Delete a Dashboard',
         file: 'HUD_useHUD'
       }
     ]
   },
   {
     priority: 4,
-    name: 'Global Art. 4',
+    name: 'Center',
     articles: [
       {
-        name: 'Enter fullscreen view.',
+        name: 'Using Center',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Find new apps.',
+        name: 'Search for Listings',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Change notification settings.',
+        name: 'Create a Listing',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Edit my profile.',
+        name: 'Edit a Listing',
         file: 'HUD_useHUD'
+      },
+      {
+        name: 'Submit a Listing',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Review a Listing',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Rate a Listing',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Bookmark a Listing',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Manage your Created Listings',
+        file: 'Center_listingManagementPage_centerSteward'
       }
     ]
   },
   {
     priority: 5,
-    name: 'Global Art. 5',
+    name: 'HUD',
     articles: [
       {
-        name: 'Enter fullscreen view.',
+        name: 'Using HUD',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Find new apps.',
+        name: 'Group listings by Folder',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Change notification settings.',
+        name: 'Create a Folder',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Edit my profile.',
+        name: 'Rename a Folder',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Delete a Folder',
         file: 'HUD_useHUD'
       }
     ]
   },
   {
     priority: 6,
-    name: 'Global Art. 6',
+    name: 'Administration',
     articles: [
       {
-        name: 'Enter fullscreen view.',
+        name: 'Create a Notification',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Find new apps.',
+        name: 'Manage Listings as an Org Steward',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Change notification settings.',
+        name: 'Manage Listings as a Center Steward',
         file: 'HUD_useHUD'
       },
       {
-        name: 'Edit my profile.',
+        name: 'Approve or Return a Listing',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Enable or Disable a Listing',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Feature a Listing',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Change Center Settings',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Manage Center Categories',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Manage Contact Types',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Manage Intents',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Manage Organizations',
+        file: 'HUD_useHUD'
+      },
+      {
+        name: 'Manage Stewards',
         file: 'HUD_useHUD'
       }
     ]

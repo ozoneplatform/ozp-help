@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return ( 
 <div>
 
 <h1><a id="GroupListings" name="GroupListings">Group Listings</a> in HUD</h1>
@@ -11,7 +10,7 @@ return (
 
 <p>The HUD can contain folders similar to the folders used to group apps on a smart phone:</p>
 
-<p><img alt="Folders in HUD" src="Doc_images/folders_in_HUD.png"  title="Folders in HUD" /></p>
+<p><img alt="Folders in HUD" src="../mocks/Doc_images/folders_in_HUD.png" style="height: 237px; width: 729px" title="Folders in HUD" /></p>
 
 <h2>Create a Folder</h2>
 <p>To make a folder:</p>
@@ -52,12 +51,14 @@ return (
 </ol>
 
 <h2>Related Info</h2>
-<ul >
+<ul style="margin-left: 40px">
 	<li><a href="HUD_overview.html">HUD Overview</a></li>
 	<li><a href="HUD_useHUD.html">Use HUD</a></li>
 	<li><a href="HUD_access.html">Access HUD</a></li>
 	<li><a href="GlobalToolbar_overview.html">Global Toolbar Overview</a></li>
 	</ul>
+
+
 
 
 </div>

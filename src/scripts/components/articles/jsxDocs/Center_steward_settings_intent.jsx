@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return ( 
 <div>
 
 <h1>Center Settings: <a id="Intents" name="Intents">&nbsp;Intents</a></h1>
@@ -14,10 +13,10 @@ return (
 <h3>Access the Center Settings page:</h3>
 
 <ol>
-	<li>Click <img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  />&nbsp;on the right-side of the Global Toolbar.</li>
+	<li>Click <img alt="Main Menu" src="../mocks/Doc_images/Main_menu_icon.png" style="border-top: 1px solid; height: 30px; border-right: 1px solid; width: 30px; border-bottom: 1px solid; border-left: 2px solid" />&nbsp;on the right-side of the Global Toolbar.</li>
 	<li>Select Center Settings<br />
-	<img alt="Center Settings Link on Main Menu" src="Doc_images/centerSettingsLink_MainMenu.png"  title="Center Settings Link on Main Menu" /></li>
-	<li>The Center Settings page will open to the Categories tab, click the Intents tab to configure intent placeholders.</li>
+	<img alt="Center Settings Link on Main Menu" src="../mocks/Doc_images/CenterSettingsLink_MainMenu.png" style="height: 318px; width: 176px" title="Center Settings Link on Main Menu" /></li>
+	<li>The Center Settings page will open to the Categories tab, click the Intents tab to configure intent placeholders.
 </ol>
 
 <h2>Create an Intent placeholder:</h2>
@@ -26,7 +25,7 @@ return (
 	<li>Click the Intent tab on the Center Settings page.</li>
 	<li>Click Add New at the top of the table.</li>
 	<li>The Create Intent window opens. Populate the following fields:
-	<ol >
+	<ol style="list-style-type: lower-alpha">
 		<li><b>Label</b> &ndash; Explain what the intent does.</li>
 		<li><b>Action</b> &ndash; Describe the intent in 64 characters.</li>
 		<li><b>Type</b> &ndash; Describe the intent in&nbsp;124 characters (62 characters before the slash, 62 characters after it).<br />
@@ -35,7 +34,7 @@ return (
 	</ol>
 	</li>
 	<li>Click Save.
-	<ol >
+	<ol style="list-style-type: lower-alpha">
 		<li>The intent will appear on the list of intents on the Center Settings page.</li>
 		<li>It will be a drop-down choice in the Intents section of the Listing Create/Edit Form.</li>
 	</ol>
@@ -64,7 +63,7 @@ return (
 <p>The intent will be removed from the list of intents on the Center Settings page and on the Listing Create/Edit Form.</p>
 
 <h2>Related Info</h2>
-<ul >
+<ul style="margin-left: 40px">
 	<li><a href="Center_listings_create.html">Create a Listing</a></li>
 	<li><a href="Center_steward_settings.html">Center Settings Home</a></li>
 	<li><a href="Center_steward_settings_category.html">Category Settings</a></li>
@@ -72,6 +71,7 @@ return (
 	<li><a href="Center_steward_settings_org.html">Organization Settings</a></li>
 	<li><a href="Center_steward_settings_steward.html">Steward Settings</a></li>
 	</ul>
+
 
 
 </div>

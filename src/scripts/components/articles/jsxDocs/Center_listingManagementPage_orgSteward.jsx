@@ -2,7 +2,6 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
-return ( 
 <div>
 
 <h1><a id="Org_Steward_listingManagementPage" name="Org_Steward_listingManagementPage">Org Steward</a>: Listing Management Page</h1>

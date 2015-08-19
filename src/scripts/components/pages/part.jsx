@@ -45,11 +45,11 @@ module.exports = React.createClass({
         );
       });
       sections.push(
-        <div className="col-md-4">
-          <h2>{ this.state.Articles[article].name }</h2>
-          <ul>
+        <div className="col-sm-4">
+            <h3>{ this.state.Articles[article].name }</h3>
+            <ul>
             { articleList }
-          </ul>
+            </ul>
         </div>
       );
     }
@@ -70,39 +70,41 @@ module.exports = React.createClass({
 
     return (
       <div>
-        <div className="modal-nav well well-sm clearfix">
-            <a className="col-md-1" href="#">
-                <i className="icon-rewind"></i>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>How do I delete apps from the Webtop?</p>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>How do I move apps to another dashboard?</p>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>How do I change my dashboard view?</p>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>How do I add apps to the Webtop?</p>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>How do I delete a dashboard?</p>
-            </a>
-            <a className="col-md-1" href="#">
-                <i className="icon-fast-forward"></i>
-            </a>
-        </div>
         <div className="modal-body clearfix">
-            <ol className="breadcrumb">
+            {/*<ol className="breadcrumb">
                 <li><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help">Home</a></li>
                 <li className="active">{this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)}</li>
-            </ol>
+            </ol>*/}
             <div className="row">
                 {sections}
             </div>
         </div>
+        {/*<div className="modal-nav well well-sm clearfix">
+            <a className="col-md-1" href="#">
+                <i className="icon-rewind"></i>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>Delete a Dashboard</p>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>Group Listings by Folder</p>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>Using the Global Toolbar</p>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>Getting Started with Ozone</p>
+            </a>
+            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
+                <p>Create a Dashboard</p>
+            </a>
+            <a className="col-md-1" href="#">
+                <i className="icon-fast-forward"></i>
+            </a>
+        </div>*/}
         <div className="modal-footer">
+            <h4>Have a question not answered here?&nbsp;&nbsp;</h4>
+            <button type="button" className="btn btn-primary">Contact the Help Desk</button>
             <button type="button" className="btn btn-primary">Take the {this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)} tour</button>
         </div>
       </div>
