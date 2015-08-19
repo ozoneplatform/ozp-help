@@ -35,20 +35,12 @@ module.exports = React.createClass({
       <div>
         <div className="modal-body clearfix">
           <ol className="breadcrumb">
-            <li className="active">
-              <Link to="part"
-                params={{
-                  part: this.context.getCurrentParams().part
-                }}>
-                Home
-              </Link>
-            </li>
-            {/*<li>
+            <li>
               <a href="#"
                 data-toggle="modal"
                 data-dismiss="modal"
                 data-target="#modal_help">Home</a>
-            </li>
+            </li>{/*
             <li className="active">
               <Link to="part"
                 params={{

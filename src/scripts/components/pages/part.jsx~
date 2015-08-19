@@ -71,10 +71,10 @@ module.exports = React.createClass({
     return (
       <div>
         <div className="modal-body clearfix">
-            {/*<ol className="breadcrumb">
+            <ol className="breadcrumb">
                 <li><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help">Home</a></li>
                 <li className="active">{this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)}</li>
-            </ol>*/}
+            </ol>
             <div className="row">
                 {sections}
             </div>
