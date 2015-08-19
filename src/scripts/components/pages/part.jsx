@@ -41,7 +41,7 @@ module.exports = React.createClass({
     for(var article in this.state.Articles){
       var articleList = this.state.Articles[article].articles.map((article)=>{
         return (
-          <li><Link to="article" params={{part: this.state.Part, article: article.file}}>{ article.name }</Link></li>
+          <li><Link to="article" params={{part: this.state.Part, article: article.file, title: article.name}}>{ article.name }</Link></li>
         );
       });
       sections.push(

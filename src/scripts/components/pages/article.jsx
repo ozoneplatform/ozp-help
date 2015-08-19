@@ -50,7 +50,7 @@ module.exports = React.createClass({
               </Link>
             </li>
             <li className="active">
-              { this.context.getCurrentParams().article }
+              { this.context.getCurrentParams().title }
             </li>
           </ol>
           <div className="row container">
