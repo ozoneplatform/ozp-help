@@ -4,4 +4,4 @@ public
 npm-debug.log
 mocks/._template*
 mocks/sanitized
-
+*~
