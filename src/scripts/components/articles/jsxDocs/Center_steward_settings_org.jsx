@@ -2,6 +2,7 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
+return ( 
 <div>
 
 <h1>Center Settings: <a id="Orgs" name="Orgs">Organizations</a></h1>
@@ -11,10 +12,10 @@ render: function(){
 <h3>Access the organizational settings:</h3>
 
 <ol>
-	<li>Click <img alt="Main Menu" src="../mocks/Doc_images/Main_menu_icon.png" style="border-top: 1px solid; height: 30px; border-right: 1px solid; width: 30px; border-bottom: 1px solid; border-left: 2px solid" />&nbsp;on the right-side of the Global Toolbar.</li>
+	<li>Click <img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  />&nbsp;on the right-side of the Global Toolbar.</li>
 	<li>Select Center Settings<br />
-	<img alt="Center Settings Link on Main Menu" src="../mocks/Doc_images/CenterSettingsLink_MainMenu.png" style="height: 318px; width: 176px" title="Center Settings Link on Main Menu" /></li>
-	<li>The Center Settings page will open to the Categories tab, click Organizations to open the Org Settings.
+	<img alt="Center Settings Link on Main Menu" src="Doc_images/centerSettingsLink_MainMenu.png"  title="Center Settings Link on Main Menu" /></li>
+	<li>The Center Settings page will open to the Categories tab, click Organizations to open the Org Settings.</li>
 </ol>
 
 <h2>Create an organization:</h2>
@@ -48,15 +49,14 @@ render: function(){
 <p><i>Note: An organization <b>cannot</b> be removed if it is associated with a listing or a profile. </i></p>
 
 <h2>Related Info</h2>
-<ul style="margin-left: 40px">
+<ul >
 	<li><a href="Center_listings_create.html">Create a Listing</a></li>
 	<li><a href="Center_steward_settings.html">Center Settings Home</a></li>
 	<li><a href="Center_steward_settings_category.html">Category Settings</a></li>
 	<li><a href="Center_steward_settings_contactType.html">Contact Type Settings</a></li>
 	<li><a href="Center_steward_settings_intent.html">Intent Settings</a></li>
 	<li><a href="Center_steward_settings_steward.html">Steward Settings</a></li>
-	</ul>
-
+</ul>
 
 
 </div>

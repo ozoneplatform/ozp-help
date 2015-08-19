@@ -2,6 +2,7 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
+return ( 
 <div>
 
 <h1><a id="reviewListing" name="reviewListing"></a>Review a Listing</h1>

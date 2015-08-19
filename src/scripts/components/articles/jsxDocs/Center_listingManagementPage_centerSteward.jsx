@@ -2,6 +2,7 @@
 var React = require('react');
 module.exports = React.createClass({
 render: function(){
+return ( 
 <div>
 
 <h1><a id="Center_Steward_listingManagementPage" name="Center_Steward_listingManagementPage">Center Steward</a>: Listing Management Page</h1>
