@@ -25,7 +25,6 @@ return (
 	<li><a href="Center_listings_create.html">Create a Listing</a></li>
 </ul>
 
-
 </div>
 );
 }

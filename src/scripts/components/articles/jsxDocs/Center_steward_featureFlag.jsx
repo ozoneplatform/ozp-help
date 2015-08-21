@@ -17,7 +17,7 @@ To add a listing to the group of Featured Listings:</p>
 	<li>Click the Featured control to active it:<br />
 	<img alt="Enabled and Featured Buttons on a Listing's Detailed Page" src="Doc_images/AdminTab_EnableFeatured.png"   title="Enabled and Feature Buttons on a Listing's Detailed View" /></li>
 	<li>When the Featured control is activated, the listing appears in the Featured section of the Search and Discovery Page:<br />
-	<img border="0" height="798" src="Doc_images/FeaturedListing_SearchDiscoverPage.png"   width="1260" /></li>
+	<img border="0" height="798" src="Doc_images/FeaturedListing_SearchDiscoverPage.png" alt="Example of a Featured Listing on the Search and Discovery Page" width="1260" /></li>
 </ol>
 
 <h2>Related Info</h2>
@@ -25,8 +25,7 @@ To add a listing to the group of Featured Listings:</p>
 	<li><a href="Center_listings_overview.html">Listing Overview</a></li>
 	<li>Center Steward: <a href="Center_listingManagementPage_centerSteward.html">Manage Listings</a></li>
 	<li>Center Steward: <a href="Center_listings_approveReject_centerSteward.html">Approve/Return Listings</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

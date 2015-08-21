@@ -58,7 +58,6 @@ return (
 	<li><a href="Center_steward_settings_steward.html">Steward Settings</a></li>
 </ul>
 
-
 </div>
 );
 }

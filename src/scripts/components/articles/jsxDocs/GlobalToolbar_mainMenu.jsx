@@ -63,8 +63,7 @@ return (
 	<li><a href="Center_listingManagementPage_user.html">Listing Management Page</a></li>
 	<li><a href="GlobalToolbar_notifications.html">Notifications</a></li>
 	<li><a href="GlobalToolbar_help.html">Finding User Help</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

@@ -15,7 +15,7 @@ return (
 	<li>Listings that need approval appear on the Needs action page. Click a listing to open its Detailed View.</li>
 	<li>After reviewing the listing, click the Administration tab.</li>
 	<li>On the left-side, click&nbsp;Approve or Return to Owner:<br />
-	&nbsp;<img border="0" src="Doc_images/mpAdminTab_Approve_Reject.png" />
+	&nbsp;<img border="0" src="Doc_images/mpAdminTab_Approve_Reject.png" alt="Approve/Return Setting on Admin Tab"/>
 	<ol  >
 		<li>If you approve the listing, the listing is automatically Enabled and it will appear in search results and be available to bookmark.</li>
 		<li>If you click Return to Owner, type instructions explaining how the user should update the listing before resubmitting it. Then, click Return to Owner. The listing will move out of your queue until it is resubmitted and approved by an org steward.</li>
@@ -37,8 +37,7 @@ return (
 	<li><a href="Center_listings_create.html">Create a Listing</a></li>
 	<li><a href="Center_listings_reviews.html">Review a Listing</a></li>
 	<li><a href="Center_listings_edit.html">Edit a Listing</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

@@ -21,8 +21,7 @@ Notifications are located on the top-right side of the Global Toolbar. Center st
 	<li><a href="GlobalToolbar_overview.html">Global Toolbar Overview</a></li>
 	<li><a href="GlobalToolbar_help.html">Locating System Help</a></li>
 	<li><a href="GlobalToolbar_mainMenu.html">Main Menu</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

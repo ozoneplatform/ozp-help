@@ -19,8 +19,7 @@ return (
 	<li><a href="Webtop_lower_toolbar.html">Webtop Overview of the Lower Toolbar</a></li>
 	<li><a href="Webtop_dashboards_create.html">Create Dashboards in Webtop</a></li>
 	<li><a href="Webtop_useWebtop.html">Use Webtop</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

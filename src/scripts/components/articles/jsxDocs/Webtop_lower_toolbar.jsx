@@ -55,8 +55,7 @@ return (
 	<li><a href="Webtop_dashboards_create.html">Create Dashboards</a></li>
 	<li><a href="Webtop_useWebtop.html">Use Webtop</a></li>
 	<li><a href="GlobalToolbar_overview.html">Global Toolbar Overview</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

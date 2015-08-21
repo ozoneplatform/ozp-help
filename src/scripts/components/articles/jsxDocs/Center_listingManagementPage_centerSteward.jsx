@@ -13,7 +13,7 @@ return (
 
 <p>As a Center&nbsp;steward, the Listing Management page&nbsp;displays information about listings you own and listings you oversee.&nbsp;For user instructions about the Listing Management page see&nbsp;the <a href="Center_listingManagementPage_user.html">User View</a>: Listing Management Page.</p>
 
-<p><img border="0" src="Doc_images/mpSteward_managementTabs.png" /></p>
+<p><img alt="Steward Management Tabs" border="0" src="Doc_images/mpSteward_managementTabs.png" /></p>
 
 <p>As a <b>Center steward</b>, you see multiple tabs on the Listing Management screen:</p>
 
@@ -29,7 +29,7 @@ return (
 <table align="left" border="0" cellpadding="5" cellspacing="0"  >
 	<tbody>
 		<tr>
-			<td><img border="0" src="Doc_images/mpSteward_statePanel.png" /></td>
+			<td><img border="0" alt="State panel" src="Doc_images/mpSteward_statePanel.png" /></td>
 			<td>
 			<p>The left-side State panel provides slightly different information than a user&rsquo;s or org steward&#39;s&nbsp;left-side panel:</p>
 
@@ -63,8 +63,7 @@ return (
 	<li><a href="Center_listings_approveReject_centerSteward.html">Center Steward: Approve/Return a Listing</a></li>
 	<li><a href="Center_listingManagementPage_orgSteward.html">Org Steward: Listing Management</a></li>
 	<li><a href="Center_listingManagementPage_user.html">User: Listing Management</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );
