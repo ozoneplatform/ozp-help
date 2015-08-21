@@ -3,5 +3,5 @@ public
 .DS_Store
 npm-debug.log
 mocks/._template*
-mocks/sanitized
+src/scripts/components/articles/sanitized
 *~
