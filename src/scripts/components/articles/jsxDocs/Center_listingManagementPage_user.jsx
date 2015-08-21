@@ -35,8 +35,7 @@ return (
 	<li><a href="GlobalToolbar_MainMenu.html">Main Menu on the Global Toolbar</a></li>
 	<li><a href="Center_listingManagementPage_orgSteward.html">Org Steward: Listing Management</a></li>
 	<li><a href="Center_listingManagementPage_centerSteward.html">Center Steward: Listing Management</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

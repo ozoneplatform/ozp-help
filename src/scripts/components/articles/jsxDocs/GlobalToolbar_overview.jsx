@@ -35,8 +35,7 @@ return (
 <ul >
 	<li><a href="OZONE_overview.html">OZONE Overview</a></li>
 	<li><a href="Center_listings_create.html">Create a Listing</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

@@ -13,7 +13,7 @@ return (
 
 <p>As an organizational&nbsp;steward, the Listing Management page&nbsp;displays information about listings you own and listings you oversee.&nbsp;The Listing Management page displays different information for different users. The following sections explain each field as it relates to&nbsp;org&nbsp;stewards. For the user view see <a href="Center_listingManagementPage_user.html">User View</a>: Listing Management Page;&nbsp;or the <a href="Center_listingManagementPage_centerSteward.html"> Center steward&nbsp;section</a> for Center stewards.</p>
 
-<p><b><img border="0" src="Doc_images/orgSteward_managementTabs.png" /></b></p>
+<p><b><img border="0" src="Doc_images/orgSteward_managementTabs.png" alt="Steward Management Tabs"/></b></p>
 
 <p>As an org&nbsp;<b>steward</b>, you see multiple tabs on the Listing Management screen:</p>
 
@@ -60,8 +60,7 @@ return (
 	<li><a href="Center_listings_approveReject_orgSteward.html">Org Steward: Approve/Return a Listing</a></li>
 	<li><a href="Center_listingManagementPage_centerSteward.html">Center Steward: Listing Management</a></li>
 	<li><a href="Center_listingManagementPage_user.html">User: Listing Management</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

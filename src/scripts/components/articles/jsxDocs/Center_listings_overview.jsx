@@ -140,8 +140,7 @@ return (
 	<li><a href="Center_listings_reviews.html">Review a Listing</a></li>
 	<li><a href="Center_listings_edit.html">Edit a Listing</a></li>
 	<li><a href="Center_listingManagementPage_user.html">User: Listing Management Page</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

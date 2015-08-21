@@ -17,7 +17,6 @@ return (
 	<li><a href="GlobalToolbar_mainMenu.html">Main Menu</a></li>
 </ul>
 
-
 </div>
 );
 }

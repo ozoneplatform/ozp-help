@@ -23,7 +23,7 @@
 
 <p>After a Center steward approves a listing, an org steward can Enable or Disable it:</p>
 
-<p><img border="0" height="430" src="Doc_images/orgSteward_enabled.png"   width="850" /></p>
+<p><img border="0" height="430" src="Doc_images/orgSteward_enabled.png" alt="Enabled Setting on Admin Tab" width="850" /></p>
 
 <p>To enable or disable a listing:</p>
 
@@ -40,7 +40,7 @@
 
 
 <h2>Related Info</h2>
-<ul  >
+<ul>
 	<li><a href="Center_listingManagementPage_orgSteward.html">Org Steward: Listing Management Page</a></li>
 	<li><a href="Center_listings_overview.html">Listing Overview</a></li>
 	<li><a href="Center_listings_create.html">Create a Listing</a></li>

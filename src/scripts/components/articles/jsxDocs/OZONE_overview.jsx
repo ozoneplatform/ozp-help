@@ -40,7 +40,6 @@ return (
 	<li><a href="Center_search.html">Search for Listings</a></li>
 </ul>
 
-
 </div>
 );
 }

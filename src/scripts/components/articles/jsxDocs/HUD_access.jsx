@@ -25,8 +25,7 @@ return (
 	<li><a href="HUD_useHUD.html">Use HUD</a></li>
 	<li><a href="HUD_groupListings.html">Group Listings on your HUD</a></li>
 	<li><a href="GlobalToolbar_overview.html">Global Toolbar Overview</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

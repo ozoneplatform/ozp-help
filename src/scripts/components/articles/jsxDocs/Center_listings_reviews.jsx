@@ -27,7 +27,6 @@ return (
 	<li><a href="Center_listings_approveReject_orgSteward.html">Org Steward: Approve/Return a Listing</a></li>
 </ul>
 
-
 </div>
 );
 }

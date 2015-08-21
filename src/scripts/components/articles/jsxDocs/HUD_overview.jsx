@@ -34,8 +34,7 @@ return (
 	<li><a href="OZONE_overview.html">OZONE Overview</a></li>
 	<li><a href="Webtop_overview.html">Webtop Overview</a></li>
 	<li><a href="Center_overview.html">Center Overview</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );

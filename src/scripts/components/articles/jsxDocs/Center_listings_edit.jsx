@@ -21,8 +21,7 @@ To edit a listing:</p>
 	<li><a href="Center_listings_create.html">Create a Listing</a></li>
 	<li><a href="Center_listings_reviews.html">Review a Listing</a></li>
 	<li><a href="Center_listings_approveReject_orgSteward.html">Org Steward: Approve/Return a Listing</a></li>
-	</ul>
-
+</ul>
 
 </div>
 );
