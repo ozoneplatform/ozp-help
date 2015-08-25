@@ -25,7 +25,7 @@ module.exports = React.createClass({
                 <span className="input-group-addon"><i className="icon-search"></i></span>
             </a>
           */}
-          <h3 className="modal-title">Help Center</h3>
+          <h3 className="modal-title">Help</h3>
       </div>
     );
   }

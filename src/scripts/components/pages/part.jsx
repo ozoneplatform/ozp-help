@@ -105,7 +105,7 @@ module.exports = React.createClass({
         <div className="modal-footer">
             <h4>Have a question not answered here?&nbsp;&nbsp;</h4>
             <button type="button" className="btn btn-primary">Contact the Help Desk</button>
-            <button type="button" className="btn btn-primary">Take the {this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)} tour</button>
+            {/*<button type="button" className="btn btn-primary">Take the {this.state.Part.charAt(0).toUpperCase() + this.state.Part.slice(1)} tour</button>*/}
         </div>
       </div>
     );
