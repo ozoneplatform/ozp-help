@@ -25,7 +25,7 @@ module.exports = React.createClass({
 
   getInitialState: function(){
     return {
-      Part: this.context.getCurrentParams().part,
+      Part: 'global',
       Articles: []
     };
   },
@@ -72,7 +72,11 @@ module.exports = React.createClass({
       <div>
         <div className="modal-highlight">
             {/*<img src="/screenshot.png" />*/}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vnXb1S6l_jE" frameborder="0" allowfullscreen></iframe>
+            {/*@wski: We will leave this here for not, since it will be changed elsewhere*/}
+            <iframe width="560"
+              height="315"
+              src="https://www.youtube.com/embed/vnXb1S6l_jE"
+              frameBorder="0" allowfullscreen></iframe>
         </div>
         <div className="modal-body clearfix">
             {/*<ol className="breadcrumb">
