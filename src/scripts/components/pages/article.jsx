@@ -18,7 +18,7 @@ module.exports = React.createClass({
   getInitialState(){
     return {
       Part: this.context.getCurrentParams().part,
-      Article: require('../articles/jsxDocs/HUD_useHUD.jsx')
+      Article: require('../articles/jsxDocs/404.jsx')
     };
   },
 

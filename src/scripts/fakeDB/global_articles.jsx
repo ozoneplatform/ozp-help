@@ -27,15 +27,15 @@ module.exports = [
     articles: [
       {
         name: 'Using the Global Toolbar',
-        file: 'HUD_useHUD'
+        file: 'GlobalToolbar_overview'
       },
       {
-        name: 'Receiving and Deleting Notifications',
-        file: 'HUD_useHUD'
+        name: 'Receive and Delete Notifications',
+        file: 'GlobalToolbar_notifications'
       },
       {
-        name: 'Submit Feedback',
-        file: 'HUD_useHUD'
+        name: 'Navigate with the Global Menu',
+        file: 'GlobalToolbar_mainMenu'
       }
     ]
   },
@@ -45,19 +45,23 @@ module.exports = [
     articles: [
       {
         name: 'Using Webtop',
-        file: 'HUD_useHUD'
+        file: 'Webtop_useWebtop'
+      },
+      {
+        name: 'Add Listings to a Dashboard',
+        file: 'Webtop_addListing'
       },
       {
         name: 'Create a Dashboard',
-        file: 'HUD_useHUD'
+        file: 'Webtop_dashboards_create'
       },
       {
         name: 'Edit a Dashboard',
-        file: 'HUD_useHUD'
+        file: 'Webtop_dashboards_edit'
       },
       {
-        name: 'Delete a Dashboard',
-        file: 'HUD_useHUD'
+        name: 'Navigate with the Webtop Toolbar',
+        file: 'Webtop_lower_toolbar'
       }
     ]
   },
@@ -66,40 +70,24 @@ module.exports = [
     name: 'Center',
     articles: [
       {
-        name: 'Using Center',
-        file: 'HUD_useHUD'
-      },
-      {
         name: 'Search for Listings',
-        file: 'HUD_useHUD'
+        file: 'Center_search'
       },
       {
         name: 'Create a Listing',
-        file: 'HUD_useHUD'
+        file: 'Center_listings_overview'
       },
       {
         name: 'Edit a Listing',
-        file: 'HUD_useHUD'
-      },
-      {
-        name: 'Submit a Listing',
-        file: 'HUD_useHUD'
+        file: 'Center_listings_edit'
       },
       {
         name: 'Review a Listing',
-        file: 'HUD_useHUD'
-      },
-      {
-        name: 'Rate a Listing',
-        file: 'HUD_useHUD'
-      },
-      {
-        name: 'Bookmark a Listing',
-        file: 'HUD_useHUD'
+        file: 'Center_listings_reviews'
       },
       {
         name: 'Manage your Created Listings',
-        file: 'Center_listingManagementPage_centerSteward'
+        file: 'Center_listingManagementPage_user'
       }
     ]
   },
@@ -113,19 +101,7 @@ module.exports = [
       },
       {
         name: 'Group listings by Folder',
-        file: 'HUD_useHUD'
-      },
-      {
-        name: 'Create a Folder',
-        file: 'HUD_useHUD'
-      },
-      {
-        name: 'Rename a Folder',
-        file: 'HUD_useHUD'
-      },
-      {
-        name: 'Delete a Folder',
-        file: 'HUD_useHUD'
+        file: 'HUD_groupListings'
       }
     ]
   },
@@ -135,51 +111,55 @@ module.exports = [
     articles: [
       {
         name: 'Create a Notification',
-        file: 'HUD_useHUD'
+        file: 'Center_steward_settings_notifications'
       },
       {
         name: 'Manage Listings as an Org Steward',
-        file: 'HUD_useHUD'
+        file: 'Center_listingManagementPage_orgSteward'
       },
       {
         name: 'Manage Listings as a Center Steward',
-        file: 'HUD_useHUD'
+        file: 'Center_listingManagementPage_centerSteward'
       },
       {
-        name: 'Approve or Return a Listing',
-        file: 'HUD_useHUD'
+        name: 'Approve or Return a Listing as an Org Steward',
+        file: 'Center_listings_approveReject_orgSteward'
+      },
+      {
+        name: 'Approve or Return a Listing as a Center Steward',
+        file: 'Center_listings_approveReject_centerSteward'
       },
       {
         name: 'Enable or Disable a Listing',
-        file: 'HUD_useHUD'
+        file: '404'
       },
       {
         name: 'Feature a Listing',
-        file: 'HUD_useHUD'
+        file: 'Center_steward_featureFlag'
       },
       {
         name: 'Change Center Settings',
-        file: 'HUD_useHUD'
+        file: 'Center_steward_settings'
       },
       {
         name: 'Manage Center Categories',
-        file: 'HUD_useHUD'
+        file: 'Center_steward_settings_category'
       },
       {
         name: 'Manage Contact Types',
-        file: 'HUD_useHUD'
+        file: 'Center_steward_settings_contactType'
       },
       {
         name: 'Manage Intents',
-        file: 'HUD_useHUD'
+        file: 'Center_steward_settings_intent'
       },
       {
         name: 'Manage Organizations',
-        file: 'HUD_useHUD'
+        file: 'Center_steward_settings_org'
       },
       {
         name: 'Manage Stewards',
-        file: 'HUD_useHUD'
+        file: '404'
       }
     ]
   }
