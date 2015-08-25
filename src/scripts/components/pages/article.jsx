@@ -38,7 +38,7 @@ module.exports = React.createClass({
             <li className="active">
               <Link to="part"
                 params={{
-                  part: 'Global'
+                  part: 'global'
                 }}>
                 Home
               </Link>
