@@ -5,7 +5,8 @@ render: function(){
 return ( 
 <div>
 
-<h1>Center Settings: <a id="Categories" name="Categories">Categories</a></h1>
+<h1>Manage Center Categories</h1>
+
 <p>Center Stewards can add, edit or delete categories. </p>
 <p>Categories group listings by similar characteristics. They help people narrow their search results on the Search and Discovery Page:</p>
 
@@ -14,7 +15,7 @@ return (
 <h3>Access category settings:</h3>
 
 <ol>
-	<li>Click <img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  />&nbsp;on the right-side of the Global Toolbar.</li>
+	<li>Click <img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  /> on the right-side of the Global Toolbar.</li>
 	<li>Select Center Settings<br />
 	<img alt="Center Settings Link on Main Menu" src="Doc_images/centerSettingsLink_MainMenu.png"  title="Center Settings Link on Main Menu" /></li>
 	<li>The Center Settings page will open to the Categories tab:<br />
@@ -28,7 +29,7 @@ return (
 	<img alt="Add new category" src="Doc_images/AddNewCategory.png"  title="Add new category" /></li>
 	<li>The Create Category window opens. Give the category a Title and Description, and then click Save.</li>
 	<li>The category will appear on the list of categories on the Center Settings page and on the Search and Discovery Page.<br />
-	<em>Note: Listings&nbsp;are sorted&nbsp;alphabetically.</em></li>
+	<em>Note: Listings are sorted alphabetically.</em></li>
 </ol>
 
 <h2>Edit a category:</h2>
@@ -48,17 +49,9 @@ return (
 	<li>A confirmation window appears, click Delete:<br />
 	<img alt="Category Delete Warning" src="Doc_images/categoryDeleteWarning.png"  title="Category Delete Warning" /></li>
 	<li>The category will be removed from the list of categories on the Center Settings page and on the Search and Discovery Page.<br />
-	<i>However, if the category is associated with a listing, it cannot be deleted. To delete the category you have to remove its association with all listings. Edit each listing using the Create/Edit Form. &nbsp;</i></li>
+	<i>However, if the category is associated with a listing, it cannot be deleted. To delete the category you have to remove its association with all listings. Edit each listing using the Create/Edit Form.</i></li>
 </ol>
 
-<h2>Related Info</h2>
-<ul >
-	<li><a href="Center_listings_create.html">Create a Listing</a></li>
-	<li><a href="Center_steward_settings_contactType.html">Contact Type Settings</a></li>
-	<li><a href="Center_steward_settings_intent.html">Intent Settings</a></li>
-	<li><a href="Center_steward_settings_org.html">Organization Settings</a></li>
-	<li><a href="Center_steward_settings_steward.html">Steward Settings</a></li>
-</ul>
 
 </div>
 );

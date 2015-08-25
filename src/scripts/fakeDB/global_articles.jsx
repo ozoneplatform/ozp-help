@@ -30,7 +30,7 @@ module.exports = [
         file: 'GlobalToolbar_overview'
       },
       {
-        name: 'Receive and Delete Notifications',
+        name: 'Receive and Dismiss Notifications',
         file: 'GlobalToolbar_notifications'
       },
       {
@@ -56,7 +56,7 @@ module.exports = [
         file: 'Webtop_dashboards_create'
       },
       {
-        name: 'Edit a Dashboard',
+        name: 'Edit or Delete a Dashboard',
         file: 'Webtop_dashboards_edit'
       },
       {
@@ -74,8 +74,12 @@ module.exports = [
         file: 'Center_search'
       },
       {
-        name: 'Create a Listing',
+        name: 'Viewing Listings',
         file: 'Center_listings_overview'
+      },
+      {
+        name: 'Create a Listing',
+        file: 'Center_listings_create'
       },
       {
         name: 'Edit a Listing',
@@ -110,28 +114,28 @@ module.exports = [
     name: 'Administration',
     articles: [
       {
-        name: 'Create a Notification',
-        file: 'Center_steward_settings_notifications'
-      },
-      {
         name: 'Manage Listings as an Org Steward',
         file: 'Center_listingManagementPage_orgSteward'
-      },
-      {
-        name: 'Manage Listings as a Center Steward',
-        file: 'Center_listingManagementPage_centerSteward'
       },
       {
         name: 'Approve or Return a Listing as an Org Steward',
         file: 'Center_listings_approveReject_orgSteward'
       },
       {
-        name: 'Approve or Return a Listing as a Center Steward',
-        file: 'Center_listings_approveReject_centerSteward'
+        name: 'The Role of Center Steward',
+        file: 'Center_steward_overview'
       },
       {
-        name: 'Enable or Disable a Listing',
-        file: '404'
+        name: 'Send a Notification',
+        file: 'Center_steward_settings_notifications'
+      },
+      {
+        name: 'Manage Listings as a Center Steward',
+        file: 'Center_listingManagementPage_centerSteward'
+      },
+      {
+        name: 'Approve or Return a Listing as a Center Steward',
+        file: 'Center_listings_approveReject_centerSteward'
       },
       {
         name: 'Feature a Listing',
@@ -159,7 +163,7 @@ module.exports = [
       },
       {
         name: 'Manage Stewards',
-        file: '404'
+        file: 'Center_steward_settings_steward'
       }
     ]
   }
