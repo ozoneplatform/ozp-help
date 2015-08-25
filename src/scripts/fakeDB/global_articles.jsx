@@ -100,7 +100,7 @@ module.exports = [
         file: 'HUD_useHUD'
       },
       {
-        name: 'Group listings by Folder',
+        name: 'Group Bookmarked Listings by Folder',
         file: 'HUD_groupListings'
       }
     ]

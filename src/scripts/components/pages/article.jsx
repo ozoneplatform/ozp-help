@@ -65,6 +65,27 @@ module.exports = React.createClass({
             <this.state.Article />
           </div>
         </div>
+        <div className="modal-nav well well-sm clearfix">
+            <h4 class="col-md-12">Related Articles</h4>
+            <a className="col-md-2" href="#">
+                <p>Delete a Dashboard</p>
+            </a>
+            <a className="col-md-2" href="#">
+                <p>Group Listings by Folder</p>
+            </a>
+            <a className="col-md-2" href="#">
+                <p>Using the Global Toolbar</p>
+            </a>
+            <a className="col-md-2" href="#">
+                <p>Getting Started with Ozone</p>
+            </a>
+            <a className="col-md-2" href="#">
+                <p>Getting Started with Ozone</p>
+            </a>
+            <a className="col-md-2" href="#">
+                <p>Getting Started with Ozone</p>
+            </a>
+        </div>
         <div className="modal-footer">
             <h4>Have a question not answered here?&nbsp;&nbsp;</h4>
             <button type="button" className="btn btn-primary">Contact the Help Desk</button>

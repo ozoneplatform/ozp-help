@@ -70,6 +70,10 @@ module.exports = React.createClass({
 
     return (
       <div>
+        <div className="modal-highlight">
+            {/*<img src="/screenshot.png" />*/}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vnXb1S6l_jE" frameborder="0" allowfullscreen></iframe>
+        </div>
         <div className="modal-body clearfix">
             {/*<ol className="breadcrumb">
                 <li><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help">Home</a></li>
@@ -79,29 +83,6 @@ module.exports = React.createClass({
                 {sections}
             </div>
         </div>
-        {/*<div className="modal-nav well well-sm clearfix">
-            <a className="col-md-1" href="#">
-                <i className="icon-rewind"></i>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>Delete a Dashboard</p>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>Group Listings by Folder</p>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>Using the Global Toolbar</p>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>Getting Started with Ozone</p>
-            </a>
-            <a className="col-md-2" href="#" data-toggle="modal" data-dismiss="modal" data-target="#modal_help_article">
-                <p>Create a Dashboard</p>
-            </a>
-            <a className="col-md-1" href="#">
-                <i className="icon-fast-forward"></i>
-            </a>
-        </div>*/}
         <div className="modal-footer">
             <h4>Have a question not answered here?&nbsp;&nbsp;</h4>
             <button type="button" className="btn btn-primary">Contact the Help Desk</button>
