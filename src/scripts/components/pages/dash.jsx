@@ -5,7 +5,7 @@ const Reflux    = require('reflux'),
       Router    = require('react-router'),
       { Route, RouteHandler, Link } = Router;
 
-let GlobalActions = require('../../actions/GlobalActions.jsx');
+var GlobalActions = require('../../actions/GlobalActions.jsx');
 
 module.exports = React.createClass({
 
@@ -22,7 +22,7 @@ module.exports = React.createClass({
   },
 
   render(){
-    let router = this.context;
+    var router = this.context;
 
     return (
       <div className="modal-body clearfix">

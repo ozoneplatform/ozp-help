@@ -4,10 +4,10 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var DEFAULT_IMG_OPT_STRING = 'image?bypassOnDebug&optimizationLevel=7';
 
 var commonLoaders = [
-  {test: /\.(png|svg)$/i, loaders: [DEFAULT_IMG_OPT_STRING + '&interlaced=true']},
-  {test: /\.(gif)$/i, loaders: [DEFAULT_IMG_OPT_STRING     + '&interlaced=false']},
-  {test: /\.(jpe?g)$/i, loaders: [DEFAULT_IMG_OPT_STRING   + '&interlaced=false&progressive=true']},
-  {test: /\.css$/, loader: "style-loader!css-loader" }
+  { test: /.*\.json$/, loader: 'json'},
+  { test: /.*\.md$/, loader: 'file' },
+  { test: /\.css$/, loader: "style-loader!css-loader" },
+  { test: /\.jpe?g$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/, loader: "file-loader"}
 ];
 
 module.exports = {
