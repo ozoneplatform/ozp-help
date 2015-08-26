@@ -9,7 +9,7 @@ return (
 
 <p>Org stewards can see every listing in their organization from their Listing Management page. To access this page, click the drop-down Main Menu on the right side of the Global Toolbar and select Listing Management:</p>
 
-<p><img alt="Link to Listing Management Page from Global Toolbar" src="Doc_images/listingManagementLink.png"   title="Listing Management Page" /></p>
+<p><img alt="Link to Listing Management Page from Global Toolbar" src="Doc_images/listingManagementLink.png" title="Listing Management Page" /></p>
 
 <p>As an organizational steward, the Listing Management page displays information about listings you own and listings you oversee. The Listing Management page displays different information for different users. The following sections explain each field as it relates to org stewards. For the user view see <a href="Center_listingManagementPage_user.html">Manage your Created Listings</a>.</p>
 
