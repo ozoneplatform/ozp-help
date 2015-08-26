@@ -1,3 +1,10 @@
+// Automatically Generated Module
+var React = require('react');
+module.exports = React.createClass({
+render: function(){
+return ( 
+<div>
+
 <h1>Create a Listing</h1>
 
 <p>Anyone can create a listing. Only stewards can approve them. This section explains how to create a listing and it defines each field on the Create/Edit Listing Form.</p>
@@ -271,10 +278,7 @@
 </table>
 
 
-<h2>Related Info</h2>
-<ul>
-	<li><a href="Center_listings_overview.html">Listing Overview</a></li>
-	<li><a href="Center_listings_reviews.html">Review a Listing</a></li>
-	<li><a href="Center_listings_edit.html">Edit a Listing</a></li>
-	<li><a href="Center_listingManagementPage_orgSteward.html">Org Steward: Listing Management Page</a></li>
-</ul>
+</div>
+);
+}
+});

@@ -5,28 +5,33 @@ render: function(){
 return ( 
 <div>
 
-<h1>Listing Actions from HUD</h1>
+<h1>Using HUD</h1>
+
+<p>You can access HUD two ways using the Global Toolbar:</p>
+
+<ul>
+	<li>
+	<p>Click the <img alt="HUD icon in toolbar" src="Doc_images/HUD_icon.png"  title="HUD icon" /> icon on the upper-left side of the toolbar or click the <br />
+	<img alt="Main Menu icon" src="Doc_images/Main_menu_icon.png"  title="Main Menu icon" /> icon on the far-right side of the toolbar, then select Bookmarks:</p>
+	</li>
+</ul>
+
+<p><img alt="HUD access from toolbar" src="Doc_images/HUD-access-from-toolbar.png"  title="HUD access from toolbar" /><br />
+<b>Accessing HUD from the Global Toolbar</b></p>
 
 <p>From HUD you can <b>open, get help or remove bookmarks</b> for a listing. Each action is found under the drop-down menu located on the upper-right side of a listing:<br />
 <img alt="Drop-down listing actions menu" src="Doc_images/drop-down-listing-actions.png"  title="Drop-down listing actions menu" /><br />
 <b>Drop-down listing actions menu</b></p>
 
-<p>Listing commands--accessible from the drop-down menu on the upper-right side of the listing:</p>
+<p>Listing commands are accessible from the drop-down menu on the upper-right side of the listing:</p>
 
 <ul>
-	<li><b>Launch in Webtop</b> -- Opens the listing in your HUD.</li>
-	<li><b>Launch in new tab </b>-- Opens the listing in a new browser tab.</li>
-	<li><b>Get help</b> -- Opens the listing&#39;s Help resources.</li>
-	<li><b>Remove Bookmark</b> -- Deletes the listing from your HUD. To add it again: go to Center, search for the listing and bookmark it.</li>
+	<li><b>Launch in Webtop</b> - Opens the listing in your HUD.</li>
+	<li><b>Launch in new tab </b> - Opens the listing in a new browser tab.</li>
+	<li><b>Get help</b> - Opens the listing's Help resources.</li>
+	<li><b>Remove Bookmark</b> - Deletes the listing from your HUD. To add it again: go to Center, search for the listing and bookmark it.</li>
 </ul>
 
-<h2>Related Info</h2>
-<ul >
-	<li><a href="HUD_groupListings.html">Group Listings on your HUD</a></li>
-	<li><a href="HUD_overview.html">HUD Overview</a></li>
-	<li><a href="HUD_access.html">HUD Access</a></li>
-	<li><a href="GlobalToolbar_overview.html">Global Toolbar Overview</a></li>
-</ul>
 
 </div>
 );

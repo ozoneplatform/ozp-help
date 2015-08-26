@@ -73,6 +73,10 @@
 .modal-body {
     padding: 30px;
 
+    img {
+        max-width: 100%;
+    }
+
     .breadcrumb {
         background: $gray-lightest;
     }
