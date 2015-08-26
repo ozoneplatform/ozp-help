@@ -47,7 +47,7 @@ return (
 
 <p><b>Enabled</b></p>
 
-<p>All stewards see the Enabled section which allows them to filter by <b>enabled and disabled listings</b> (For information about enabled and disabled listings see </a><a href="Center_listings_approveReject_centerSteward.html#CenterEnableDisable">Enable or Disable a Listing</a>.</p>
+<p>All stewards see the Enabled section which allows them to filter by <b>enabled and disabled listings</b> (For information about enabled and disabled listings see <a href="Center_listings_approveReject_centerSteward.html">Enable or Disable a Listing</a>.</p>
 
 
 

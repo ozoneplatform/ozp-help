@@ -15,7 +15,7 @@ return (
 	<li>Click the listing icon to open the listing's Detailed View.</li>
 	<li>Click the Reviews tab:</li>
 	<li>Your review options are located on the right, enter a <b>Star Rating</b> and type a comment in the <b>Description field</b>:<br />
-	<img alt="Reviewing a Listing Example" src="Doc_images/Reviewing-a-listing-example.png" style="height: 295px; width: 624px" title="Reviewing a Listing Example" /><br />
+	<img alt="Reviewing a Listing Example" src="Doc_images/Reviewing-a-listing-example.png" height="295px" width="624px" title="Reviewing a Listing Example" /><br />
 	<b>Reviewing a Listing Example</b></li>
 	<li>Click Submit for your comment to be added to the listing Reviews and affect the Average Star rating.</li>
 </ol>

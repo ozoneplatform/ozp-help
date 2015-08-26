@@ -6,7 +6,7 @@ return (
 <div>
 
 <h1>Understanding Center</h1>
-<p>Use Center to find the applications you need to do your work. You can explore it using search, filters and categories or add your own listings.
+<p>Use Center to find the applications you need to do your work. You can explore it using search, filters and categories or add your own listings.</p>
 
 <p><img alt="Search and Discovery Page" src="Doc_images/center-search-and-discovery-page.png" title="Search and Discovery Page" /></p>
 
