@@ -8,8 +8,10 @@ return (
 <h1>Search for Listings</h1>
 
 <p>There are a number of ways to find listings in Center. Remember that only Approved, Enabled listings appear in search results. This section explains Center's searching tools:</p>
-<img alt="Center Search Tools" src="Doc_images/SearchingTools.png" style="height: 438px; width: 527px" title="Center Search Tools" /><br />
-<b>Search Tools</b><br />
+<p><img alt="Center Search Tools" src="Doc_images/SearchingTools.png" height="438" width="527px" title="Center Search Tools" /></p>
+
+<br />
+<h3>Search Tools</h3>
 
 <p><b>Search box</b> - The search box is located at the top of the Search and Discovery Page. When you enter a search term, the system looks for your term in the listing name, description, tags, etc.</p>
 

@@ -5,7 +5,7 @@ render: function(){
 return ( 
 <div>
 
-<h1>Approve or Reject a Listing as a Org Steward</h1>
+<h1>Approve or Return a Listing as a Org Steward</h1>
 
 <p>Before users can find and bookmark listings from Center, an org steward and Center steward must approve the listings. The following section describes the <b>org steward </b>approval process:</p>
 

@@ -9,7 +9,7 @@ return (
 
 <p>Org stewards can see every listing in their organization from their Listing Management page. To access this page, click the drop-down Main Menu on the right side of the Global Toolbar and select Listing Management:</p>
 
-<p><img alt="Link to Listing Management Page from Global Toolbar" src="Doc_images/listingManagementLink.png"   title="Listing Management Page" /></p>
+<p><img alt="Link to Listing Management Page from Global Toolbar" src="Doc_images/listingManagementLink.png" title="Listing Management Page" /></p>
 
 <p>As an organizational steward, the Listing Management page displays information about listings you own and listings you oversee. The Listing Management page displays different information for different users. The following sections explain each field as it relates to org stewards. For the user view see <a href="Center_listingManagementPage_user.html">Manage your Created Listings</a>.</p>
 
@@ -23,7 +23,7 @@ return (
 	<li>Each <b>organizational tab</b> displays listings that you oversee for that specific organization. All the organization's listings appear there.</li>
 </ul>
 
-<img alt="State Panel for an org steward" border="0" src="Doc_images/orgSteward_statePanel.png" style="float:left; margin: 0 20px 20px 0" />
+<img alt="State Panel for an org steward" border="0" src="Doc_images/orgSteward_statePanel.png" />
 
 <p>The left-side State panel provides slightly different information than a user's or Center steward's left-side panel:</p>
 
@@ -40,7 +40,7 @@ return (
 
 <p><b>Enabled</b></p>
 
-<p>All stewards see the Enabled section which allows them to filter by enabled and disabled listings. (For information about enabled and disabled listings see <a href="Center_listings_approveReject_orgSteward.html#OrgEnableDisable">Enable or Disable a Listing</a>.</p>
+<p>All stewards see the Enabled section which allows them to filter by enabled and disabled listings. (For information about enabled and disabled listings see <a href="Center_listings_approveReject_orgSteward.html">Enable or Disable a Listing</a>.</p>
 
 
 </div>
