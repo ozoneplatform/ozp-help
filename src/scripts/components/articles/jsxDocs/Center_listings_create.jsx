@@ -7,6 +7,13 @@ return (
 
 <h1>Create a Listing</h1>
 
+<iframe width="560"
+  height="315"
+  src="https://www.youtube.com/embed/vnXb1S6l_jE"
+  frameBorder="0" allowfullscreen title="TUTORIAL 8 - How to Submit an App">
+</iframe>
+<br /><br />
+
 <p>Anyone can create a listing. Only stewards can approve them. This section explains how to create a listing and it defines each field on the Create/Edit Listing Form.</p>
 
 <p><img alt="Submit a listing" src="/Doc_images/submit-a-listing.png" title="Submit a listing" /></p>

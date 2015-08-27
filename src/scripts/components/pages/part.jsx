@@ -71,8 +71,7 @@ module.exports = React.createClass({
     return (
       <div>
         <div className="modal-highlight">
-            {/*<img src="/screenshot.png" />*/}
-            {/*@wski: We will leave this here for not, since it will be changed elsewhere*/}
+            {/*@wski: We will leave this here for now, since it will be changed elsewhere*/}
             <iframe width="560"
               height="315"
               src="https://www.youtube.com/embed/vnXb1S6l_jE"

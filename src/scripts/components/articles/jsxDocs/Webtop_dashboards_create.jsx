@@ -11,7 +11,12 @@ return (
 	A dashboard is a screen where you organize your tools. It is your workspace to configure listings and allow them to share information that is only saved in the browser, not returned to each listing's respective servers.
 </p>
 
-<br />
+<iframe width="560"
+  height="315"
+  src="https://www.youtube.com/embed/vnXb1S6l_jE"
+  frameBorder="0" allowfullscreen title="TUTORIAL 7 - Dashboard Set Up">
+</iframe>
+<br /><br />
 
 <img alt="Dashboard" src="Doc_images/Webtop.png"  title="Dashboard" />
 

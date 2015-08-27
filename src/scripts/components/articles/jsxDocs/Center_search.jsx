@@ -7,6 +7,14 @@ return (
 
 <h1>Search for Listings</h1>
 
+<iframe width="560"
+  height="315"
+  src="https://www.youtube.com/embed/vnXb1S6l_jE"
+  frameBorder="0" allowfullscreen title="TUTORIAL 3 - Search for Apps">
+</iframe>
+<br /><br />
+
+
 <p>There are a number of ways to find listings in Center. Remember that only Approved, Enabled listings appear in search results. This section explains Center's searching tools:</p>
 <p><img alt="Center Search Tools" src="Doc_images/SearchingTools.png" height="438" width="527px" title="Center Search Tools" /></p>
 
