@@ -6,10 +6,10 @@ const Reflux    = require('reflux'),
       Router    = require('react-router'),
       { Route, RouteHandler, Link } = Router;
 
-let GlobalActions = require('../../actions/GlobalActions.jsx');
+var GlobalActions = require('../../actions/GlobalActions.jsx');
 
 const FakeDB = require('../../fakeDB');
-let Articles = {
+var Articles = {
   center: _.sortBy(FakeDB.Center, 'priority'),
   webtop: _.sortBy(FakeDB.Webtop, 'priority'),
   hud: _.sortBy(FakeDB.HUD, 'priority'),

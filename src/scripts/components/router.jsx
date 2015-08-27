@@ -1,4 +1,3 @@
-require('../../../public/main.css');
 
 var React = require('react');
 

@@ -6,7 +6,7 @@ const Reflux    = require('reflux'),
       { Route, RouteHandler, Link } = Router;
 
 
-let GlobalActions = require('../../actions/GlobalActions.jsx');
+var GlobalActions = require('../../actions/GlobalActions.jsx');
 
 module.exports = React.createClass({
   mixins: [ Router.State, Reflux.ListenerMixin],
@@ -23,8 +23,8 @@ module.exports = React.createClass({
   },
 
   componentDidMount(){
-    let router = this.context;
-    let article = require(`../articles/jsxDocs/${router.getCurrentParams().article}.jsx`);
+    var router = this.context;
+    var article = require(`../articles/jsxDocs/${router.getCurrentParams().article}.jsx`);
     this.setState({
       Article: article
     });

@@ -5,6 +5,7 @@ gutil         = require 'gulp-util'
 minifyHTML    = require 'gulp-minify-html'
 del           = require 'del'
 sass          = require 'gulp-sass'
+shell         = require 'gulp-shell'
 
 # gulp filter is optional, in case you need it
 gulpFilter    = require 'gulp-filter'
@@ -159,6 +160,19 @@ gulp.task('test', (done) ->
     done()
   )
 )
+
+pjson = '../../package.json'
+
+build_dir = 'dist'
+
+gulp.task 'tarDistDate', shell.task([
+  './packageRelease.sh center-prod dist'
+])
+
+gulp.task 'tarDistVersion', shell.task([
+  './packageRelease.sh center-prod dist ' + pjson.version + ''
+])
+
 
 # gulp build
 # description -- create a production ready snapshot into paths.dest folder ( default ./public )
