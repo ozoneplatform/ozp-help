@@ -68,22 +68,22 @@ module.exports = React.createClass({
         <div className="modal-nav well well-sm clearfix">
             <h4 class="col-md-12">Related Articles</h4>
             <a className="col-md-2 col-xs-12" href="#">
-                <p>Delete a Dashboard</p>
+                <p>Getting Started with OZONE</p>
             </a>
             <a className="col-md-2 col-xs-12" href="#">
-                <p>Group Listings by Folder</p>
+                <p>Understanding HUD</p>
             </a>
             <a className="col-md-2 col-xs-12" href="#">
-                <p>Using the Global Toolbar</p>
+                <p>Understanding Center</p>
             </a>
             <a className="col-md-2 col-xs-12" href="#">
-                <p>Getting Started with Ozone</p>
+                <p>Understanding Webtop</p>
             </a>
             <a className="col-md-2 col-xs-12" href="#">
-                <p>Getting Started with Ozone</p>
+                <p></p>
             </a>
             <a className="col-md-2 col-xs-12" href="#">
-                <p>Getting Started with Ozone</p>
+                <p></p>
             </a>
         </div>
         <div className="modal-footer">
