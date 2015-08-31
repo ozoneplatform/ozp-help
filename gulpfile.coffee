@@ -163,14 +163,12 @@ gulp.task('test', (done) ->
 
 pjson = '../../package.json'
 
-build_dir = 'dist'
-
 gulp.task 'tarDistDate', shell.task([
-  './packageRelease.sh center-prod dist'
+  './packageRelease.sh help-prod public'
 ])
 
 gulp.task 'tarDistVersion', shell.task([
-  './packageRelease.sh center-prod dist ' + pjson.version + ''
+  './packageRelease.sh help-prod public ' + pjson.version + ''
 ])
 
 
