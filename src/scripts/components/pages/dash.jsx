@@ -16,9 +16,7 @@ module.exports = React.createClass({
   },
 
   componentDidMount(){
-    GlobalActions.mySickAction('Coming at you store!', function(result){
-      console.log(result);
-    });
+
   },
 
   render(){

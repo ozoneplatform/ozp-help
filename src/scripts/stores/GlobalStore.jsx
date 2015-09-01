@@ -6,6 +6,7 @@ var GlobalActions = require('../actions/GlobalActions');
 var _ = require('lodash');
 var $ = require('jquery');
 
+var relatedArticles = {};
 
 module.exports = Reflux.createStore({
   listenables: [GlobalActions],
@@ -14,9 +15,13 @@ module.exports = Reflux.createStore({
   init: function(){
   },
 
-  onMySickAction: function(someData){
-    console.log(someData);
-    this.trigger('truck');
-  }
+  onSetRelatedArticles: function(newRelatedArticles){
+    relatedArticles = newRelatedArticles;
+  },
+
+  onFetchRelatedArticles: function(){
+    GlobalActions.sendRelatedArticles(relatedArticles);
+  },
+
 
 });

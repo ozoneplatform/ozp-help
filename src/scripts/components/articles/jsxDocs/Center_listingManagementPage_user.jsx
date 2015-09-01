@@ -2,6 +2,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Reflux = require('reflux');
+var { Route, RouteHandler, Link } = Router;
 module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
@@ -15,12 +16,11 @@ render: function(){return (
 
 <p><img alt="Link to Listing Management Page from Global Toolbar" src="Doc_images/listingManagementLink.png" title="Listing Management Page" /></p>
 
-<p>As a user, the Manage section displays information about listings you own.<br />
-<i>Note: <a href="Center_steward_overview.html">Stewards will see additional tabs</a> related to administering listing in their organization.</i></p>
+<p>As a user, the Manage section displays information about listings you own.</p>
 
 <p><img alt="Listing Management Page" src="Doc_images/ListingManagementPage.png"   title="Listing Management Page" /></p>
 
-<p>The Listing Management page displays different information for different users. The following sections explain each field as it relates to a user. For Steward information about the Listing Management Page see the <a href="Center_listingManagementPage_orgSteward.html">Content Steward View</a>.</p>
+<p>The Listing Management page displays different information for different users. The following sections explain each field as it relates to a user.</p>
 
 <p>As a <b>user</b>, you see all the listings that you own (including active, disabled and draft listings); the Recent Activity tab describes changes to listings you own; and the State panel on the left side provides an overview on the status of your listings:</p>
 

@@ -2,6 +2,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Reflux = require('reflux');
+var { Route, RouteHandler, Link } = Router;
 module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
@@ -15,11 +16,31 @@ render: function(){return (
 
 <h3>Or try one of these articles:</h3>
 <ul>
-	<li><a href="OZONE_overview.html">OZONE Overview</a></li>
-	<li><a href="GlobalToolbar_overview.html">Global Toolbar Overview</a></li>
-	<li><a href="Webtop_overview.html">Webtop Overview</a></li>
-	<li><a href="Center_overview.html">Center Overview</a></li>
-	<li><a href="HUD_overview.html">HUD Overview</a></li>
+	<li><Link to="article" params={{
+  part: 'global',
+  article: 'OZONE_overview',
+  title: 'Getting Started with Ozone'
+}}>Getting Started with OZONE</Link></li>
+	<li><Link to="article" params={{
+  part: 'global',
+  article: 'GlobalToolbar_overview',
+  title: 'Using the Global Toolbar'
+}}>Using the Global Toolbar</Link></li>
+	<li><Link to="article" params={{
+  part: 'global',
+  article: 'Webtop_overview',
+  title: 'Understanding Webtop'
+}}>Understanding Webtop</Link></li>
+	<li><Link to="article" params={{
+  part: 'global',
+  article: 'Center_overview',
+  title: 'Understanding Center'
+}}>Understanding Center</Link></li>
+	<li><Link to="article" params={{
+  part: 'global',
+  article: 'HUD_overview',
+  title: 'Understanding HUD'
+}}>Understanding HUD</Link></li>
 </ul>
 
 

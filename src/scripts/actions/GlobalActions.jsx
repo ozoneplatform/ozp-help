@@ -1,7 +1,7 @@
 var Reflux = require('reflux');
 
 actions = [
-  'mySickAction'
+  'setRelatedArticles', 'fetchRelatedArticles', 'sendRelatedArticles'
 ];
 
 module.exports = Reflux.createActions(actions);

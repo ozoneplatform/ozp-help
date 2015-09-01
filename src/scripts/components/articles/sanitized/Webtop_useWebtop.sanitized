@@ -11,7 +11,19 @@
 
 <p><img alt="Webtop access from the toolbar" src="Doc_images/webtop-access--from-toolbar.png"  title="Webtop access from the toolbar" /><br /></p>
 
-<p>This graphic explains how you do your work in Webtop. To learn how to add listings, create dashboards and configure your screen see <a href="Webtop_addListing.html">Add Listings to Webtop</a>, <a href="Webtop_dashboards_create.html">Create Dashboards</a> and <a href="Webtop_lower_toolbar.html">Navigate with the Webtop Toolbar</a>. </p>
+<p>This graphic explains how you do your work in Webtop. To learn how to add listings, create dashboards and configure your screen see <Link to="article" params={{
+  part: 'global',
+  article: 'Webtop_addListing',
+  title: 'Add Listings to a Dashboard'
+}}>Add Listings to Webtop</Link>, <Link to="article" params={{
+  part: 'global',
+  article: 'Webtop_dashboards_create',
+  title: 'Create a Dashboard'
+}}>Create a Dashboard</Link> and <Link to="article" params={{
+  part: 'global',
+  article: 'Webtop_lower_toolbar',
+  title: 'Navigate with the Webtop Toolbar'
+}}>Navigate with the Webtop Toolbar</Link>. </p>
 
 <p><br />
 <img alt="Overview of webtop functions." src="Doc_images/WebtopOverview.png"  title="Overview of webtop functions." /><br />

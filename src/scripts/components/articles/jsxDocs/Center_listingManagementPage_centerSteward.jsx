@@ -2,6 +2,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Reflux = require('reflux');
+var { Route, RouteHandler, Link } = Router;
 module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
@@ -15,7 +16,11 @@ render: function(){return (
 
 <p><img alt="Link to Listing Management Page from Global Toolbar" src="Doc_images/listingManagementLink.png" title="Listing Management Page" /></p>
 
-<p>As a Center steward, the Listing Management page displays information about listings you own and listings you oversee. For user instructions about the Listing Management page see the <a href="Center_listingManagementPage_user.html">User View</a>: Listing Management Page.</p>
+<p>As a Center steward, the Listing Management page displays information about listings you own and listings you oversee. For the user view see <Link to="article" params={{
+  part: 'global',
+  article: 'Center_listingManagementPage_user',
+  title: 'Manage your Created Listings'
+}}>Manage your Created Listings</Link>.</p>
 
 <p><img alt="Steward Management Tabs" border="0" src="Doc_images/mpSteward_managementTabs.png" /></p>
 
@@ -39,7 +44,11 @@ render: function(){return (
 <ul>
 	<li>All - Listings you oversee as a steward</li>
 	<li>Published - Listings that are approved by Center and organizational stewards within your organization (this number includes listings that are Disabled)</li>
-	<li>Needs action - Listing waiting for your approval. For instructions regarding approving or returning listings see <a href="Center_listings_approveReject_centerSteward.html">Approve or Return Listings</a>.</li>
+	<li>Needs action - Listing waiting for your approval. For instructions regarding approving or returning listings see <Link to="article" params={{
+  part: 'global',
+  article: 'Center_listings_approveReject_centerSteward',
+  title: 'Approve or Return a Listing as a Center Steward'
+}}>Approve or Return Listings</Link>.</li>
 	<li>Pending, Org. - Listings waiting for your approval</li>
 	<li>Returned - Listings returned to their owners</li>
 	<li>Draft - Listings in the system that have not been submitted for approval</li>
@@ -51,7 +60,11 @@ render: function(){return (
 
 <p><b>Enabled</b></p>
 
-<p>All stewards see the Enabled section which allows them to filter by <b>enabled and disabled listings</b> (For information about enabled and disabled listings see <a href="Center_listings_approveReject_centerSteward.html">Enable or Disable a Listing</a>.</p>
+<p>All stewards see the Enabled section which allows them to filter by <b>enabled and disabled listings</b> (For information about enabled and disabled listings see <Link to="article" params={{
+  part: 'global',
+  article: 'Center_listings_approveReject_centerSteward',
+  title: 'Approve or Return a Listing as a Center Steward'
+}}>Enable or Disable a Listing</Link>.</p>
 
 
 

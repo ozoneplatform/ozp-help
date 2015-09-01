@@ -2,6 +2,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Reflux = require('reflux');
+var { Route, RouteHandler, Link } = Router;
 module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
@@ -28,7 +29,11 @@ render: function(){return (
 	<li>Click the Organizations tab on the Center Settings page.</li>
 	<li>Click Add New at the top of the table.</li>
 	<li>The Create Organization window opens. Enter a Title and Acronym or Abbreviation that will appear on the listing's Short View and Detailed View. (Max size 8 characters)</li>
-	<li>Click Save. After refreshing, the organization will appear as an option in the Stewards drop-down and on the Create/Edit Form as an Organization option. See the <a href="Center_steward_settings_steward.html">Steward Settings</a> to learn how to associate a steward with the new organization.</li>
+	<li>Click Save. After refreshing, the organization will appear as an option in the Stewards drop-down and on the Create/Edit Form as an Organization option. See the <Link to="article" params={{
+  part: 'global',
+  article: 'Center_steward_settings_steward',
+  title: 'Manage Stewards'
+}}>Steward Settings</Link> to learn how to associate a steward with the new organization.</li>
 </ol>
 
 <h2>Edit an organization:</h2>

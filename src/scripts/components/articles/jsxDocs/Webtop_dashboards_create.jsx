@@ -2,6 +2,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Reflux = require('reflux');
+var { Route, RouteHandler, Link } = Router;
 module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
@@ -28,9 +29,8 @@ render: function(){return (
 
 <b>Dashboard Example</b>
 
-<h2>
-	<a id="CreateDashboard" name="CreateDashboard">Create a Dashboard</a>
-</h2>
+<br /><br/>
+<h2>Create a Dashboard</h2>
 
 <p>You can create multiple dashboards with different configurations of listings. Consider making different dashboards for different tasks. You can use the same listing on multiple dashboards. The dashboards can be in grid or desktop format. If you edit the dashboard to change it from one format to the other, your listings will lose their state (i.e. they will refresh and you will lose the data they are displaying).</p>
 

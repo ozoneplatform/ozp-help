@@ -2,6 +2,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Reflux = require('reflux');
+var { Route, RouteHandler, Link } = Router;
 module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
@@ -43,7 +44,11 @@ render: function(){return (
 <p>The Create section relates to the development of applications and their submission to Center.</p>
 
 <ul>
-	<li><b>Submit a Listing</b> takes you to the <a href="Center_listings_create.html">Listing Create/Edit Form</a>. Completing the form allows you to submit listings to Center.</li>
+	<li><b>Submit a Listing</b> takes you to the <Link to="article" params={{
+  part: 'global',
+  article: 'Center_listings_create',
+  title: 'Create a Listing'
+}}>Listing Create/Edit Form</Link>. Completing the form allows you to submit listings to Center.</li>
 	<li><b>Developer Resources</b> opens a website selected by a Center steward. It is intended to provide a resource that will help develop applications.</li>
 </ul>
 
@@ -53,7 +58,11 @@ render: function(){return (
 
 <p><img alt="Listing Management Page" src="Doc_images/ListingManagementPage.png"/></p>
 
-<p>See <a href="Center_listingManagementPage_user.html">Manage your Created Listings</a> for more information.</p>
+<p>See <Link to="article" params={{
+  part: 'global',
+  article: 'Center_listingManagementPage_user',
+  title: 'Manage your Created Listings'
+}}>Manage your Created Listings</Link> for more information.</p>
 
 <h3>Submit Feedback</h3>
 

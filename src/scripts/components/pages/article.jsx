@@ -18,7 +18,8 @@ module.exports = React.createClass({
   getInitialState(){
     return {
       Part: this.context.getCurrentParams().part,
-      Article: require('../articles/jsxDocs/404.jsx')
+      Article: require('../articles/jsxDocs/404.jsx'),
+      relatedArticles: false
     };
   },
 
@@ -28,9 +29,25 @@ module.exports = React.createClass({
     this.setState({
       Article: article
     });
+
+    GlobalActions.fetchRelatedArticles();
+    this.listenTo(GlobalActions.sendRelatedArticles, (relatedArticles)=>{
+      if(relatedArticles.length){
+        this.setState({
+          relatedArticles: relatedArticles
+        });
+      }
+    });
   },
 
   render(){
+    var RelatedArticles = (this.state.relatedArticles) ? this.state.relatedArticles.map(function(article){
+      return(
+        <a className="col-md-2 col-xs-12" href="#">
+            <p>{article.name}</p>
+        </a>
+      );
+    }) : '';
     return (
       <div>
         <div className="modal-body clearfix">
@@ -65,27 +82,12 @@ module.exports = React.createClass({
             <this.state.Article />
           </div>
         </div>
-        <div className="modal-nav well well-sm clearfix">
-            <h4 class="col-md-12">Related Articles</h4>
-            <a className="col-md-2 col-xs-12" href="#">
-                <p>Getting Started with OZONE</p>
-            </a>
-            <a className="col-md-2 col-xs-12" href="#">
-                <p>Understanding HUD</p>
-            </a>
-            <a className="col-md-2 col-xs-12" href="#">
-                <p>Understanding Center</p>
-            </a>
-            <a className="col-md-2 col-xs-12" href="#">
-                <p>Understanding Webtop</p>
-            </a>
-            <a className="col-md-2 col-xs-12" href="#">
-                <p></p>
-            </a>
-            <a className="col-md-2 col-xs-12" href="#">
-                <p></p>
-            </a>
-        </div>
+        { this.state.relatedArticles &&
+          <div className="modal-nav well well-sm clearfix">
+              <h4 class="col-md-12">Related Articles</h4>
+              { RelatedArticles }
+          </div>
+        }
         <div className="modal-footer">
             <h4>Have a question not answered here?&nbsp;&nbsp;</h4>
             <button type="button" className="btn btn-primary">Contact the Help Desk</button>

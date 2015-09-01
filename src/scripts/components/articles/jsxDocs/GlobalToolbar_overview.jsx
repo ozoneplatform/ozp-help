@@ -2,6 +2,7 @@
 var React = require('react');
 var Router = require('react-router');
 var Reflux = require('reflux');
+var { Route, RouteHandler, Link } = Router;
 module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
@@ -29,17 +30,37 @@ render: function(){return (
 <p>Each Global Toolbar icon is described in the corresponding section:</p>
 
 <ul>
-	<li><img alt="HUD" src="Doc_images/HUD_icon.png"  /> Opens <a href="HUD_overview.html">HUD</a> (Heads up display) where your bookmarks are stored. Think of HUD like the home screen on a smart phone.</li>
+	<li><img alt="HUD" src="Doc_images/HUD_icon.png"  /> Opens <Link to="article" params={{
+  part: 'global',
+  article: 'HUD_overview',
+  title: 'Understanding HUD'
+}}>HUD</Link> (Heads up display) where your bookmarks are stored. Think of HUD like the home screen on a smart phone.</li>
 
-	<li><img alt="Center" src="Doc_images/center_icon.png"  /> Opens <a href="Center_overview.html">Center</a> where you can search for listings to bookmark to your HUD or open in Webtop.</li>
+	<li><img alt="Center" src="Doc_images/center_icon.png"  /> Opens <Link to="article" params={{
+  part: 'global',
+  article: 'Center_overview',
+  title: 'Understanding Center'
+}}>Center</Link> where you can search for listings to bookmark to your HUD or open in Webtop.</li>
 
-	<li><img alt="Webtop" src="Doc_images/Webtop_icon.png"  /> Opens <a href="Webtop_overview.html">Webtop</a> your customizable workspace within OZONE.</li>
+	<li><img alt="Webtop" src="Doc_images/Webtop_icon.png"  /> Opens <Link to="article" params={{
+  part: 'global',
+  article: 'Webtop_overview',
+  title: 'Understanding Webtop'
+}}>Webtop</Link> your customizable workspace within OZONE.</li>
 
-	<li><img alt="Notifications" src="Doc_images/Notifications_icon.png"  /> <a href="GlobalToolbar_notifications.html">Notifications</a> - If you have a notification the icon will change colors and a line will display above it.</li>
+	<li><img alt="Notifications" src="Doc_images/Notifications_icon.png"  /> <Link to="article" params={{
+  part: 'global',
+  article: 'GlobalToolbar_notifications',
+  title: 'Receive and Dismiss Notifications'
+}}>Notifications</Link> - If you have a notification the icon will change colors and a line will display above it.</li>
 
-	<li><img alt="Help" src="Doc_images/Help_content_icon.png"  /> <a href="GlobalToolbar_help.html">Help</a> - Links to system Help resources.</li>
+	<li><img alt="Help" src="Doc_images/Help_content_icon.png"  /> Help - Links to system Help resources.</li>
 
-	<li><img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  /> <a href="GlobalToolbar_mainMenu.html">Main Menu</a> - A list of resources you can use to submit listings, change your settings, view your profile, etc.</li>
+	<li><img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  /> <Link to="article" params={{
+  part: 'global',
+  article: 'GlobalToolbar_mainMenu',
+  title: 'Navigate with the Global Menu'
+}}>Main Menu</Link> - A list of resources you can use to submit listings, change your settings, view your profile, etc.</li>
 </ul>
 
 
