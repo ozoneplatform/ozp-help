@@ -13,6 +13,8 @@
     "start": "./node_modules/.bin/gulp",
     "watch": "./node_modules/.bin/gulp watch",
     "build": "./node_modules/.bin/gulp build",
+    "tarDistDate": "./node_modules/.bin/gulp tarDistDate",
+    "tarDistVersion": "./node_modules/.bin/gulp tarDistVersion",
     "test": "jest"
   },
   "dependencies": {
