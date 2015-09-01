@@ -64,8 +64,8 @@ for root, dirs, files in os.walk('./sanitized'):
         with file('./jsxDocs/' + newfilename, 'r') as original: data = original.read()
 
         # inject the old HTML contents
-        with file('./jsxDocs/' + newfilename, 'w') as modified: modified.write("// Automatically Generated Module\nvar React = require('react');\nmodule.exports = React.createClass({\nrender: function(){\nreturn ( \n<div>\n\n" + data)
+        with file('./jsxDocs/' + newfilename, 'w') as modified: modified.write("// Automatically Generated Module\nvar React = require('react');\nvar Router = require('react-router');\nvar Reflux = require('reflux');\nmodule.exports = React.createClass({\n\tmixins: [ Router.State, Reflux.ListenerMixin],\n\tcontextTypes: { router: React.PropTypes.func },\n\t\nrender: function(){return ( \n<div>\n\n" + data)
 
         # close the react component declaration
         with open('./jsxDocs/' + newfilename, "a") as newModule:
-            newModule.write("\n\n</div>\n);\n}\n});\n")
+            newModule.write("\n\n\t</div>\n\t);\n\t}\n});\n")

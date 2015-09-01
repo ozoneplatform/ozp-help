@@ -1,8 +1,12 @@
 // Automatically Generated Module
 var React = require('react');
+var Router = require('react-router');
+var Reflux = require('reflux');
 module.exports = React.createClass({
-render: function(){
-return ( 
+	mixins: [ Router.State, Reflux.ListenerMixin],
+	contextTypes: { router: React.PropTypes.func },
+	
+render: function(){return ( 
 <div>
 
 <h1>Navigate with the Global Menu</h1>
@@ -56,7 +60,7 @@ return (
 <p>Select <b>Submit Feedback</b> to contact someone for IT support.</p>
 
 
-</div>
-);
-}
+	</div>
+	);
+	}
 });

@@ -1,8 +1,12 @@
 // Automatically Generated Module
 var React = require('react');
+var Router = require('react-router');
+var Reflux = require('reflux');
 module.exports = React.createClass({
-render: function(){
-return ( 
+	mixins: [ Router.State, Reflux.ListenerMixin],
+	contextTypes: { router: React.PropTypes.func },
+	
+render: function(){return ( 
 <div>
 
 <h1>Manage Organizations</h1>
@@ -49,7 +53,7 @@ return (
 <p><i>Note: An organization <b>cannot</b> be removed if it is associated with a listing or a profile. </i></p>
 
 
-</div>
-);
-}
+	</div>
+	);
+	}
 });

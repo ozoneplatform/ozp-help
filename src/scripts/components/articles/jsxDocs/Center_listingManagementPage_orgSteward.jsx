@@ -1,8 +1,12 @@
 // Automatically Generated Module
 var React = require('react');
+var Router = require('react-router');
+var Reflux = require('reflux');
 module.exports = React.createClass({
-render: function(){
-return ( 
+	mixins: [ Router.State, Reflux.ListenerMixin],
+	contextTypes: { router: React.PropTypes.func },
+	
+render: function(){return ( 
 <div>
 
 <h1>Manage Listings as an Org Steward</h1>
@@ -43,7 +47,7 @@ return (
 <p>All stewards see the Enabled section which allows them to filter by enabled and disabled listings. (For information about enabled and disabled listings see <a href="Center_listings_approveReject_orgSteward.html">Enable or Disable a Listing</a>.</p>
 
 
-</div>
-);
-}
+	</div>
+	);
+	}
 });

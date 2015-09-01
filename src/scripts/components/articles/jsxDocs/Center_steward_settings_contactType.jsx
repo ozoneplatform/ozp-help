@@ -1,8 +1,12 @@
 // Automatically Generated Module
 var React = require('react');
+var Router = require('react-router');
+var Reflux = require('reflux');
 module.exports = React.createClass({
-render: function(){
-return ( 
+	mixins: [ Router.State, Reflux.ListenerMixin],
+	contextTypes: { router: React.PropTypes.func },
+	
+render: function(){return ( 
 <div>
 
 <h1>Manage Contact Types</h1>
@@ -56,7 +60,7 @@ return (
 </ol>
 
 
-</div>
-);
-}
+	</div>
+	);
+	}
 });
