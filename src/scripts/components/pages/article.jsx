@@ -29,23 +29,21 @@ module.exports = React.createClass({
     this.setState({
       Article: article
     });
-
-    GlobalActions.fetchRelatedArticles();
-    this.listenTo(GlobalActions.sendRelatedArticles, (relatedArticles)=>{
-      if(relatedArticles.length){
-        this.setState({
-          relatedArticles: relatedArticles
-        });
-      }
-    });
+    if(router.getCurrentQuery().parentArticles) {
+      this.setState({ relatedArticles: router.getCurrentQuery().parentArticles });
+    }
   },
 
   render(){
     var RelatedArticles = (this.state.relatedArticles) ? this.state.relatedArticles.map(function(article){
       return(
-        <a className="col-md-2 col-xs-12" href="#">
+        <Link className="col-md-2 col-xs-12" to="article" params={{
+            part: 'global',
+            article: article.file,
+            title: article.name
+          }}>
             <p>{article.name}</p>
-        </a>
+        </Link>
       );
     }) : '';
     return (

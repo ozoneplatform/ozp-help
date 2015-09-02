@@ -42,9 +42,22 @@ module.exports = React.createClass({
       var articleParent = this.state.Articles[article].articles;
       var articleList = this.state.Articles[article].articles.map((article)=>{
         return (
-          <li><Link to="article" onClick={()=>{
-                GlobalActions.setRelatedArticles(articleParent);
-              }} params={{part: this.state.Part, article: article.file, title: article.name}}>{ article.name }</Link></li>
+          <li>
+            <Link
+              to="article"
+              query={{
+                parentArticles: articleParent
+              }}
+              params={{
+                part: this.state.Part,
+                article: article.file,
+                title: article.name
+              }}>
+
+                { article.name }
+
+              </Link>
+          </li>
         );
       });
       sections.push(
