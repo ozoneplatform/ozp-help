@@ -13,7 +13,7 @@ var App = require('./app');
 
 var routes = (
   <Route handler={App}>
-    <Route name="part" handler={require('./pages/part')} path="/" addHandlerKey={true} />
+    <Route name="part" handler={require('./pages/part')} path="/:role?" addHandlerKey={true} />
     <Route name="article" handler={require('./pages/article')} path="/:part/article/:article/:title" addHandlerKey={true} />
   </Route>
 );

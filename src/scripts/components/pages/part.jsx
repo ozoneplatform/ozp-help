@@ -37,33 +37,37 @@ module.exports = React.createClass({
   },
 
   makeSection: function(){
+    var role = this.context.router.getCurrentParams().role || 0;
+    console.log(role);
     var sections = [];
     for(var article in this.state.Articles){
       var articleParent = this.state.Articles[article].articles;
       var articleList = this.state.Articles[article].articles.map((article)=>{
-        return (
-          <li>
-            <Link
-              to="article"
-              query={{
-                parentArticles: articleParent
-              }}
-              params={{
-                part: this.state.Part,
-                article: article.file,
-                title: article.name,
-                video: article.film,
-                role: article.role,
-              }}>
+        if(article.role <= role){
+          return (
+            <li>
+              <Link
+                to="article"
+                query={{
+                  parentArticles: articleParent
+                }}
+                params={{
+                  part: this.state.Part,
+                  article: article.file,
+                  title: article.name,
+                  video: article.film,
+                  role: article.role,
+                }}>
 
-                { article.name }
-                { article.film &&
-                  <span> 🎥 </span>
-                }
+                  { article.name }
+                  { article.film &&
+                    <span> 🎥 </span>
+                  }
 
-              </Link>
-          </li>
-        );
+                </Link>
+            </li>
+          );
+        }
       });
       sections.push(
         <div className="col-sm-4">
