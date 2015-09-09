@@ -20,7 +20,7 @@ module.exports = React.createClass({
   },
 
   render(){
-    var router = this.context;
+    var router = this.context.router;
 
     return (
       <div className="modal-body clearfix">

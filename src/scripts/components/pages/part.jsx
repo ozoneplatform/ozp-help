@@ -51,10 +51,15 @@ module.exports = React.createClass({
               params={{
                 part: this.state.Part,
                 article: article.file,
-                title: article.name
+                title: article.name,
+                video: article.film,
+                role: article.role,
               }}>
 
                 { article.name }
+                { article.film &&
+                  <span> 🎥 </span>
+                }
 
               </Link>
           </li>
@@ -73,7 +78,7 @@ module.exports = React.createClass({
   },
 
   render: function(){
-    var router = this.context;
+    var router = this.context.router;
 
     var sections = this.makeSection().map(function(section){
       return (

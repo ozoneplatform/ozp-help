@@ -17,14 +17,14 @@ module.exports = React.createClass({
 
   getInitialState(){
     return {
-      Part: this.context.getCurrentParams().part,
+      Part: this.context.router.getCurrentParams().part,
       Article: require('../articles/jsxDocs/404.jsx'),
       relatedArticles: false
     };
   },
 
   componentDidMount(){
-    var router = this.context;
+    var router = this.context.router;
     var article = require(`../articles/jsxDocs/${router.getCurrentParams().article}.jsx`);
     this.setState({
       Article: article
@@ -73,7 +73,7 @@ module.exports = React.createClass({
               </Link>
             </li>*/}
             <li className="active">
-              { this.context.getCurrentParams().title }
+              { this.context.router.getCurrentParams().title }
             </li>
           </ol>
           <div>
