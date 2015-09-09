@@ -1,3 +1,8 @@
+// roles:
+// 0 = all users
+// 1 = org stewards
+// 2 = center stewards
+
 module.exports = [
   {
     priority: 1,
@@ -6,25 +11,25 @@ module.exports = [
       {
         name: 'Getting Started with OZONE',
         file: 'OZONE_overview',
-        video: true,
+        film: true,
         role: 0
       },
       {
         name: 'Understanding HUD',
         file: 'HUD_overview',
-        video: false,
+        film: true,
         role: 0
       },
       {
         name: 'Understanding Center',
         file: 'Center_overview',
-        video: false,
+        film: true,
         role: 0
       },
       {
         name: 'Understanding Webtop',
         file: 'Webtop_overview',
-        video: false,
+        film: true,
         role: 0
       }
     ]
@@ -35,15 +40,21 @@ module.exports = [
     articles: [
       {
         name: 'Using the Global Toolbar',
-        file: 'GlobalToolbar_overview'
+        file: 'GlobalToolbar_overview',
+        film: true,
+        role: 0
       },
       {
         name: 'Receive and Dismiss Notifications',
-        file: 'GlobalToolbar_notifications'
+        file: 'GlobalToolbar_notifications',
+        film: false,
+        role: 0
       },
       {
         name: 'Navigate with the Global Menu',
-        file: 'GlobalToolbar_mainMenu'
+        file: 'GlobalToolbar_mainMenu',
+        film: false,
+        role: 0
       }
     ]
   },
@@ -53,23 +64,33 @@ module.exports = [
     articles: [
       {
         name: 'Using Webtop',
-        file: 'Webtop_useWebtop'
+        file: 'Webtop_useWebtop',
+        film: true,
+        role: 0
       },
       {
         name: 'Add Listings to a Dashboard',
-        file: 'Webtop_addListing'
+        file: 'Webtop_addListing',
+        film: true,
+        role: 0
       },
       {
         name: 'Create a Dashboard',
-        file: 'Webtop_dashboards_create'
+        file: 'Webtop_dashboards_create',
+        film: true,
+        role: 0
       },
       {
         name: 'Edit or Delete a Dashboard',
-        file: 'Webtop_dashboards_edit'
+        file: 'Webtop_dashboards_edit',
+        film: false,
+        role: 0
       },
       {
         name: 'Navigate with the Webtop Toolbar',
-        file: 'Webtop_lower_toolbar'
+        file: 'Webtop_lower_toolbar',
+        film: false,
+        role: 0
       }
     ]
   },
@@ -79,27 +100,39 @@ module.exports = [
     articles: [
       {
         name: 'Search for Listings',
-        file: 'Center_search'
+        file: 'Center_search',
+        film: true,
+        role: 0
       },
       {
         name: 'Viewing Listings',
-        file: 'Center_listings_overview'
+        file: 'Center_listings_overview',
+        film: false,
+        role: 0
       },
       {
         name: 'Create a Listing',
-        file: 'Center_listings_create'
+        file: 'Center_listings_create',
+        film: true,
+        role: 0
       },
       {
         name: 'Edit a Listing',
-        file: 'Center_listings_edit'
+        file: 'Center_listings_edit',
+        film: false,
+        role: 0
       },
       {
         name: 'Review a Listing',
-        file: 'Center_listings_reviews'
+        file: 'Center_listings_reviews',
+        film: true,
+        role: 0
       },
       {
         name: 'Manage your Created Listings',
-        file: 'Center_listingManagementPage_user'
+        file: 'Center_listingManagementPage_user',
+        film: false,
+        role: 0
       }
     ]
   },
@@ -109,11 +142,15 @@ module.exports = [
     articles: [
       {
         name: 'Using HUD',
-        file: 'HUD_useHUD'
+        file: 'HUD_useHUD',
+        film: true,
+        role: 0
       },
       {
         name: 'Group Bookmarked Listings by Folder',
-        file: 'HUD_groupListings'
+        file: 'HUD_groupListings',
+        film: false,
+        role: 0
       }
     ]
   },
@@ -123,55 +160,81 @@ module.exports = [
     articles: [
       {
         name: 'Manage Listings as an Org Steward',
-        file: 'Center_listingManagementPage_orgSteward'
+        file: 'Center_listingManagementPage_orgSteward',
+        film: false,
+        role: 1
       },
       {
         name: 'Approve or Return a Listing as an Org Steward',
-        file: 'Center_listings_approveReject_orgSteward'
+        file: 'Center_listings_approveReject_orgSteward',
+        film: false,
+        role: 1
       },
       {
         name: 'The Role of Center Steward',
-        file: 'Center_steward_overview'
+        file: 'Center_steward_overview',
+        film: false,
+        role: 2
       },
       {
         name: 'Send a Notification',
-        file: 'Center_steward_settings_notifications'
+        file: 'Center_steward_settings_notifications',
+        film: false,
+        role: 2
       },
       {
         name: 'Manage Listings as a Center Steward',
-        file: 'Center_listingManagementPage_centerSteward'
+        file: 'Center_listingManagementPage_centerSteward',
+        film: false,
+        role: 2
       },
       {
         name: 'Approve or Return a Listing as a Center Steward',
-        file: 'Center_listings_approveReject_centerSteward'
+        file: 'Center_listings_approveReject_centerSteward',
+        film: false,
+        role: 2
       },
       {
         name: 'Feature a Listing',
-        file: 'Center_steward_featureFlag'
+        file: 'Center_steward_featureFlag',
+        film: false,
+        role: 2
       },
       {
         name: 'Change Center Settings',
-        file: 'Center_steward_settings'
+        file: 'Center_steward_settings',
+        film: false,
+        role: 2
       },
       {
         name: 'Manage Center Categories',
-        file: 'Center_steward_settings_category'
+        file: 'Center_steward_settings_category',
+        film: false,
+        role: 2
       },
       {
         name: 'Manage Contact Types',
-        file: 'Center_steward_settings_contactType'
+        file: 'Center_steward_settings_contactType',
+        film: false,
+        role: 2
       },
       {
         name: 'Manage Intents',
-        file: 'Center_steward_settings_intent'
+        file: 'Center_steward_settings_intent',
+        film: false,
+        role: 2
       },
       {
         name: 'Manage Organizations',
-        file: 'Center_steward_settings_org'
+        file: 'Center_steward_settings_org',
+        film: false,
+        role: 2
       },
       {
         name: 'Manage Stewards',
-        file: 'Center_steward_settings_steward'
+        file: 'Center_steward_settings_steward',
+        film: false,
+        role: 2
       }
     ]
   }
