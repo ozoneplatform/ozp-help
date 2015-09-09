@@ -5,19 +5,27 @@ module.exports = [
     articles: [
       {
         name: 'Getting Started with OZONE',
-        file: 'OZONE_overview'
+        file: 'OZONE_overview',
+        video: true,
+        role: 0
       },
       {
         name: 'Understanding HUD',
-        file: 'HUD_overview'
+        file: 'HUD_overview',
+        video: false,
+        role: 0
       },
       {
         name: 'Understanding Center',
-        file: 'Center_overview'
+        file: 'Center_overview',
+        video: false,
+        role: 0
       },
       {
         name: 'Understanding Webtop',
-        file: 'Webtop_overview'
+        file: 'Webtop_overview',
+        video: false,
+        role: 0
       }
     ]
   },
