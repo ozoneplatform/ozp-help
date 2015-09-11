@@ -38,7 +38,6 @@ module.exports = React.createClass({
 
   makeSection: function(){
     var role = this.context.router.getCurrentParams().role || 0;
-    console.log(role);
     var sections = [];
     for(var article in this.state.Articles){
       var articleParent = this.state.Articles[article].articles;
@@ -55,15 +54,12 @@ module.exports = React.createClass({
                   part: this.state.Part,
                   article: article.file,
                   title: article.name,
-                  video: article.film,
-                  role: article.role,
-                }}>
 
+                }}>
                   { article.name }
                   { article.film &&
                     <span> 🎥 </span>
                   }
-
                 </Link>
             </li>
           );

@@ -58,20 +58,7 @@ module.exports = React.createClass({
                 Home
               </Link>
             </li>
-            {/*<li>
-              <a href="#"
-                data-toggle="modal"
-                data-dismiss="modal"
-                data-target="#modal_help">Home</a>
-            </li>
-            <li className="active">
-              <Link to="part"
-                params={{
-                  part: this.context.getCurrentParams().part
-                }}>
-                { this.context.getCurrentParams().part.charAt(0).toUpperCase() + this.context.getCurrentParams().part.slice(1) }
-              </Link>
-            </li>*/}
+
             <li className="active">
               { this.context.router.getCurrentParams().title }
             </li>
