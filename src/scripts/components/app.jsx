@@ -11,13 +11,6 @@ var Header = require('./header/header.jsx');
 module.exports = React.createClass({
   mixins: [ Router.State, Reflux.connect(GlobalStore) ],
 
-  componentDidMount: function(){
-    // HACK: This is horrible, but waiting on a fix for react-router
-    $(document).on('click', 'a', function(e){
-      location.reload();
-    });
-  },
-
   render: function(){
     var router = this.context;
 

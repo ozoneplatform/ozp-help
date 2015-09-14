@@ -15,9 +15,18 @@ module.exports = React.createClass({
     router: React.PropTypes.func
   },
 
+  componentWillReceiveProps: function (newProps) {
+    var article = require(`../articles/jsxDocs/${newProps.params.article}.jsx`);
+    this.setState({
+      Article: article,
+      part: newProps.params.part,
+      title: newProps.params.title
+    });
+  },
+
   getInitialState(){
     return {
-      Part: this.context.router.getCurrentParams().part,
+      part: this.context.router.getCurrentParams().part,
       Article: require('../articles/jsxDocs/404.jsx'),
       relatedArticles: false
     };
