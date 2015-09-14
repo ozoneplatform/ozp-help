@@ -18,6 +18,11 @@ var routes = (
   </Route>
 );
 
-Router.run(routes, function(Handler){
+var AppRouter = Router.create({
+  scrollBehavior: Router.ScrollToTopBehavior,
+  routes: routes
+});
+
+AppRouter.run(function(Handler){
   React.render(<Handler/>, document.getElementById("container"));
 });
