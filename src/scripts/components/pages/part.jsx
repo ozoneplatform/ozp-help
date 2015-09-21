@@ -43,12 +43,14 @@ module.exports = React.createClass({
       var articleParent = this.state.Articles[article].articles;
       var articleList = this.state.Articles[article].articles.map((article)=>{
         if(article.role <= role){
+          // Did something change in react-router to require this?
+          var tmpParent = articleParent.reduce(function(o,v,i) { o[i] =v; return o; }, {});
           return (
             <li>
               <Link
                 to="article"
                 query={{
-                  parentArticles: articleParent
+                  parentArticles: tmpParent
                 }}
                 params={{
                   part: this.state.Part,
