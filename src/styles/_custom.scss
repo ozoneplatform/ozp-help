@@ -1,9 +1,15 @@
+.modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    overflow: auto;
+}
 
 .modal-dialog {
     width: 100%;
     margin:0;
-    height:100%;
-    overflow-y:scroll;
 }
 
 .modal-header {
