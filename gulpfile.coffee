@@ -6,6 +6,7 @@ minifyHTML    = require 'gulp-minify-html'
 del           = require 'del'
 sass          = require 'gulp-sass'
 shell         = require 'gulp-shell'
+pjson         = require './package.json'
 
 # gulp filter is optional, in case you need it
 gulpFilter    = require 'gulp-filter'
@@ -138,7 +139,7 @@ gulp.task 'default', ->
   gulp.start 'build'
 
 
-pjson = '../../package.json'
+# pjson = './package.json'
 
 gulp.task 'tarDistDate', shell.task([
   './packageRelease.sh help-prod public'
