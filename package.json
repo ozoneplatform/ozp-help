@@ -14,8 +14,7 @@
     "watch": "./node_modules/.bin/gulp watch",
     "build": "./node_modules/.bin/gulp build",
     "tarDistDate": "./node_modules/.bin/gulp tarDistDate",
-    "tarDistVersion": "./node_modules/.bin/gulp tarDistVersion",
-    "test": "jest"
+    "tarDistVersion": "./node_modules/.bin/gulp tarDistVersion"
   },
   "dependencies": {
     "bootstrap-sass": "git://github.com/ozone-development/bootstrap-sass",
@@ -42,7 +41,6 @@
     "image-webpack-loader": "^1.2.0",
     "imagemin": "^3.1.0",
     "jeet": "^6.1.2",
-    "jest-cli": "^0.5.2",
     "jquery": "^2.1.4",
     "jsx-loader": "^0.13.2",
     "lodash": "^3.1.0",
@@ -60,22 +58,5 @@
     "touch": "1.0.0",
     "webpack": "^1.5.3",
     "webpack-dev-server": "^1.7.0"
-  },
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/preprocessor.js",
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react"
-    ],
-    "testFileExtensions": [
-      "coffee",
-      "js",
-      "cjsx"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "coffee",
-      "cjsx"
-    ]
   }
 }

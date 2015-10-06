@@ -24,16 +24,6 @@ nib     = require 'nib'
 jeet    = require 'jeet'
 rupture = require 'rupture'
 
-# integrate test and tdd
-jest = require 'jest-cli'
-
-JEST_CONFIG = {
-    rootDir: '.'
-    scriptPreprocessor: 'preprocessor.js',
-    unmockedModulePathPatterns: ['node_modules/react'],
-    testFileExtensions: ['coffee', 'js', 'cjsx'],
-    moduleFileExtensions: ['js', 'json', 'coffee', 'cjsx']
-}
 
 paths = {
     dest: 'public'
@@ -147,19 +137,6 @@ gulp.task('clean-dest', (done) ->
 gulp.task 'default', ->
   gulp.start 'build'
 
-# gulp tdd
-# description -- test will start automatically everytime when cjsx file changes
-gulp.task('tdd', (done) ->
-  gulp.watch([ JEST_CONFIG.rootDir + "/src/scripts/**/*.cjsx" ], [ 'test' ]);
-)
-
-# gulp test
-# description -- run a single test
-gulp.task('test', (done) ->
-  jest.runCLI({ config : JEST_CONFIG }, ".", () ->
-    done()
-  )
-)
 
 pjson = '../../package.json'
 
@@ -187,7 +164,7 @@ gulp.task 'dev', ['copy-assets', 'copy-icons', 'copy-docs', 'copy-doc-images'], 
 
  # gulp dev-tdd
 # description -- start a development server plus test run automatically when cjsx file changes
-gulp.task 'dev-tdd', ['dev', 'tdd']
+gulp.task 'dev-tdd', ['dev']
 
 # gulp clean
 # description -- clean the paths.dest
