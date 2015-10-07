@@ -1,6 +1,6 @@
 'use strict';
 
-const Reflux    = require('reflux'),
+var Reflux    = require('reflux'),
       React     = require('react'),
       _         = require('lodash'),
       Router    = require('react-router'),
@@ -8,7 +8,7 @@ const Reflux    = require('reflux'),
 
 var GlobalActions = require('../../actions/GlobalActions.jsx');
 
-const FakeDB = require('../../fakeDB');
+var FakeDB = require('../../fakeDB');
 var Articles = {
   center: _.sortBy(FakeDB.Center, 'priority'),
   webtop: _.sortBy(FakeDB.Webtop, 'priority'),
