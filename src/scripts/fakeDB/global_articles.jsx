@@ -7,6 +7,7 @@ module.exports = [
   {
     priority: 1,
     name: 'Getting Started',
+    groupRole: 0,
     articles: [
       {
         name: 'Getting Started with OZONE',
@@ -37,6 +38,7 @@ module.exports = [
   {
     priority: 2,
     name: 'Global Toolbar',
+    groupRole: 0,
     articles: [
       {
         name: 'Using the Global Toolbar',
@@ -61,6 +63,7 @@ module.exports = [
   {
     priority: 3,
     name: 'Webtop',
+    groupRole: 0,
     articles: [
       {
         name: 'Using Webtop',
@@ -97,6 +100,7 @@ module.exports = [
   {
     priority: 4,
     name: 'Center',
+    groupRole: 0,
     articles: [
       {
         name: 'Search for Listings',
@@ -139,6 +143,7 @@ module.exports = [
   {
     priority: 5,
     name: 'HUD',
+    groupRole: 0,
     articles: [
       {
         name: 'Using HUD',
@@ -157,6 +162,7 @@ module.exports = [
   {
     priority: 6,
     name: 'Administration',
+    groupRole: 1,
     articles: [
       {
         name: 'Manage Listings as an Org Steward',

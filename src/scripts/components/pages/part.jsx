@@ -56,7 +56,6 @@ module.exports = React.createClass({
                   part: this.state.Part,
                   article: article.file,
                   title: article.name,
-
                 }}>
                   { article.name }
                   { article.film &&
@@ -67,14 +66,16 @@ module.exports = React.createClass({
           );
         }
       });
-      sections.push(
-        <div className="col-sm-4">
-            <h3>{ this.state.Articles[article].name }</h3>
-            <ul>
-            { articleList }
-            </ul>
-        </div>
-      );
+      if ( parseInt(role) >= this.state.Articles[article].groupRole ) {
+        sections.push(
+          <div className="col-sm-4">
+              <h3>{ this.state.Articles[article].name }</h3>
+              <ul>
+              { articleList }
+              </ul>
+          </div>
+        );
+      }
     }
     return sections;
   },
