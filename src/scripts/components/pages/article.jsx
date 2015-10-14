@@ -1,6 +1,6 @@
 'use strict';
 
-const Reflux    = require('reflux'),
+var   Reflux    = require('reflux'),
       React     = require('react'),
       Router    = require('react-router'),
       { Route, RouteHandler, Link } = Router;
