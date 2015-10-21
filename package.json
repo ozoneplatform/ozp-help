@@ -37,7 +37,7 @@
     "gulp-size": "^2.0.0",
     "gulp-util": "^3.0.3",
     "highlight.js": "^8.4.0",
-    "icons": "git://github.com/ozone-development/icons#8a3eccb40b84a064236f5396f28f7afbf2b9e226",
+    "icons": "git://github.com/ozone-development/icons#master",
     "image-webpack-loader": "^1.2.0",
     "imagemin": "^3.1.0",
     "jeet": "^6.1.2",

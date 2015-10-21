@@ -59,7 +59,7 @@ module.exports = React.createClass({
                 }}>
                   { article.name }
                   { article.film &&
-                    <span> 🎥 </span>
+                    <span> &nbsp; <i className="icon-video-blue"></i></span>
                   }
                 </Link>
             </li>
