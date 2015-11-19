@@ -46,7 +46,7 @@ return (
   part: 'global',
   article: 'Center_listings_approveReject_orgSteward',
   title: 'Approve or Return a Listing as an Org Steward'
-}}>Approve or Return Listings</Link>.</li>
+}}>Approve or Return a Listing</Link>.</li>
 	<li><b>(Pending) Org approved</b> - Listings waiting for Center steward approval</li>
 	<li><b>Returned</b> - Listings returned to their owners</li>
 	<li><b>Draft</b> - Listings in the system that have not been submitted for approval</li>
@@ -54,7 +54,11 @@ return (
 
 <p><b>Enabled</b></p>
 
-<p>All stewards see the Enabled section which allows them to filter by enabled and disabled listings. (For information about enabled and disabled listings see <a href="Center_listings_approveReject_orgSteward.html">Enable or Disable a Listing</a>.</p>
+<p>All stewards see the Enabled section which allows them to filter by enabled and disabled listings. (For information about enabled and disabled listings see <Link to="article" params={{
+  part: 'global',
+  article: 'Center_listings_approveReject_centerSteward',
+  title: 'Approve or Return a Listing as a Center Steward'
+}}>Approve or Return a Listing</Link>.</p>
 
 <h2>Listing Management Table View</h2>
 
@@ -101,6 +105,10 @@ return (
 <img border="0" alt="Listing Management Display/Hide Columns Setting" src="Doc_images/ListingManagementTable_SettingsWindow.png" />
 
 <p><i>Note: If you only want to change the immediate appearance of the table, you're done. To save the column change for future viewing, click <b>Save Grid State</b>. The menu will disappear and column changes should remain after you close or refresh the page.</i></p>
+
+
+
+
 	</div>
 	);
 	}

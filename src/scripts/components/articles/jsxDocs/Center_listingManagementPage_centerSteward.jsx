@@ -50,7 +50,7 @@ return (
   part: 'global',
   article: 'Center_listings_approveReject_centerSteward',
   title: 'Approve or Return a Listing as a Center Steward'
-}}>Approve or Return Listings</Link>.</li>
+}}>Approve or Return a Listing</Link>.</li>
 	<li>Pending, Org. - Listings waiting for your approval</li>
 	<li>Returned - Listings returned to their owners</li>
 	<li>Draft - Listings in the system that have not been submitted for approval</li>
@@ -66,7 +66,7 @@ return (
   part: 'global',
   article: 'Center_listings_approveReject_centerSteward',
   title: 'Approve or Return a Listing as a Center Steward'
-}}>Enable or Disable a Listing</Link>.</p>
+}}>Approve or Return a Listing</Link>.</p>
 
 <h2>Listing Management Table View</h2>
 <img border="0" alt="Table View" src="Doc_images/ListingManagementTable.png" />
