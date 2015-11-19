@@ -96,8 +96,8 @@ module.exports = React.createClass({
       <div>
         <div className="modal-highlight">
             {/*@wski: We will leave this here for now, since it will be changed elsewhere*/}
-            <iframe width="560"
-              height="315"
+            <iframe width="448"
+              height="252"
               src="https://www.youtube.com/embed/vnXb1S6l_jE"
               frameBorder="0" allowfullscreen></iframe>
         </div>
