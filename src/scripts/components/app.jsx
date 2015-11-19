@@ -18,7 +18,6 @@ module.exports = React.createClass({
       <div className="modal fade in" id="modal_help" tabindex="-1" role="dialog" aria-labelledby="modal_help" aria-hidden="false" style={{'display': 'block'}}>
         <div className="modal-dialog modal-lg">
           <div className="modal-content">
-            <Header />
             <RouteHandler />
           </div>
         </div>
