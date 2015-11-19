@@ -7,7 +7,8 @@ module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
 	
-render: function(){return ( 
+render: function(){
+return ( 
 <div>
 
 <h1>Navigate with the Global Menu</h1>
@@ -64,9 +65,16 @@ render: function(){return (
   title: 'Manage your Created Listings'
 }}>Manage your Created Listings</Link> for more information.</p>
 
-<h3>Submit Feedback</h3>
+<h3>Contact</h3>
 
-<p>Select <b>Submit Feedback</b> to contact someone for IT support.</p>
+<p>Contact opens a portal to several feedback and help resources.</p>
+<p><img alt="Contact Window" src="Doc_images/ContactPortal.png"/></p>
+<ul>
+	<li><b>Contact Help Desk</b> your administrator will configure this setting to open an email to your IT support team or send you directly to a form to request IT support.</li>
+	<li><b>Submit a Request</b> allows you to suggest new features.</li>
+	<li><b>Give Feedback</b> your administrator will configure this setting to open an email or contact form that sends your message to the people whom gather requirements about the system. If it is not configured, contact your org steward.</li>
+	<li><b>Connect With Us</b> links to popular social media feeds about OZONE.</li>
+</ul>
 
 
 	</div>

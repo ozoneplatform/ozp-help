@@ -7,7 +7,8 @@ module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
 	
-render: function(){return ( 
+render: function(){
+return ( 
 <div>
 
 <h1>The Role of Content Steward</h1>
@@ -34,7 +35,7 @@ render: function(){return (
   part: 'global',
   article: 'Center_listingManagementPage_orgSteward',
   title: 'Manage Listings as an Org Steward'
-}}><b>Organizational steward</b></Link> - Every organization has at least one organizational content steward or <i>org steward.</i> The org steward must approve listings before sending them to a Center steward for final approval. Org stewards can approve listings or send them back to their owners for updates. Also, they can enable/disable listing and edit or delete reviews for their organization.</p>
+}}><b>Organizational steward</b></Link> - Every organization has at least one organizational content steward or <i>org steward.</i> The org steward must approve listings before sending them to a Center steward for final approval. Org stewards can approve listings or send them back to their owners for updates. Also, they can enable/disable listings and edit or delete reviews for their organization.</p>
 
 <p><Link to="article" params={{
   part: 'global',

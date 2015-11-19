@@ -7,7 +7,8 @@ module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
 	
-render: function(){return ( 
+render: function(){
+return ( 
 <div>
 
 <h1>Using the Global Toolbar</h1>
@@ -34,7 +35,7 @@ render: function(){return (
   part: 'global',
   article: 'HUD_overview',
   title: 'Understanding HUD'
-}}>HUD</Link> (Heads up display) where your bookmarks are stored. Think of HUD like the home screen on a smart phone.</li>
+}}>HUD</Link> (Heads up display) where your bookmarks are stored. Think of HUD like the home screen on a smartphone.</li>
 
 	<li><img alt="Center" src="Doc_images/center_icon.png"  /> Opens <Link to="article" params={{
   part: 'global',
@@ -46,13 +47,13 @@ render: function(){return (
   part: 'global',
   article: 'Webtop_overview',
   title: 'Understanding Webtop'
-}}>Webtop</Link> your customizable workspace within OZONE.</li>
+}}>Webtop</Link>, your customizable workspace within OZONE.</li>
 
 	<li><img alt="Notifications" src="Doc_images/Notifications_icon.png"  /> <Link to="article" params={{
   part: 'global',
   article: 'GlobalToolbar_notifications',
   title: 'Receive and Dismiss Notifications'
-}}>Notifications</Link> - If you have a notification the icon will change colors and a line will display above it.</li>
+}}>Notifications</Link> - If you have a notification the icon will change color and a line will display above it.</li>
 
 	<li><img alt="Help" src="Doc_images/Help_content_icon.png"  /> Help - Links to system Help resources.</li>
 
