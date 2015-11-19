@@ -8,7 +8,7 @@
   part: 'global',
   article: 'Center_listingManagementPage_user',
   title: 'Manage your Created Listings'
-}}>Manage your Created Listings</Link>.</p>
+}}>Manage Listings You Own</Link>.</p>
 
 <p><b><img border="0" src="Doc_images/orgSteward_managementTabs.png" alt="Steward Management Tabs"/></b></p>
 
@@ -36,13 +36,55 @@
 }}>Approve or Return Listings</Link>.</li>
 	<li><b>(Pending) Org approved</b> - Listings waiting for Center steward approval</li>
 	<li><b>Returned</b> - Listings returned to their owners</li>
-	<li>Draft - Listings in the system that have not been submitted for approval</li>
+	<li><b>Draft</b> - Listings in the system that have not been submitted for approval</li>
 </ul>
 
 <p><b>Enabled</b></p>
 
-<p>All stewards see the Enabled section which allows them to filter by enabled and disabled listings. (For information about enabled and disabled listings see <Link to="article" params={{
-  part: 'global',
-  article: 'Center_listings_approveReject_orgSteward',
-  title: 'Approve or Return a Listing as an Org Steward'
-}}>Enable or Disable a Listing</Link>.</p>
+<p>All stewards see the Enabled section which allows them to filter by enabled and disabled listings. (For information about enabled and disabled listings see <a href="Center_listings_approveReject_orgSteward.html">Enable or Disable a Listing</a>.</p>
+
+<h2>Listing Management Table View</h2>
+
+<img border="0" alt="Table View" src="Doc_images/ListingManagementTable.png" />
+
+
+<p> From the steward management tabs, you can switch to a table view by clicking the table button on the upper-left side of the state panel (circled in the figure above). To switch back to the standard listing management view, click the grid button located at the top-left of the State panel.</p>
+
+<p>The table view lists:</p>
+<ul>
+	<li><b>Name</b> -- links to the listing</li>
+	<li><b>Owner</b> -- links to the owner&#39;s profile</li>
+	<li><b>Comments</b> -- lists the last comment from the change log</li>
+	<li>Status</li>
+	<li>Updated date</li>
+	<li>Enable/Disabled status</li>
+	<li><b>Featured</b> status -- to feature a listing or remove it from the featured listings, check or uncheck this field</li>
+	<li>List of <b>Actions</b> -- click the edit, feedback, view or delete actions to update or review the listing:</li>
+</ul>
+
+<img border="0" alt="Table Actions" src="Doc_images/ListingManagementTable_ActionIcons.png" />
+
+<h3>Use the Listing Management Table</h3>
+<p>From the table view, stewards can:</p>
+<ul>
+	<li>Export the table to Excel.</li>
+	<li>Preview a listing by clicking its Name. From here, you can publish pending listings using the Administration tab.</li>
+	<li>See the listing owner&#39;s profile by clicking their name.</li>
+	<li>Read the last entry in the listing&#39;s change log (entered in the comments field).</li>
+	<li>Feature a listing by checking it. Also, to stop using a listing as a Featured Listing on the Search and Discovery Page, uncheck it.</li>
+	<li>Org stewards cannot change the Featured field. Center Stewards use it to feature or stop featuring a listing on the Search and Discovery Page.</li>
+	<li>Edit, review feedback comments, view or delete a listing from the Actions column.</li>
+</ul>
+<h3>Customize the Listing Management Table View</h3>
+<p>You can hide some columns on the Listing Management Table. To customize your table view:</p>
+
+<img border="0" alt="Listing Management Display/Hide Columns Setting" src="Doc_images/ListingManagementTable_SettingsGear.png" />
+
+<ol>
+	<li>Click the button located immediately left of the search box (shown in the figure above).</li>
+	<li>To make a column appear on the table, check the box next to its name on the list. To hide a column, uncheck the box next to its name: </li>
+</ol>
+
+<img border="0" alt="Listing Management Display/Hide Columns Setting" src="Doc_images/ListingManagementTable_SettingsWindow.png" />
+
+<p><i>Note: If you only want to change the immediate appearance of the table, you're done. To save the column change for future viewing, click <b>Save Grid State</b>. The menu will disappear and column changes should remain after you close or refresh the page.</i></p>
