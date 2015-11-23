@@ -3,11 +3,13 @@ var React = require('react');
 var Router = require('react-router');
 var Reflux = require('reflux');
 var { Route, RouteHandler, Link } = Router;
+var { HELP_VIDEOS } = require('ozp-react-commons/OzoneConfig');
+
 module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
-	
-render: function(){return ( 
+
+render: function(){return (
 <div>
 
 <h1>Create a Dashboard</h1>
@@ -18,7 +20,7 @@ render: function(){return (
 
 <iframe width="560"
   height="315"
-  src="https://www.youtube.com/embed/vnXb1S6l_jE"
+  src={HELP_VIDEOS['Dashboard Set Up']}
   frameBorder="0" allowfullscreen title="TUTORIAL 7 - Dashboard Set Up">
 </iframe>
 <br /><br />

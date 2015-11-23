@@ -30,6 +30,11 @@ module.exports = {
     new webpack.IgnorePlugin(/vertx/) // https://github.com/webpack/webpack/issues/353
   ],
   resolve: {
+    alias: {
+        'ozp-react-commons': 'ozp-react-commons/app/js'
+    },
+    // Configure webpack to look for required files in bower and node
+    modulesDirectories: ['./bower_components', './node_modules'],
     // you can now require('myfile') instead of require('myfile.cjsx')
     extensions: ['', '.js', '.jsx', '.cjsx', '.coffee']
   },
