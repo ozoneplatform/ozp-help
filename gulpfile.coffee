@@ -38,6 +38,11 @@ DEV_PORT = '8888'
 # Load plugins
 $ = require('gulp-load-plugins')()
 
+gulp.task('config', ->
+    gulp.src(['node_modules/ozp-react-commons/app/OzoneConfig.js'])
+        .pipe(gulp.dest('./public/'));
+)
+
 gulp.task('sass', ->
     gulp.src('./src/styles/*.scss')
         .pipe(sass())
@@ -152,15 +157,15 @@ gulp.task 'tarDistVersion', shell.task([
 
 # gulp build
 # description -- create a production ready snapshot into paths.dest folder ( default ./public )
-gulp.task 'build', ['webpack:build', 'sass', 'copy-assets-ignore-html', 'minify-html',  'copy-icons', 'copy-docs', 'copy-doc-images']
+gulp.task 'build', ['webpack:build', 'sass', 'config', 'copy-assets-ignore-html', 'minify-html',  'copy-icons', 'copy-docs', 'copy-doc-images']
 
 # gulp dev
 # description -- start a development server
-gulp.task 'dev', ['copy-assets', 'copy-icons', 'copy-docs', 'copy-doc-images'], ->
+gulp.task 'dev', ['config', 'copy-assets', 'copy-icons', 'copy-docs', 'copy-doc-images'], ->
 
   runSequence('sass', 'webpack-dev-server', () ->
     gulp.watch(['src/styles/**'], ['sass'])
-    gulp.watch(['assets/**'], ['copy-assets', 'copy-docs', 'copy-doc-images'])
+    gulp.watch(['assets/**'], ['config', 'copy-assets', 'copy-docs', 'copy-doc-images'])
   )
 
  # gulp dev-tdd

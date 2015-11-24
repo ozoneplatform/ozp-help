@@ -46,6 +46,7 @@
     "lodash": "^3.1.0",
     "map-stream": "0.0.6",
     "nib": "^1.1.0",
+    "ozp-react-commons": "git://github.com/ozone-development/ozp-react-commons#master",
     "react": "^0.13.3",
     "react-hot-loader": "^1.1.4",
     "react-retina-image": "^1.1.2",
