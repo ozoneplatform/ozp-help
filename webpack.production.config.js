@@ -37,6 +37,9 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin()
   ],
   resolve: {
+    alias: {
+        'ozp-react-commons': 'ozp-react-commons/app/js'
+    },
     // you can now require('myfile') instead of require('myfile.cjsx')
     extensions: ['', '.js', '.jsx', '.cjsx', '.coffee']
   },
