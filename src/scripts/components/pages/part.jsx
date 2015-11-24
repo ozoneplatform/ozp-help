@@ -7,6 +7,7 @@ var Reflux    = require('reflux'),
       { Route, RouteHandler, Link } = Router;
 
 var GlobalActions = require('../../actions/GlobalActions.jsx');
+var { HELP_VIDEOS } = require('ozp-react-commons/OzoneConfig');
 
 var FakeDB = require('../../fakeDB');
 var Articles = {
@@ -98,7 +99,7 @@ module.exports = React.createClass({
             {/*@wski: We will leave this here for now, since it will be changed elsewhere*/}
             <iframe width="448"
               height="252"
-              src="https://www.youtube.com/embed/vnXb1S6l_jE"
+              src={HELP_VIDEOS['Three Components of AppsMall']}
               frameBorder="0" allowfullscreen></iframe>
         </div>
         <div className="modal-body clearfix">

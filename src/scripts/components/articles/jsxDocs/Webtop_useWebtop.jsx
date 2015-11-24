@@ -16,7 +16,7 @@ render: function(){return (
 
 <iframe width="560"
   height="315"
-  src="https://www.youtube.com/embed/vnXb1S6l_jE"
+  src={ HELP_VIDEOS['Dashboard Set Up']}
   frameBorder="0" allowfullscreen title="TUTORIAL 7 - Dashboard Set Up">
 </iframe>
 <br /><br />
