@@ -7,7 +7,8 @@ module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
 	
-render: function(){return ( 
+render: function(){
+return ( 
 <div>
 
 <h1>Manage Stewards</h1>
@@ -24,7 +25,7 @@ render: function(){return (
 	<li>Click <img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  /> on the right-side of the Global Toolbar.</li>
 	<li>Select Center Settings<br />
 	<img alt="Center Settings Link on Main Menu" src="Doc_images/centerSettingsLink_MainMenu.png"  title="Center Settings Link on Main Menu" /></li>
-	<li>The Center Settings page will open to the Categories tab, click the stewards tab.</li>
+	<li>The Center Settings page will open to the Categories tab, click the Stewards tab.</li>
 </ol>
 
 

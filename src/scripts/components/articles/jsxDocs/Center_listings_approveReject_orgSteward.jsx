@@ -7,7 +7,8 @@ module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
 	
-render: function(){return ( 
+render: function(){
+return ( 
 <div>
 
 <h1>Approve or Return a Listing as a Org Steward</h1>
@@ -23,7 +24,7 @@ render: function(){return (
 	<li>On the left-side, click Approve or Return to Owner:<br />
 	<img alt="Approve or Return the Listing" src="Doc_images/AdminTab_Approve_Reject.png" title="Listing Management Page" />
 	<ul>
-		<li>If you approve the listing, it moves into the Center steward's queue and you're done. After the Center steward approves the listing, the owner or Center steward can enable or disable it.</li>
+		<li>If you approve the listing, it moves into the Center steward's queue and you're done. After the Center steward approves the listing, the owner, an org steward or the Center steward can enable or disable it.</li>
 		<li>If you click Return to Owner, type instructions explaining how the user should update the listing before submitting it. Then, click Return to Owner. The listing will move out of your queue until the owner resubmits it.</li>
 	</ul>
 	</li>

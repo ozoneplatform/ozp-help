@@ -7,10 +7,11 @@ module.exports = React.createClass({
 	mixins: [ Router.State, Reflux.ListenerMixin],
 	contextTypes: { router: React.PropTypes.func },
 	
-render: function(){return ( 
+render: function(){
+return ( 
 <div>
 
-<h1>Manage your Created Listings</h1>
+<h1>Manage Listings You Own</h1>
 
 <p>The Listing Management Page tells users where their listings are in the approval process. To access this page, click the drop-down Main Menu on the right side of the Global Toolbar and select Listing Management:</p>
 

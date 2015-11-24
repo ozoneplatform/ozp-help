@@ -23,24 +23,25 @@ render: function(){return (
 
 <p>Anyone can create a listing. Only stewards can approve them. This section explains how to create a listing and it defines each field on the Create/Edit Listing Form.</p>
 
-<p><img alt="Submit a listing" src="/Doc_images/submit-a-listing.png" title="Submit a listing" /></p>
 
-<p>To create a listing, from the Global Toolbar click the drop-down Main Menu:</p>
+
+<p>To create a listing:</p>
 
 <ol>
+	<li>From the Global Toolbar, click the drop-down Main Menu.</li>
 	<li>Select <b>Submit a Listing</b></li>
 	<li>The Listing Create/Edit Form opens. To save the listing as a draft, you must enter a <b>Name, Type and Owner</b>.<br />
 	<i>At this point, you may save the listing without completing it. If you do this, you can open it from your Profile and Listing Management which are accessible from the drop-down Main Menu on the Global Toolbar.</i></li>
 	<li>Complete the listing. All fields are required unless marked optional.</li>
-	<li>Click <img alt="Save" src="/Doc_images/save.png" title="Save" /> at the top of the form to save. The save icon switches to a green checkmark after saving.</li>
-	<li>To preview the listing, click <img alt="show" src="/Doc_images/show-icon.png"   title="show" />.</li>
-	<li>When you are ready to publish the listing, click <img alt="Send the listing to a steward for review" src="/Doc_images/send-to-steward.png" title="Send the listing to a steward for review" /> to notify the Organizational Steward that the listing is ready for review. You must complete all required fields before submitting the listing.</li>
+	<li>Click <img alt="Save" src="./Doc_images/save.png" title="Save" /> at the top of the form to save. The save icon switches to a green checkmark after saving.</li>
+	<li>To preview the listing, click <img alt="show" src="./Doc_images/show-icon.png"   title="show" />.</li>
+	<li>When you are ready to publish the listing, click <img alt="Send the listing to a steward for review" src="./Doc_images/send-to-steward.png" title="Send the listing to a steward for review" /> to notify the Organizational Steward that the listing is ready for review. You must complete all required fields before submitting the listing.</li>
 	<li>After an organizational steward and Center steward approve the listing, it will appear in Center.</li>
 </ol>
 
 <h3>Submit a Listing</h3>
 
-<p>After creating a listing, a Center and Org Steward must approve it. Follow the instructions in the Create a Listing section to submit the listing. After approval by both stewards, your listing will appear in Center.</p>
+<p>After creating a listing, a Center and Org Steward must approve it. If you are a steward, you will find instructions for approving or returning a listings in the steward section of Help. After approval by both stewards, your listing will appear in Center.</p>
 
 <br /><br />
 <h2>Fields on the Create/Edit Form</h2>
@@ -50,7 +51,7 @@ render: function(){return (
 <br />
 <h3>Basic Listing Information</h3>
 
-<p><img alt="Basic Listing Information section of the Create/Edit Listing Form" src="/Doc_images/Create-Edit-Listing-Form-BasicInfo.png" title="Enter Basic Listing Information" /><br />
+<p><img alt="Basic Listing Information section of the Create/Edit Listing Form" src="./Doc_images/Create-Edit-Listing-Form-BasicInfo.png" title="Enter Basic Listing Information" /><br />
 <b>Basic Listing Information</b><br />
 <br /></p>
 
@@ -93,7 +94,7 @@ render: function(){return (
 <br />
 <h3>Listing Details</h3>
 
-<p><img alt="Create/Edit Listing Form - Listing Details" src="/Doc_images/Create-Edit-Listing-Form-ListingDetails.png" title="Create/Edit Listing Form - Listing Details" /><br />
+<p><img alt="Create/Edit Listing Form - Listing Details" src="./Doc_images/Create-Edit-Listing-Form-ListingDetails.png" title="Create/Edit Listing Form - Listing Details" /><br />
 <b>Create/Edit Listing Form - Listing Details</b><br /></p>
 
 <p>
@@ -141,7 +142,7 @@ render: function(){return (
 <br />
 <h3>Resources</h3>
 
-<p><img alt="Create Edit Listing Form Resources" src="/Doc_images/Create-Edit-Listing-Form-Resources.png" title="Create Edit Listing Form Resources" /></p>
+<p><img alt="Create Edit Listing Form Resources" src="./Doc_images/Create-Edit-Listing-Form-Resources.png" title="Create Edit Listing Form Resources" /></p>
 
 <p><b>Create/Edit Listing Form - Resources</b></p>
 
@@ -158,13 +159,13 @@ render: function(){return (
 <br />
 <h3>Graphics</h3>
 
-<p><img alt="Create Edit Listing Form -- Graphics Section" src="/Doc_images/Create-Edit-Listing-Form-Graphics.png" title="Create Edit Listing Form -- Graphics Section" /></p>
+<p><img alt="Create Edit Listing Form -- Graphics Section" src="./Doc_images/Create-Edit-Listing-Form-Graphics.png" title="Create Edit Listing Form -- Graphics Section" /></p>
 
 <p><b>Create/Edit Listing Form: Graphics</b></p>
 
 <p>The following figure displays the large and small banner icons on the Search and Discovery Page:<br />
 <br />
-<img alt="Large and Small Banner Image Examples" src="/Doc_images/lg-sm-banner-image.png" title="Large and Small Banner Image Examples" /><br />
+<img alt="Large and Small Banner Image Examples" src="./Doc_images/lg-sm-banner-image.png" title="Large and Small Banner Image Examples" /><br />
 <b>Large and Small Banner Image Examples</b></p>
 
 <p>
@@ -191,14 +192,14 @@ render: function(){return (
 <p>
 <b>Screenshots</b>
 <br />Houses the images that appear in the Overview tab on the listing's Detailed View.
-<br /><i>You can add infinite screenshots. The system asks for a:
+<br />You can add infinite screenshots. The system asks for a:
 	<ul>
 		<li>Preview Image<br />
 		<i>Appears on the Overview tab</i></li>
 		<li>Full Size Image<br />
 		<i>Opens outside the Overview tab after a user clicks the Preview Image</i></li>
 	</ul>
-	</i>
+
 </p>
 
 <br />
@@ -206,7 +207,7 @@ render: function(){return (
 
 <p>The next section of the Create/Edit Form addresses owners and contacts. This establishes who is responsible for the listing, who can see it in Center and who should be contacted regarding it:</p>
 
-<p><img alt="Create/Edit Listing Form: Owners & Contacts Section" src="/Doc_images/Create-Edit-Listing-Form-Owner-Contact-Section.png" title="Create/Edit Listing Form: Owners & Contacts Section" /><br />
+<p><img alt="Create/Edit Listing Form: Owners & Contacts Section" src="./Doc_images/Create-Edit-Listing-Form-Owner-Contact-Section.png" title="Create/Edit Listing Form: Owners & Contacts Section" /><br />
 <b>Create/Edit Listing Form: Owners & Contacts Section</b></p>
 
 <p>
