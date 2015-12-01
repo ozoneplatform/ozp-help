@@ -44,16 +44,21 @@ module.exports = React.createClass({
   },
 
   render(){
-    var RelatedArticles = (this.state.relatedArticles) ? this.state.relatedArticles.map(function(article){
-      return(
-        <Link className="col-md-2 col-xs-12" to="article" params={{
-            part: 'global',
-            article: article.file,
-            title: article.name
-          }}>
-            <p>{article.name}</p>
-        </Link>
-      );
+    var RelatedArticles = (this.state.relatedArticles) ? this.state.relatedArticles.map((article)=>{
+      if(article.role <= this.context.router.getCurrentParams().role){
+        return(
+          <Link className="col-md-2 col-xs-12" to="article" params={{
+              role: this.context.router.getCurrentParams().role,
+              part: 'global',
+              article: article.file,
+              title: article.name
+            }}>
+              <p>{article.name}</p>
+          </Link>
+        );
+      }else {
+        return '';
+      }
     }) : '';
     return (
       <div>
@@ -62,7 +67,8 @@ module.exports = React.createClass({
             <li className="active">
               <Link to="part"
                 params={{
-                  part: 'global'
+                  part: 'global',
+                  role: this.context.router.getCurrentParams().role
                 }}>
                 Home
               </Link>
