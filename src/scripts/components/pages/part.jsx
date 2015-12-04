@@ -45,7 +45,7 @@ module.exports = React.createClass({
       var articleList = this.state.Articles[article].articles.map((article)=>{
         if(article.role <= role){
           // Did something change in react-router to require this?
-          var tmpParent = articleParent.reduce(function(o,v,i) { o[i] =v; return o; }, {});
+          var tmpParent = articleParent.slice(0,6).reduce(function(o,v,i) { o[i] =v; return o; }, {});
           return (
             <li>
               <Link
@@ -54,6 +54,7 @@ module.exports = React.createClass({
                   parentArticles: tmpParent
                 }}
                 params={{
+                  role: role,
                   part: this.state.Part,
                   article: article.file,
                   title: article.name,
