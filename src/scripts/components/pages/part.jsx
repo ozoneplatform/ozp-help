@@ -79,7 +79,7 @@ module.exports = React.createClass({
         );
       }
     }
-    return sections.slice(0,6);
+    return sections;
   },
 
   render: function(){
