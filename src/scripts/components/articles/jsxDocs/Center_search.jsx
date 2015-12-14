@@ -28,13 +28,13 @@ render: function(){return (
 <br />
 <h3>Search Tools</h3>
 
-<p><b>Search box</b> - The search box is located at the top of the Search and Discovery Page. When you enter a search term, the system looks for your term in the listing name, description, tags, etc.</p>
+<p><b>Search box</b> - The search box is located at the top of the Center. When you enter a search term, the system looks for your term in the listing name, description, tags, etc.</p>
 
 <p><b>Categories</b> - Groupings of listings determined by the owner or stewards, a listing can be associated with multiple categories. Click a category on the left panel and only listings associated with that category will appear on the page. If you select multiple categories, only listings associated with all of the selected categories will appear.</p>
 
-<p><b>Types</b> - Located at the upper-right side of the Search and Discovery Page, click the checkbox beside the Types you want to display. Only the listings of the selected Types will appear in the filtered list. Owners determine listing Type.</p>
+<p><b>Types</b> - Located at the upper-right side of the Center, click the checkbox beside the Types you want to display. Only the listings of the selected Types will appear in the filtered list. Owners determine listing Type.</p>
 
-<p><b>Organizations</b> - You can filter by organization using this field which is located on the upper-right side of the Search and Discovery Page.</p>
+<p><b>Organizations</b> - You can filter by organization using this field which is located on the upper-right side of the Center.</p>
 
 
 	</div>
