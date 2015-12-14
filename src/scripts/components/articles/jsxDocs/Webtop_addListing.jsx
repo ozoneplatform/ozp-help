@@ -26,10 +26,10 @@ To add a listing to your Webtop:</p>
 
 <ol>
 	<li>Click the <img alt="List of bookmarks" src="Doc_images/+.png"  title="List of bookmarks" /> in the lower-left corner.</li>
-	<li>A window will appear displaying all the listings you bookmarked in the HUD.<br />
+	<li>A window will appear displaying all the bookmarked listings that also appear in your HUD.<br />
 	Select the ones you want to add and click <b>Open in a new dashboard</b> or <b>Open.</b> To add new listings, click <b>Find more apps</b> which will open Center where you can bookmark more listings.<br />
 	<img alt="Add bookmarks to your webtop" src="Doc_images/Add-Listings-to-Webtop.png"  title="Use this window to add bookmarks to your webtop" /></li>
-	<li>The listings will open in the dashboard and its small icon will appear at the bottom of the screen.</li>
+	<li>The listings will open in the dashboard while their icons will appear at the bottom of the screen.</li>
 </ol>
 
 
