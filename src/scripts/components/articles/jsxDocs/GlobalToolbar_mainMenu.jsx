@@ -33,10 +33,10 @@ return (
 		<li>Username</li>
 		<li>Email</li>
 		<li>A list of listings you own. Clicking a listing opens its Detailed Listing View in Center.<br />
-		<i>Note: Owning a listing means you are responsible for it and probably created it. To see listings that you downloaded from the Center, click Bookmarks to open your HUD.</i></li>
+		<i>Note: Owning a listing means you are responsible for it and probably created it. To see bookmarked listings that you discovered in the Center, click Bookmarks to open your HUD.</i></li>
 	</ul>
 	</li>
-	<li><b>Settings</b> ask your preference for the Default Application Launch. By default, applications launch in a new tab. If you change the default setting to Open in Webtop all listings will launch on Webtop when you double-click them in the HUD. Also, they will automatically bookmark in your HUD.<br />
+	<li><b>Settings</b> ask your preference for the Default Application Launch. By default, applications launch in a new tab. If you change the default setting to Open in Webtop all listings will launch into Webtop when you double-click them in the HUD.<br />
 	<i>Note: The "Launch in Webtop" Setting does not appear when you open your Settings in Webtop.</i></li>
 </ul>
 
