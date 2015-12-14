@@ -13,7 +13,7 @@ render: function(){return (
 <div>
 
 <h1>Getting Started with OZONE</h1>
-<p>OZONE is an ecosystem of software that enables users from numerous organizations to share data and manipulate it solely within browser memory. It comprises three specific products that interact using inter-widget communication (IWC). Each product performs a specific task:</p>
+<p>OZONE is an ecosystem of software that enables users from numerous organizations to share data and manipulate it solely within browser memory. It is comprised of three interlocking components: the Center, HUD, and Webtop. Each has distinct features but also interlocking components.</p>
 
 <iframe width="560"
   height="315"
@@ -28,7 +28,7 @@ render: function(){return (
   article: 'HUD_overview',
   title: 'Understanding HUD'
 }}>HUD</Link></h3>
-<p>An organizational display that houses applications users find in Center and want to store in their local environment. Think of it like a repository of bookmarks in your Internet browser.</p>
+<p>The HUD is the user's personalized homepage for organizing favorite apps discovered through the Center. Users are able to keep all of their favorite apps in one location, group apps into folders, share folders with other users, and choose to launch apps into the Webtop or a seperate browser tab.</p>
 <img alt="HUD Home Screen" src="Doc_images/HUD_home.png" title="HUD Home Screen" />
 
 <br />
@@ -37,7 +37,7 @@ render: function(){return (
   article: 'Center_overview',
   title: 'Understanding Center'
 }}>Center</Link></h3>
-<p>A store, similar to a commercial application store like Apple's App Store or Google Play. Use it to search for and bookmark applications to use in your instance of OZONE</p>
+<p>Center is the application discovery component where users can leverage multiple search methods to search for, rate and review, bookmark, launch, and submit applications.</p>
 <img alt="Center Home Screen" src="Doc_images/center-search-and-discovery-page.png"  title="Center Home Screen" />
 
 <br />
@@ -46,12 +46,12 @@ render: function(){return (
   article: 'Webtop_overview',
   title: 'Understanding Webtop'
 }}>Webtop</Link></h3>
-<p>The framework where applications run and interact with each other. Webtop creates an environment where OZONE compatible applications can share a virtual network and core services that solely exist within the browser's memory.</p>
+<p>The Webtop is a virtual desktop within the browser where users can launch multiple applications from their bookmarks and organize them into customized dashboards.</p>
 <img alt="Webtop Home Screen" src="Doc_images/Webtop.png" title="Webtop Home Screen" />
 
 <br />
-<h3>IWC</h3>
-<p>The technology widgets use to communicate with each other within a brower without sending data back to their respective servers.</p>
+<h3>Inter-Widget Communications (IWC)</h3>
+<p>The technology that web applications and widgets use to communicate with each other within a browser without sending data back to their respective servers. Applications that utilize IWC can share data and services then use the data and services offered by others to enrich their own user experience.</p>
 
 
 	</div>
