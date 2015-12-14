@@ -15,7 +15,7 @@ render: function(){return (
 <h1>Create a Dashboard</h1>
 
 <p>
-	A dashboard is a screen where you organize your tools. It is your workspace to configure listings and allow them to share information that is only saved in the browser, not returned to each listing's respective servers.
+	A dashboard is a user-configured layout of applications within the Webtop. 
 </p>
 
 <iframe width="560"
