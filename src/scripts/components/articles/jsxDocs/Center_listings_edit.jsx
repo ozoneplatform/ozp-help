@@ -13,7 +13,7 @@ return (
 
 <h1>Edit a Listing</h1>
 
-<p>Only listing owners and content stewards can change listings.<br />
+<p>Only listing owners and content stewards can edit listings. Listing owners can only edit their own app listings.<br />
 To edit a listing:</p>
 
 <ol>
