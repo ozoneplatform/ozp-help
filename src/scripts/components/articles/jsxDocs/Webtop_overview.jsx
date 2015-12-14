@@ -14,7 +14,7 @@ render: function(){return (
 
 <h1>Understanding Webtop</h1>
 
-<p>In OZONE, you will probably spend most of your time in Webtop. This is where you will use the listings that you found in Marketplace and bookmarked to the HUD. Webtop is the framework where applications run and interact with each other. Webtop creates an environment where OZONE compatible applications can share a virtual network and core services that solely exist within the browser's memory.</p>
+<p>The Webtop is a virtual desktop in the browser where you can use the listings that you found and added to your bookmarks in Center. Webtop is a framework where applications can run and, in some cases, interact with each other.</p>
 
 <iframe width="560"
   height="315"
