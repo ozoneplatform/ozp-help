@@ -17,12 +17,12 @@ return (
 
 <p><img alt="Lower toolbar in Webtop" src="Doc_images/webtop-lower-toolbar.png" title="Lower toolbar in Webtop" /><br /></p>
 
-<p><img alt="List of all open bookmarks" src="Doc_images/+.png" title="List of all open bookmarks" /> Opens a window that lists all the listings you bookmarked to HUD
+<p><img alt="List of all open bookmarks" src="Doc_images/+.png" title="List of all open bookmarks" /> Opens a window that displays all the listings you bookmarked to HUD.
 </p>
 
 <p><img alt="Dashboard access icon" src="Doc_images/dashboard-access-icon.png"  title="Dashboard access icon" /> Opens access to your dashboards. From here you can switch dashboards; and create, edit or delete them.</p>
 
-<p><img alt="Small listing icons" src="Doc_images/small-listing-icons-on-webtop.png"  title="Small listing icons" /> Small icons that identify listings that are open on the dashboard.
+<p><img alt="Small listing icons" src="Doc_images/small-listing-icons-on-webtop.png"  title="Small listing icons" /> Small icons identify listings that are open on the dashboard.
 	<ul>
 		<li>A line under the icon represents a listing that is visible on the screen.</li>
 		<li>Icons that do not have lines under them are minimized.</li>
