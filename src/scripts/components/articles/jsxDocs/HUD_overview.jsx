@@ -13,7 +13,7 @@ render: function(){return (
 <div>
 
 <h1>Understanding HUD</h1>
-<p>HUD is a user's personalized homepage for all listings that selected as bookmarks in Center. From HUD, you can quickly find, launch or get help relating to each listing. Users can also organize their bookmarked apps into shareable folders or remove an app from their bookmarks.</p>
+<p>HUD is a user's personalized homepage for all listings selected as bookmarks in Center. From HUD, you can quickly find, launch or get help relating to each listing. Users can also organize their bookmarked apps into shareable folders or remove an app from their bookmarks.</p>
 
 <iframe width="560"
   height="315"
