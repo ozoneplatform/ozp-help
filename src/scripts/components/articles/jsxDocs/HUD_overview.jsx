@@ -13,7 +13,7 @@ render: function(){return (
 <div>
 
 <h1>Understanding HUD</h1>
-<p>HUD is a repository for all listings that you bookmark in Center. From HUD, you can quickly find, launch or get help relating to each listing. Also, you can remove bookmarked listing.</p>
+<p>HUD is a user's personalized homepage for all listings that selected as bookmarks in Center. From HUD, you can quickly find, launch or get help relating to each listing. Users can also organize their bookmarked apps into shareable folders or remove an app from their bookmarks.</p>
 
 <iframe width="560"
   height="315"
@@ -26,7 +26,7 @@ render: function(){return (
 
 <br />
 <h3>Bookmarks in HUD</h3>
-<p>From HUD you can <b>open, get help or remove bookmarks</b> for a listing. Each action is found under the drop-down menu each listing has in its upper-right corner:</p>
+<p>From HUD you can <b>open, get help on or remove bookmarked apps</b>. These actions are found under the drop-down menu at the upper right of each bookmarked listing.</p>
 <p><img alt="Drop-down listing actions menu" src="Doc_images/drop-down-listing-actions.png"  title="Drop-down listing actions menu" /></p>
 
 <br />
