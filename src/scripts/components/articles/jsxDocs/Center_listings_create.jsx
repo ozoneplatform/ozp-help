@@ -28,7 +28,7 @@ render: function(){return (
 <p>To create a listing:</p>
 
 <ol>
-	<li>From the Global Toolbar, click the drop-down Main Menu.</li>
+	<li>From the Toolbar, click the drop-down menu.</li>
 	<li>Select <b>Submit a Listing</b></li>
 	<li>The Listing Create/Edit Form opens. To save the listing as a draft, you must enter a <b>Name, Type and Owner</b>.<br />
 	<i>At this point, you may save the listing without completing it. If you do this, you can open it from your Profile and Listing Management which are accessible from the drop-down Main Menu on the Global Toolbar.</i></li>
@@ -63,7 +63,7 @@ render: function(){return (
 
 <p>
 <b>Listing Type</b>
-<br />The listing technology description (e.g. Widget, Web Application).
+<br />The type of app being submitted (e.g. Widget, Web Application).
 </p>
 
 <p>
@@ -212,7 +212,7 @@ render: function(){return (
 
 <p>
 <b>Associated Organization</b>
-<br />Use this field to identify which organization will see the listing in Center.
+<br />Use this field to identify which organization the listing will be categorized under in Center.
 <br /><i>A drop-down list displays all organizations.</i>
 </p>
 
@@ -225,7 +225,7 @@ render: function(){return (
 
 <p>
 <b>Contacts</b>
-<br />A field that can contain the contact's information that the submitter wishes to enter (e.g., email, phone).
+<br />A field that can contain points of contact for the listing being submitted (e.g., email, phone).
 <br /><i>Click Add to associate more than one contact with a listing.</i>
 <br /><i>The Center steward decides if the contact type is optional or required.</i>
 </p>
