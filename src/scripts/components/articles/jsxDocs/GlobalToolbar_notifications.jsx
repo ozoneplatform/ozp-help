@@ -12,7 +12,7 @@ return (
 <div>
 
 <h1>Receive and Dismiss Notifications</h1>
-Notifications are located on the top-right side of the Global Toolbar. Center stewards use them to alert users of upcoming events. If you have any unread notifications, the <img alt="Notifications icon" src="Doc_images/Notifications_icon.png"  /> changes to <img alt="Active Notifications icon" src="Doc_images/Active_notifications_icon.png"  />. When you click the notifications icon, notifications will display below it:
+Notifications are located on the top-right side of the Global Toolbar. Center stewards use them to alert users of important information, such as upcoming events. If you have any unread notifications, the <img alt="Notifications icon" src="Doc_images/Notifications_icon.png"  /> changes to <img alt="Active Notifications icon" src="Doc_images/Active_notifications_icon.png"  />. When you click the notifications icon, notifications will display below it:
 <p><img alt="Example: Notifications drop-down menu" src="Doc_images/Notifications_drop_down_example.png" /></p>
 
 
