@@ -15,14 +15,14 @@ return (
 
 <h3>Definitions</h3>
 
-<p><b>Listing</b> - Any software application or component that a user enters into Center is called a <i>listing.</i> Like apps on smart phones, listings in Center contain various types of Web content.</p>
+<p><b>Listing</b> - Any software application or component that a user enters into Center is called a <i>listing.</i></p>
 
 <p>From Center, you can save listings to your HUD or open them in a new browser tab.</p>
 
 <br />
 <h3>Listing Short View</h3>
 
-<p>On the Search and Discovery Page, you see each listing's icon, name, rating and organizational association. Hover over the listing to display its Short View.</p>
+<p>In the Center you see each listing's banner, name, rating and organization. Hover over the listing to display its Short View.</p>
 
 <p><img alt="Listing Short View" src="Doc_images/Listing-Short-View.png" height="236px" width="624px" title="Listing Short View" /><br />
 <b>Listing Short View</b></p>
@@ -35,7 +35,7 @@ return (
 <br />
 <h3>Listing Detailed View</h3>
 
-<p>While the Listing Short View displays basic information, its Detailed View provides much more information. Click inside the view to open the Detailed Listing View. Each tab is described in this section:</p>
+<p>While the Listing Short View displays basic information, its Detailed View provides much more information. Click the Listing Short View to open the Detailed Listing View. Each tab is described in this section:</p>
 
 <p><img alt="Listing Detailed View" src="Doc_images/Listing-detailed-view.png" height="372px" width="684px" title="Listing Detailed View" /><br />
 <b>Listing Detailed View</b></p>
@@ -55,7 +55,7 @@ return (
 	<li><b>Icon</b></li>
 	<li><b>Name</b></li>
 	<li><b>Rating</b></li>
-	<li><b>Organizational association</b></li>
+	<li><b>Organization</b></li>
 </ul>
 
 <p>
