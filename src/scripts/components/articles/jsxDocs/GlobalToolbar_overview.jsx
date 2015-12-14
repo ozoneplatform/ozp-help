@@ -14,7 +14,7 @@ render: function(){return (
 
 <h1>Using the Global Toolbar</h1>
 
-<p>The Global Toolbar appears at the top of each product in the OZONE family. Use it to navigate between HUD, Center and Webtop. From the toolbar, you can access your settings and Help resources, see notifications or create a listing.</p>
+<p>The Global Toolbar appears at the top of each component of OZONE. Use it to navigate between HUD, Center and Webtop. From the toolbar, you can access your settings and Help resources, view notifications or create a listing.</p>
 
 <iframe width="560"
   height="315"
@@ -62,7 +62,7 @@ render: function(){return (
   part: 'global',
   article: 'GlobalToolbar_mainMenu',
   title: 'Navigate with the Global Menu'
-}}>Main Menu</Link> - A list of resources you can use to submit listings, change your settings, view your profile, etc.</li>
+}}>Menu</Link> - A list of resources you can use to submit listings, change your settings, view your profile, etc.</li>
 </ul>
 
 
