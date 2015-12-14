@@ -13,7 +13,7 @@ return (
 
 <h1>Edit or Delete a Dashboard</h1>
 
-<p>After creating a dashboard you can change its name or view. However, if you change its view, you will lose the state of the listings on that dashboard. Therefore when the dashboard resets you will lose any data loaded in that dashboard.</p>
+<p>After creating a dashboard it is still possible to change the dashboard name or view format (grid or desktop). However, if you change its view format, you will lose the current state of the listings on that dashboard and any unsaved information entered into those listings. Therefore when the dashboard resets you will lose any data loaded in that dashboard.</p>
 
 <p>To edit a dashboard:</p>
 
