@@ -47,7 +47,7 @@ module.exports = React.createClass({
     var RelatedArticles = (this.state.relatedArticles) ? this.state.relatedArticles.map((article)=>{
       if(article.role <= this.context.router.getCurrentParams().role){
         return(
-          <Link className="col-md-2 col-xs-12" to="article" params={{
+          <Link className="col-sm-2 col-xs-12" to="article" params={{
               role: this.context.router.getCurrentParams().role,
               part: 'global',
               article: article.file,
