@@ -13,7 +13,7 @@ return (
 
 <h1>Manage Listings You Own</h1>
 
-<p>The Listing Management Page tells users where their listings are in the approval process. To access this page, click the drop-down Main Menu on the right side of the Global Toolbar and select Listing Management:</p>
+<p>The Listing Management Page tells users where their listings are in the approval process. To access this page, click the drop-down Menu on the right side of the Toolbar and select Listing Management:</p>
 
 <p><img alt="Link to Listing Management Page from Global Toolbar" src="Doc_images/listingManagementLink.png" title="Listing Management Page" /></p>
 
