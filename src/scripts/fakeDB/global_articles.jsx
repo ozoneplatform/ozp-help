@@ -37,11 +37,11 @@ module.exports = [
   },
   {
     priority: 2,
-    name: 'Global Toolbar',
+    name: 'Toolbar',
     groupRole: 0,
     articles: [
       {
-        name: 'Using the Global Toolbar',
+        name: 'Using the Toolbar',
         file: 'GlobalToolbar_overview',
         film: true,
         role: 0
@@ -53,7 +53,7 @@ module.exports = [
         role: 0
       },
       {
-        name: 'Navigate with the Global Menu',
+        name: 'Navigate with the Menu',
         file: 'GlobalToolbar_mainMenu',
         film: false,
         role: 0
