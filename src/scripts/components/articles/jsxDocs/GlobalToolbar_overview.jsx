@@ -12,9 +12,9 @@ module.exports = React.createClass({
 render: function(){return (
 <div>
 
-<h1>Using the Global Toolbar</h1>
+<h1>Using the Toolbar</h1>
 
-<p>The Global Toolbar appears at the top of each component of OZONE. Use it to navigate between HUD, Center and Webtop. From the toolbar, you can access your settings and Help resources, view notifications or create a listing.</p>
+<p>The Toolbar appears at the top of each component of OZONE. Use it to navigate between HUD, Center and Webtop. From the toolbar, you can access your settings and Help resources, view notifications or create a listing.</p>
 
 <iframe width="560"
   height="315"
@@ -25,11 +25,11 @@ render: function(){return (
 
 <p><img alt="Global Toolbar" src="Doc_images/Global_Toolbar.png" /></p>
 
-<p><b>Global Toolbar</b></p>
+<p><b>Toolbar</b></p>
 
-<p>A blue Global Toolbar icon signifies which part of OZONE you are viewing and alerts you of unread notifications.</p>
+<p>A blue Toolbar icon signifies which part of OZONE you are viewing and alerts you of unread notifications.</p>
 
-<p>Each Global Toolbar icon is described in the corresponding section:</p>
+<p>Each Toolbar icon is described in the corresponding section:</p>
 
 <ul>
 	<li><img alt="HUD" src="Doc_images/HUD_icon.png"  /> Opens <Link to="article" params={{
