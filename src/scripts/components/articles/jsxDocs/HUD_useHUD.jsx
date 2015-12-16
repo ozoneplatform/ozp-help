@@ -22,7 +22,7 @@ render: function(){return (
 <br /><br />
 
 
-<p>You can access HUD two ways using the Global Toolbar:</p>
+<p>You can access HUD two ways using the Toolbar:</p>
 
 <ul>
 	<li>
@@ -32,7 +32,7 @@ render: function(){return (
 </ul>
 
 <p><img alt="HUD access from toolbar" src="Doc_images/HUD-access-from-toolbar.png"  title="HUD access from toolbar" /><br />
-<b>Accessing HUD from the Global Toolbar</b></p>
+<b>Accessing HUD from the Toolbar</b></p>
 
 <p>From HUD you can <b>open, get help or remove bookmarks</b> for a listing. Each action is found under the drop-down menu located on the upper-right side of a listing:<br />
 <img alt="Drop-down listing actions menu" src="Doc_images/drop-down-listing-actions.png"  title="Drop-down listing actions menu" /><br />
