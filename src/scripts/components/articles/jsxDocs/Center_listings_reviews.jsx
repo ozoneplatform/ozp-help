@@ -14,7 +14,7 @@ render: function(){return (
 
 <h1>Review a Listing</h1>
 
-<p>Any user can add a comment or rating to a listing. Only content stewards and the person who submits the Review can edit or delete it.</p>
+<p>Any user can add a comment and rating to a listing. Only content stewards and the person who submits the Review can edit or delete it.</p>
 
 <iframe width="560"
   height="315"
