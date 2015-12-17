@@ -34,6 +34,16 @@ render: function(){return (
 
 <p><b>Types</b> - Located at the upper-right side of the Center, click the checkbox beside the Types you want to display. Only the listings of the selected Types will appear in the filtered list. Owners determine listing Type.</p>
 
+<p>
+<ul>
+	<li><b>Widget:</b> A lightweight web application, usually for a singular task or purpose, that is formatted to fit and operate within an iFrame.</li>
+	<li><b>Web Application:</b> A web-based tool or service that runs in the browser and does not need to be downloaded.</li>
+	<li><b>Desktop App:</b> A listing that points a user to a specific webpage, where they can download a specific application to their desktop environment.</li>
+	<li><b>Web Services:</b> A software system designed to support interoperable machine-to-machine interaction over a network.</li>
+	<li><b>Code Library</b> A reusable library of code aimed at application developers.</li>
+</ul>
+</p>
+
 <p><b>Organizations</b> - You can filter by organization using this field which is located on the upper-right side of the Center.</p>
 
 
