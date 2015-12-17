@@ -24,12 +24,12 @@ return (
 
 <p>In the Center you see each listing's banner, name, rating and organization. Hover over the listing to display its Short View.</p>
 
-<p><img alt="Listing Short View" src="Doc_images/Listing-Short-View.png" height="236px" width="624px" title="Listing Short View" /><br />
+<p><img alt="Listing Short View" src="Doc_images/Listing-Short-View.png" title="Listing Short View" /><br />
 <b>Listing Short View</b></p>
 
 <p>From the Listing Short View you can read a short description, open or bookmark a listing:</p>
 
-<p><img alt="Listing Actions" src="Doc_images/listing-actions.png" height="170px" width="324px" title="Listing Actions" /><br />
+<p><img alt="Listing Actions" src="Doc_images/listing-actions.png" title="Listing Actions" /><br />
 <b>Listing Actions</b></p>
 
 <br />
@@ -37,18 +37,18 @@ return (
 
 <p>While the Listing Short View displays basic information, its Detailed View provides much more information. Click the Listing Short View to open the Detailed Listing View. Each tab is described in this section:</p>
 
-<p><img alt="Listing Detailed View" src="Doc_images/Listing-detailed-view.png" height="372px" width="684px" title="Listing Detailed View" /><br />
+<p><img alt="Listing Detailed View" src="Doc_images/Listing-detailed-view.png" title="Listing Detailed View" /><br />
 <b>Listing Detailed View</b></p>
 
 <p>The listing's header information and actions appear on each tab. Its header includes: listing icon, name, rating, organizational affiliation and actions such as opening, bookmarking and editing:</p>
 
-<p><img alt="Listing heading" src="Doc_images/Listing-heading.png" height="127px" width="624px" title="Listing heading" /><br />
+<p><img alt="Listing heading" src="Doc_images/Listing-heading.png" title="Listing heading" /><br />
 <b>Listing Heading</b></p>
 
 <p>Basic listing information:</p>
 
 <p>
-<img alt="Left-side details of the listing header" src="Doc_images/Left-side-listing-view-header.png" height="184px" width="244px" title="Left-side details of the listing header" /><br /><b>Left-side Detailed Listing View Header</b></p>
+<img alt="Left-side details of the listing header" src="Doc_images/Left-side-listing-view-header.png" title="Left-side details of the listing header" /><br /><b>Left-side Detailed Listing View Header</b></p>
 
 <p>At the top of the listing's Detailed View, you will see the listing's:</p>
 <ul>
@@ -59,7 +59,7 @@ return (
 </ul>
 
 <p>
-<img alt="Right-side detailed listing view header" src="Doc_images/Right-side-detailed-listing-view-header.png" height="147px" width="214px" title="Right-side detailed listing view header" /><br /><b>Right-side Detailed Listing View Header</b></p>
+<img alt="Right-side detailed listing view header" src="Doc_images/Right-side-detailed-listing-view-header.png" title="Right-side detailed listing view header" /><br /><b>Right-side Detailed Listing View Header</b></p>
 
 <p>The right-side of the listing's Detailed View houses three actions:</p>
 
@@ -93,7 +93,7 @@ return (
   title: 'Review a Listing'
 }}>Review a Listing</Link>.</p>
 
-<p><img alt="Review tab on detailed view" src="Doc_images/Review-tab-on-listings-detailed-view.png" height="286px" width="624px" title="Review tab on detailed view" /><br />
+<p><img alt="Review tab on detailed view" src="Doc_images/Review-tab-on-listings-detailed-view.png" title="Review tab on detailed view" /><br />
 <b>Review Tab on the Listing's Detailed View</b></p>
 
 <br />
@@ -105,7 +105,7 @@ return (
   title: 'Create a Listing'
 }}>Create a Listing</Link> page.</p>
 
-<p><img alt="Details tab on listing's detailed view" src="Doc_images/Details-tab-detailed-listing-view.png" height="337px" width="624px" title="Details tab on listing's detailed view" /><br />
+<p><img alt="Details tab on listing's detailed view" src="Doc_images/Details-tab-detailed-listing-view.png" title="Details tab on listing's detailed view" /><br />
 <b>Details Tab on the Listing's Detailed View</b></p>
 
 <br />
@@ -117,7 +117,7 @@ return (
   title: 'Create a Listing'
 }}>Create a Listing</Link> page.</p>
 
-<p><img alt="Resources tab on the listing details view" src="Doc_images/resources-tab-listing-details-view.png" height="398px" width="747px" title="Resources tab on the listing details view" /><br />
+<p><img alt="Resources tab on the listing details view" src="Doc_images/resources-tab-listing-details-view.png" title="Resources tab on the listing details view" /><br />
 <b>Resources Tab on the Listing's Detailed View</b></p>
 
 <br />
@@ -125,7 +125,7 @@ return (
 
 <p>The Administration tab only appears if you are the listing owner or a content steward. From this tab, stewards approve or reject listings; make them visible or hide them from Center and decide if the listing will be featured in the banner at the top of the Discovery Page.</p>
 
-<p><img alt="Admin tab on the listing details view" src="Doc_images/admin-tab-listing-details-view.png" height="334px" width="624px" title="Admin tab on the listing details view" /><br />
+<p><img alt="Admin tab on the listing details view" src="Doc_images/admin-tab-listing-details-view.png" title="Admin tab on the listing details view" /><br />
 <b>Administration Tab on the Listing's Detailed View</b></p>
 
 

@@ -11,7 +11,7 @@ render: function(){
 return ( 
 <div>
 
-<h1>Manage Listings You Own</h1>
+<h1>Manage your Created Listings</h1>
 
 <p>The Listing Management Page tells users where their listings are in the approval process. To access this page, click the drop-down Menu on the right side of the Toolbar and select Listing Management:</p>
 
