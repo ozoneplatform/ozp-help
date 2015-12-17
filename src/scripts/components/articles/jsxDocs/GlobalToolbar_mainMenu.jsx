@@ -73,7 +73,7 @@ return (
 	<li><b>Contact Help Desk:</b> Navigates to ticketing system where you can submit an issue for help desk support.</li>
 	<li><b>Submit a Request:</b> Allows you to suggest new features through the community request site.</li>
 	<li><b>Give Feedback:</b> Opens an email for you to communicate your comments directly.</li>
-	<li><b>Connect With Us:</b> links to popular social media feeds about OZONE.</li>
+	<li><b>Connect With Us:</b> Links to popular social media feeds about OZONE.</li>
 </ul>
 
 
