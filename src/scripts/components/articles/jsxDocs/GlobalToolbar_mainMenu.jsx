@@ -70,10 +70,10 @@ return (
 <p>Contact opens a portal to several feedback and help resources.</p>
 <p><img alt="Contact Window" src="Doc_images/ContactPortal.png"/></p>
 <ul>
-	<li><b>Contact Help Desk</b> your administrator will configure this setting to open an email to your IT support team or send you directly to a form to request IT support.</li>
-	<li><b>Submit a Request</b> allows you to suggest new features.</li>
-	<li><b>Give Feedback</b> your administrator will configure this setting to open an email or contact form that sends your message to the people whom gather requirements about the system. If it is not configured, contact your org steward.</li>
-	<li><b>Connect With Us</b> links to popular social media feeds about OZONE.</li>
+	<li><b>Contact Help Desk:</b> Navigates to ticketing system where you can submit an issue for help desk support.</li>
+	<li><b>Submit a Request:</b> Allows you to suggest new features through the community request site.</li>
+	<li><b>Give Feedback:</b> Opens an email for you to communicate your comments directly.</li>
+	<li><b>Connect With Us:</b> links to popular social media feeds about OZONE.</li>
 </ul>
 
 
