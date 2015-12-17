@@ -31,17 +31,17 @@ render: function(){return (
 	<li>From the Toolbar, click the drop-down menu.</li>
 	<li>Select <b>Submit a Listing</b></li>
 	<li>The Listing Create/Edit Form opens. To save the listing as a draft, you must enter a <b>Name, Type and Owner</b>.<br />
-	<i>At this point, you may save the listing without completing it. If you do this, you can open it from your Profile and Listing Management which are accessible from the drop-down Main Menu on the Global Toolbar.</i></li>
+	<i>At this point, you may save the listing without completing it. If you do this, you can open it from your Profile and Listing Management which are accessible from the drop-down Menu on the Toolbar.</i></li>
 	<li>Complete the listing. All fields are required unless marked optional.</li>
 	<li>Click <img alt="Save" src="./Doc_images/save.png" title="Save" /> at the top of the form to save. The save icon switches to a green checkmark after saving.</li>
 	<li>To preview the listing, click <img alt="show" src="./Doc_images/show-icon.png"   title="show" />.</li>
 	<li>When you are ready to publish the listing, click <img alt="Send the listing to a steward for review" src="./Doc_images/send-to-steward.png" title="Send the listing to a steward for review" /> to notify the Organizational Steward that the listing is ready for review. You must complete all required fields before submitting the listing.</li>
-	<li>After an organizational steward and Center steward approve the listing, it will appear in Center.</li>
+	<li>After an organizational steward and Ozone Content Steward approve the listing, it will appear in Center.</li>
 </ol>
 
 <h3>Submit a Listing</h3>
 
-<p>After creating a listing, a Center and Org Steward must approve it. If you are a steward, you will find instructions for approving or returning a listings in the steward section of Help. After approval by both stewards, your listing will appear in Center.</p>
+<p>After creating a listing, an Ozone Content Steward and Org Steward must approve it. If you are a steward, you will find instructions for approving or returning a listings in the steward section of Help. After approval by both stewards, your listing will appear in Center.</p>
 
 <br /><br />
 <h2>Fields on the Create/Edit Form</h2>
@@ -86,7 +86,7 @@ render: function(){return (
 
 <p>
 <b>Short Description</b>
-<br />This 100 character description appears when a user hovers over a listing on the Search and Discovery Page.
+<br />This 100 character description appears when a user hovers over a listing in the Center.
 <br /><i>This description can differ from the full description.</i>
 </p>
 
@@ -129,7 +129,7 @@ render: function(){return (
 	<li>Data Type</li>
 	<li>Send/Receive</li>
 </ul>
-*To add a new intent, contact the Center Steward.</i>
+*To add a new intent, contact the Ozone Content Steward.</i>
 </p>
 
 <p>
@@ -163,7 +163,7 @@ render: function(){return (
 
 <p><b>Create/Edit Listing Form: Graphics</b></p>
 
-<p>The following figure displays the large and small banner icons on the Search and Discovery Page:<br />
+<p>The following figure displays the large and small banner icons in the Center:<br />
 <br />
 <img alt="Large and Small Banner Image Examples" src="./Doc_images/lg-sm-banner-image.png" title="Large and Small Banner Image Examples" /><br />
 <b>Large and Small Banner Image Examples</b></p>
@@ -180,13 +180,13 @@ render: function(){return (
 
 <p>
 <b>Small Banner</b>
-<br />This icon appears on the Search and Discovery Page in the New Arrivals and Most Popular sections. Also, this icon appears in the search results.
+<br />This icon appears in the Center in the New Arrivals and Most Popular sections. Also, this icon appears in the search results.
 <br /><i>It is the most common view users will have of a listing.</i>
 </p>
 
 <p>
 <b>Large Banner</b>
-<br />When a listing is featured on the Search and Discovery Page, this icon appears.
+<br />When a listing is featured in the Center, this icon appears.
 </p>
 
 <p>
