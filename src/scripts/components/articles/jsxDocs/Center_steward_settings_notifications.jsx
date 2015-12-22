@@ -31,7 +31,7 @@ return (
 	<img alt="Notifications example" src="Doc_images/Notification_example.png"  title="Notification example" />
 	<ol >
 		<li>The list of Active Notifications on the right-side of the screen (all <b>Center Stewards</b> will see it there).</li>
-		<li>Under the Notifications icon on the Global Toolbar (all <b>users</b> will see it there). Users can click the X in the upper-right corner of the notification to dismiss the notification or wait for the notification to expire, at which point it will be removed from their list.</li>
+		<li>Under the Notifications icon on the Global Toolbar (all <b>users</b> will see it there). Users can click the <i className="icon-cross-14"></i> in the upper-right corner of the notification to dismiss the notification or wait for the notification to expire, at which point it will be removed from their list.</li>
 	</ol>
 	</li>
 </ol>

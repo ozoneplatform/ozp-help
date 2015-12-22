@@ -133,7 +133,7 @@ module.exports = [
         role: 0
       },
       {
-        name: 'Manage your Created Listings',
+        name: 'Manage Listings You Own',
         file: 'Center_listingManagementPage_user',
         film: false,
         role: 0

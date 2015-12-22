@@ -13,7 +13,7 @@ return (
 
 <h1>Navigate with the Menu</h1>
 
-<p>The Menu is identified by three parallel, stacked, horizontal lines on the right side of the Toolbar: <img alt="Main Menu icon" src="Doc_images/Main_menu_icon.png"  /></p>
+<p>The Menu is identified by three parallel, stacked, horizontal lines on the right side of the Toolbar: <i className="icon-menu"></i></p>
 
 <p>From the menu, you can access your <b>Profile</b>, update <b>Settings</b> and <b>create or manage listings</b>. The menu is described below:<br /></p>
 
