@@ -40,14 +40,14 @@ render: function(){return (
 <br />
 
 <ol>
-	<li>Click the <img alt="Dashboard access icon" src="Doc_images/dashboard-access-icon.png"  title="Dashboard access icon" /> at the bottom-left side of Webtop's lower toolbar.
+	<li>Click the <i className="icon-caret-up"></i> at the bottom-left side of Webtop's lower toolbar.
 		<br />
 		<i>Note: Your first dashboard is called Default. If you change that name or use a different dashboard, you will see a different name to the left of the arrow.</i>
 	</li>
 	<li>Click <b>+Create a new dashboard</b>.</li>
 	<li>Type a Name and select if the dashboard will have a grid or desktop format.</li>
 	<li>Click <b>Create Dashboard</b>, the dashboard will automatically open.</li>
-	<li>Now it's time to add listings. Click the <img alt="Add listings button" src="Doc_images/+.png"  title="Add listings button" /> at the bottom-left side of the Webtop's lower toolbar.</li>
+	<li>Now it's time to add listings. Click the <i className="icon-square-plus"></i> at the bottom-left side of the Webtop's lower toolbar.</li>
 	<li>All the listings you bookmarked to the HUD will appear. Select the ones you want to use on this dashboard and click <b>Open.</b></li>
 </ol>
 

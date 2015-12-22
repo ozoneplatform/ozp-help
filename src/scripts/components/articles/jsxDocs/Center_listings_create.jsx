@@ -33,9 +33,9 @@ render: function(){return (
 	<li>The Listing Create/Edit Form opens. To save the listing as a draft, you must enter a <b>Name, Type and Owner</b>.<br />
 	<i>At this point, you may save the listing without completing it. If you do this, you can open it from your Profile and Listing Management which are accessible from the drop-down Menu on the Toolbar.</i></li>
 	<li>Complete the listing. All fields are required unless marked optional.</li>
-	<li>Click <img alt="Save" src="./Doc_images/save.png" title="Save" /> at the top of the form to save. The save icon switches to a green checkmark after saving.</li>
-	<li>To preview the listing, click <img alt="show" src="./Doc_images/show-icon.png"   title="show" />.</li>
-	<li>When you are ready to publish the listing, click <img alt="Send the listing to a steward for review" src="./Doc_images/send-to-steward.png" title="Send the listing to a steward for review" /> to notify the Organizational Steward that the listing is ready for review. You must complete all required fields before submitting the listing.</li>
+	<li>Click <i className="icon-save"></i> at the top of the form to save. The save icon switches to a green checkmark after saving.</li>
+	<li>To preview the listing, click <i className="icon-eye"></i>.</li>
+	<li>When you are ready to publish the listing, click <i className="icon-cloud-upload"></i> to notify the Organizational Steward that the listing is ready for review. You must complete all required fields before submitting the listing.</li>
 	<li>After an organizational steward and Ozone Content Steward approve the listing, it will appear in Center.</li>
 </ol>
 

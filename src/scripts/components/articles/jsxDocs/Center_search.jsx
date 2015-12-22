@@ -23,7 +23,7 @@ render: function(){return (
 
 
 <p>There are a number of ways to find listings in Center. Remember that only Approved, Enabled listings appear in search results. This section explains Center's searching tools:</p>
-<p><img alt="Center Search Tools" src="Doc_images/SearchingTools.png" height="438" width="527px" title="Center Search Tools" /></p>
+<p><img alt="Center Search Tools" src="Doc_images/SearchingTools.png" title="Center Search Tools" /></p>
 
 <br />
 <h3>Search Tools</h3>

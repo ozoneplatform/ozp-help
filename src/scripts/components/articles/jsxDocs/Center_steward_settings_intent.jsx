@@ -20,7 +20,7 @@ return (
 <h3>Access the Center Settings page:</h3>
 
 <ol>
-	<li>Click <img alt="Main Menu" src="Doc_images/Main_menu_icon.png"  /> on the right-side of the Global Toolbar.</li>
+	<li>Click <i className="icon-menu"></i> on the right-side of the Global Toolbar.</li>
 	<li>Select Center Settings<br />
 	<img alt="Center Settings Link on Main Menu" src="Doc_images/centerSettingsLink_MainMenu.png"  title="Center Settings Link on Main Menu" /></li>
 	<li>The Center Settings page will open to the Categories tab, click the Intents tab to configure intent placeholders.</li>

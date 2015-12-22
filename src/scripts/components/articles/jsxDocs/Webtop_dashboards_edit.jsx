@@ -18,7 +18,7 @@ return (
 <p>To edit a dashboard:</p>
 
 <ol>
-	<li>Click the <img alt="Dashboard access icon" src="Doc_images/dashboard-access-icon.png"  title="Dashboard access icon" /> at the bottom-left side of Webtop's lower toolbar.</li>
+	<li>Click the <i className="icon-caret-up"></i> at the bottom-left side of Webtop's lower toolbar.</li>
 	<li>Click the edit icon beside the dashboard that you want to change:<br />
 	<img alt="Edit the dashboard" src="Doc_images/dashboard-edit-icon.png"  title="Edit the dashboard" /></li>
 	<li>The edit window opens. Change the Name or View.<br />
@@ -30,7 +30,7 @@ return (
 <p>To delete a dashboard:</p>
 
 <ol>
-	<li>Click the <img alt="Dashboard access icon" src="Doc_images/dashboard-access-icon.png"  title="Dashboard access icon" /> at the bottom-left side of Webtop's lower toolbar.</li>
+	<li>Click the <i className="icon-caret-up"></i> at the bottom-left side of Webtop's lower toolbar.</li>
 	<li>Click the trashcan icon beside the dashboard that you want to delete.</li>
 	<li>A warning appears, click OK to confirm that you want to delete the dashboard.</li>
 	<li>The dashboard will be removed.</li>

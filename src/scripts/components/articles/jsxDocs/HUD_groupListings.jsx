@@ -42,7 +42,7 @@ return (
 
 <ol>
 	<li>Click once on the folder to open it.</li>
-	<li>Click the listing banner and drag it outside of the folder window. Once you release your mouse it will disappera from the folder but will remain within your HUD.</li>
+	<li>Click the listing banner and drag it outside of the folder window. Once you release your mouse it will disappear from the folder but will remain within your HUD.</li>
 	<li>When you close the folder (click the X), you will see the listing in your HUD--separate from the folder as shown by the MusicBox listing in the image above.</li>
 </ol>
 
@@ -71,7 +71,7 @@ return (
 
 <ol>
 	<li>Click once on the folder to open it.</li>
-	<li>Click the listing banner and drag it outside of the folder window. Once you release your mouse it will disappera from the folder but will remain within your HUD.</li>
+	<li>Click the listing banner and drag it outside of the folder window. Once you release your mouse it will disappear from the folder but will remain within your HUD.</li>
 	<li>When the last listing leaves the folder, the folder disappears. You will see the listings in your HUD but the folder will be gone.</li>
 </ol>
 

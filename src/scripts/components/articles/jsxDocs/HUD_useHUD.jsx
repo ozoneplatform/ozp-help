@@ -26,8 +26,8 @@ render: function(){return (
 
 <ul>
 	<li>
-	<p>Click the <img alt="HUD icon in toolbar" src="Doc_images/HUD_icon.png"  title="HUD icon" /> icon on the upper-left side of the toolbar or click the <br />
-	<img alt="Main Menu icon" src="Doc_images/Main_menu_icon.png"  title="Main Menu icon" /> icon on the far-right side of the toolbar, then select Bookmarks:</p>
+	<p>Click the <i className="icon-home"></i> icon on the upper-left side of the toolbar or click the <br />
+	<i className="icon-menu"></i> icon on the far-right side of the toolbar, then select Bookmarks:</p>
 	</li>
 </ul>
 
