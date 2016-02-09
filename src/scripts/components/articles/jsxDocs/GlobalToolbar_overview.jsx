@@ -42,7 +42,7 @@ render: function(){return (
   part: 'global',
   article: 'Center_overview',
   title: 'Understanding Center'
-}}>Center</Link> where you can search for listings to bookmark to your HUD or open in Webtop.</li>
+}}>Center</Link> where you can search for listings to bookmark to your HUD.</li>
 
 	<li><i className="icon-layout"></i> Opens <Link to="article" params={{
   part: 'global',

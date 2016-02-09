@@ -33,8 +33,6 @@ render: function(){return (
 <p><b>Drop-down listing actions menu</b><br />Listing commands are accessible from the drop-down menu on the upper-right side of the listing:</p>
 
 <ul>
-	<li><b>Launch in Webtop</b> - Opens the listing in your HUD.</li>
-	<li><b>Launch in new tab </b> - Opens the listing in a new browser tab.</li>
 	<li><b>Get help</b> - Opens the listing's Help resources.</li>
 	<li><b>Remove Bookmark</b> - Deletes the listing from your HUD. To add it again: go to Center, search for the listing and bookmark it.</li>
 </ul>

@@ -28,7 +28,7 @@ render: function(){return (
   article: 'HUD_overview',
   title: 'Understanding HUD'
 }}>HUD</Link></h3>
-<p>The HUD is the user's personalized homepage for organizing favorite apps discovered through the Center. Users are able to keep all of their favorite apps in one location, group apps into folders, share folders with other users, and choose to launch apps into the Webtop or a seperate browser tab.</p>
+<p>The HUD is the user's personalized homepage for organizing favorite apps discovered through the Center. Users are able to keep all of their favorite apps in one location, group apps into folders, share folders with other users, and launch apps into a separate browser tab.</p>
 <img alt="HUD Home Screen" src="Doc_images/HUD_home.png" title="HUD Home Screen" />
 
 <br />
