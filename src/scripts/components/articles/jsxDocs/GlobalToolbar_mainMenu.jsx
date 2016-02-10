@@ -15,7 +15,7 @@ return (
 
 <p>The Menu is identified by three parallel, stacked, horizontal lines on the right side of the Toolbar: <i className="icon-menu"></i></p>
 
-<p>From the menu, you can access your <b>Profile</b>, update <b>Settings</b> and <b>create or manage listings</b>. The menu is described below:<br /></p>
+<p>From the menu, you can access your <b>Profile</b> and <b>create or manage listings</b>. The menu is described below:<br /></p>
 
 <p><img alt="Main Menu options" src="Doc_images/Main_Menu_drop-down_user.png"  title="Main Menu Options" /></p>
 
@@ -36,8 +36,6 @@ return (
 		<i>Note: Owning a listing means you are responsible for it and probably created it. To see bookmarked listings that you discovered in the Center, click Bookmarks to open your HUD.</i></li>
 	</ul>
 	</li>
-	<li><b>Settings</b> ask your preference for the Default Application Launch. By default, applications launch in a new tab. If you change the default setting to Open in Webtop all listings will launch into Webtop when you double-click them in the HUD.<br />
-	<i>Note: The "Launch in Webtop" Setting does not appear when you open your Settings in Webtop.</i></li>
 </ul>
 
 <h3>Create</h3>

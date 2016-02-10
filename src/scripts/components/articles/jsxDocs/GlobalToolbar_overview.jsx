@@ -62,7 +62,7 @@ render: function(){return (
   part: 'global',
   article: 'GlobalToolbar_mainMenu',
   title: 'Navigate with the Global Menu'
-}}>Menu</Link> - A list of resources you can use to submit listings, change your settings, view your profile, etc.</li>
+}}>Menu</Link> - A list of resources you can use to submit listings, view your profile, etc.</li>
 </ul>
 
 

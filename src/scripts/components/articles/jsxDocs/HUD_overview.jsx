@@ -26,7 +26,7 @@ render: function(){return (
 
 <br />
 <h3>Bookmarks in HUD</h3>
-<p>From HUD you can <b>open, get help on or remove bookmarked apps</b>. These actions are found under the drop-down menu at the upper right of each bookmarked listing.</p>
+<p>From HUD you can <b>open, get help, or remove bookmarked apps</b>. To open a bookmarked app, click its tile. Other actions are found under the drop-down menu at the upper right of each bookmarked listing.</p>
 <p><img alt="Drop-down listing actions menu" src="Doc_images/drop-down-listing-actions.png"  title="Drop-down listing actions menu" /></p>
 
 <br />

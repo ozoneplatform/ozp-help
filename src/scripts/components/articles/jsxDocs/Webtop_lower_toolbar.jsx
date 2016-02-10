@@ -17,7 +17,7 @@ return (
 
 <p><img alt="Lower toolbar in Webtop" src="Doc_images/webtop-lower-toolbar.png" title="Lower toolbar in Webtop" /><br /></p>
 
-<p><i className="icon-square-plus"></i> Opens a window that displays all the listings you bookmarked to HUD.
+<p><i className="icon-square-plus"></i> Opens a window that displays all the Webtop-enabled listings you bookmarked to HUD.
 </p>
 
 <p><i className="icon-caret-up"></i> Opens access to your dashboards. From here you can switch dashboards; and create, edit or delete them.</p>

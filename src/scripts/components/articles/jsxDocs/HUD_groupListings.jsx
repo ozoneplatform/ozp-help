@@ -46,16 +46,8 @@ return (
 	<li>When you close the folder (click the X), you will see the listing in your HUD--separate from the folder as shown by the MusicBox listing in the image above.</li>
 </ol>
 
-<h3>Open or Share Your Folders</h3>
+<h2>Share Your Folder</h2>
 <p><img alt="Folders in HUD" src="Doc_images/folders_in_HUD_share.png"  title="Share or Open Folders from HUD" /></p>
-
-<p><b>To open</b> all the grouped listings in a new dashboard:</p>
-
-<ol>
-	<li>Click once on the folder to open it.</li>
-	<li>Click <b>Open all in new dashboard</b>.</li>
-	<li>The listing will open in a new dashboard on your Webtop.</li>
-</ol>
 
 <p><b>To share</b> your folder:</p>
 

@@ -34,15 +34,14 @@ render: function(){return (
 <p><img alt="HUD access from toolbar" src="Doc_images/HUD-access-from-toolbar.png"  title="HUD access from toolbar" /><br />
 <b>Accessing HUD from the Toolbar</b></p>
 
-<p>From HUD you can <b>open, get help or remove bookmarks</b> for a listing. Each action is found under the drop-down menu located on the upper-right side of a listing:<br />
-<img alt="Drop-down listing actions menu" src="Doc_images/drop-down-listing-actions.png"  title="Drop-down listing actions menu" /><br />
-<b>Drop-down listing actions menu</b></p>
-
-<p>Listing commands are accessible from the drop-down menu on the upper-right side of the listing:</p>
+<h3>Bookmarks in HUD</h3>
+<p>From HUD you can <b>open, get help, or remove bookmarked apps</b>. To open a bookmarked app, click its tile. Other actions are found under the drop-down menu at the upper right of each bookmarked listing.<br />
+<img alt="Drop-down listing actions menu" src="Doc_images/drop-down-listing-actions.png"  title="Drop-down listing actions menu" /></p>
+<p>
+<b>Drop-down listing actions menu</b>
+<br/>Listing commands are accessible from the drop-down menu on the upper-right side of the listing:</p>
 
 <ul>
-	<li><b>Launch in Webtop</b> - Opens the listing in your HUD.</li>
-	<li><b>Launch in new tab </b> - Opens the listing in a new browser tab.</li>
 	<li><b>Get help</b> - Opens the listing's Help resources.</li>
 	<li><b>Remove Bookmark</b> - Deletes the listing from your HUD. To add it again: go to Center, search for the listing and bookmark it.</li>
 </ul>
