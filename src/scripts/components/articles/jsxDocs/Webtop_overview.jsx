@@ -14,7 +14,7 @@ render: function(){return (
 
 <h1>Understanding Webtop</h1>
 
-<p>The Webtop is a virtual desktop in the browser where you can use the listings that you found and added to your bookmarks in Center. Webtop is a framework where applications can run and, in some cases, interact with each other.</p>
+<p>Webtop is the framework where applications run and interact with each other. Webtop creates an environment where compatible applications can share a virtual network and core services that solely exist within the browser's memory.</p>
 
 <iframe width="560"
   height="315"

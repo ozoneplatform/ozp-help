@@ -48,7 +48,7 @@ render: function(){return (
 	<li>Type a Name and select if the dashboard will have a grid or desktop format.</li>
 	<li>Click <b>Create Dashboard</b>, the dashboard will automatically open.</li>
 	<li>Now it's time to add listings. Click the <i className="icon-square-plus"></i> at the bottom-left side of the Webtop's lower toolbar.</li>
-	<li>All the listings you bookmarked to the HUD will appear. Select the ones you want to use on this dashboard and click <b>Open.</b></li>
+	<li>All the Webtop-enabled listings you have bookmarked to HUD will appear. Select the ones you want to use on this dashboard and click <b>Open.</b></li>
 </ol>
 
 
