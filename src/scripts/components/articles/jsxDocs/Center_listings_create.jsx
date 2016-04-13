@@ -56,6 +56,12 @@ render: function(){return (
 <br /></p>
 
 <p>
+<b>Security Marking</b>
+<br />Classification and control marking.
+<br /><i>Follow prompts to generate valid marking.</i>
+</p>
+
+<p>
 <b>Name</b>
 <br />The name/title of the listing.
 <br /><i>Names are not required to be unique within the system.</i>
