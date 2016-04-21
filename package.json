@@ -45,6 +45,7 @@
     "jsx-loader": "^0.13.2",
     "lodash": "^3.1.0",
     "map-stream": "0.0.6",
+    "node-sass": "3.4.2",
     "nib": "^1.1.0",
     "ozp-react-commons": "git://github.com/ozone-development/ozp-react-commons#master",
     "react": "^0.13.3",
