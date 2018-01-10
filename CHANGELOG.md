@@ -1,4 +1,9 @@
 
+### 1.0.16 (None)         
+
+#### Changes  
+* **jenkins**:  add build release script ([dfa41b25](https://github.com/aml-development/ozp-help/commit/dfa41b2552a8ee1bf038afca23e147fe0912025d))     
+
 ### 1.0.15 (2017-09-13)           
 
 ### 1.0.14 (2017-09-13)           
