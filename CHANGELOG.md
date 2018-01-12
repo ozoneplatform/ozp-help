@@ -1,5 +1,10 @@
 
-### 1.0.16 (None)         
+### 1.0.17 (None)
+
+#### Feature  
+* **release**:  add release.sh ([4cd65a89](https://github.com/aml-development/ozp-help/commit/4cd65a8998dd03d392e37015b3f436114d29ff95))              
+
+### 1.0.16 (2018-01-10)         
 
 #### Changes  
 * **jenkins**:  add build release script ([dfa41b25](https://github.com/aml-development/ozp-help/commit/dfa41b2552a8ee1bf038afca23e147fe0912025d))     
