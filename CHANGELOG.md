@@ -1,5 +1,13 @@
 
-### 1.0.17 (None)
+### 1.0.18 (None) 
+
+#### Fixes  
+* **dependencies**:  Upgrade Jquery Dependency ([94a34542](https://github.com/aml-development/ozp-help/commit/94a345428cba204c355f1b3791fbdfc315f0c9cf))     
+
+#### Merge Pull Requests  
+* Merge pull request #87 from aml-development/dependency_update ([ff80a9fe](https://github.com/aml-development/ozp-help/commit/ff80a9fe8c1468568e04e562e5b7f08478c6003b))           
+
+### 1.0.17 (2018-01-12)
 
 #### Feature  
 * **release**:  add release.sh ([4cd65a89](https://github.com/aml-development/ozp-help/commit/4cd65a8998dd03d392e37015b3f436114d29ff95))              
