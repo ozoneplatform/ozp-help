@@ -1,6 +1,6 @@
 {
   "name": "ozp-help",
-  "version": "1.0.13",
+  "version": "1.0.18",
   "description": "",
   "homepage": "https://github.com/ozoneplatform/ozp-help",
   "author": "wski <contact.mattdylan@gmail.com> (http://wski.io/)",
@@ -41,7 +41,7 @@
     "image-webpack-loader": "^1.2.0",
     "imagemin": "^3.1.0",
     "jeet": "^6.1.2",
-    "jquery": "^2.1.4",
+    "jquery": "^3.0.0",
     "jsx-loader": "^0.13.2",
     "lodash": "^3.1.0",
     "map-stream": "0.0.6",
